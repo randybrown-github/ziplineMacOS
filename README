@@ -1,2 +1,14 @@
 Zipline SettingUp on MacOS
 source /var/root/anaconda3/bin/activate
+ 
+conda create -n env_zipline python=3.5
+ 
+source activate env_zipline
+ 
+conda install -c Quantopian zipline
+ 
+source deactivate
+ 
+git init
+git remote add pb url
+git push -u pb master -f
