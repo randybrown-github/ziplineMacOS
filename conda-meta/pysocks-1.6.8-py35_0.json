@@ -1,0 +1,102 @@
+{
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.5,<3.6.0a0"
+  ],
+  "extracted_package_dir": "/var/root/anaconda3/pkgs/pysocks-1.6.8-py35_0",
+  "features": "",
+  "files": [
+    "lib/python3.5/site-packages/PySocks-1.6.8-py3.5.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/PySocks-1.6.8-py3.5.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/PySocks-1.6.8-py3.5.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/PySocks-1.6.8-py3.5.egg-info/top_level.txt",
+    "lib/python3.5/site-packages/__pycache__/socks.cpython-35.pyc",
+    "lib/python3.5/site-packages/__pycache__/sockshandler.cpython-35.pyc",
+    "lib/python3.5/site-packages/socks.py",
+    "lib/python3.5/site-packages/sockshandler.py"
+  ],
+  "fn": "pysocks-1.6.8-py35_0.conda",
+  "legacy_bz2_md5": "f03102d01b6372c7197f9f6ef74ca412",
+  "legacy_bz2_size": 22882,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/var/root/anaconda3/pkgs/pysocks-1.6.8-py35_0",
+    "type": 1
+  },
+  "md5": "619183cedbedcabf69877d4a0905048e",
+  "name": "pysocks",
+  "package_tarball_full_path": "/var/root/anaconda3/pkgs/pysocks-1.6.8-py35_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.5/site-packages/PySocks-1.6.8-py3.5.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "703cf35db028ee353aadb501bc92b9d46bf3ae9763b179792c92479ff5f8a358",
+        "sha256_in_prefix": "703cf35db028ee353aadb501bc92b9d46bf3ae9763b179792c92479ff5f8a358",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "lib/python3.5/site-packages/PySocks-1.6.8-py3.5.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "2700fd398d87ef9b4a3c7f9bd281c12975e7ffb7199ca96417ced7cb08779eba",
+        "sha256_in_prefix": "2700fd398d87ef9b4a3c7f9bd281c12975e7ffb7199ca96417ced7cb08779eba",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "lib/python3.5/site-packages/PySocks-1.6.8-py3.5.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/PySocks-1.6.8-py3.5.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4ca48e21f0850682bd118f050586d8a82dcf59ddfef86d79a61f67f3e4073c39",
+        "sha256_in_prefix": "4ca48e21f0850682bd118f050586d8a82dcf59ddfef86d79a61f67f3e4073c39",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "lib/python3.5/site-packages/__pycache__/socks.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "71279a1df96a6fcaacd055f9f47b4ebe01a7d16c57a0a9bb393ac0e22b046d32",
+        "sha256_in_prefix": "71279a1df96a6fcaacd055f9f47b4ebe01a7d16c57a0a9bb393ac0e22b046d32",
+        "size_in_bytes": 25081
+      },
+      {
+        "_path": "lib/python3.5/site-packages/__pycache__/sockshandler.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9b1560bc0fbbd2a4a81bd4b2db904f5bd92c3691d885e3dfc8754af974e0767",
+        "sha256_in_prefix": "b9b1560bc0fbbd2a4a81bd4b2db904f5bd92c3691d885e3dfc8754af974e0767",
+        "size_in_bytes": 3984
+      },
+      {
+        "_path": "lib/python3.5/site-packages/socks.py",
+        "path_type": "hardlink",
+        "sha256": "c2857917ed2fb105f1cfead085cd2fd5302ca20da9c9acf6ecbfb25bca22b15a",
+        "sha256_in_prefix": "c2857917ed2fb105f1cfead085cd2fd5302ca20da9c9acf6ecbfb25bca22b15a",
+        "size_in_bytes": 32281
+      },
+      {
+        "_path": "lib/python3.5/site-packages/sockshandler.py",
+        "path_type": "hardlink",
+        "sha256": "10dc1450edefb7ce3fd7244702ad40d78ed32ff4c0b85bb1dadff542f355d95a",
+        "sha256_in_prefix": "10dc1450edefb7ce3fd7244702ad40d78ed32ff4c0b85bb1dadff542f355d95a",
+        "size_in_bytes": 2913
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1020272491f6007ec80fdd51bb4f8e2cd989bb40719adae3993e4914910dd57e",
+  "size": 23783,
+  "subdir": "osx-64",
+  "timestamp": 1519749821967,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pysocks-1.6.8-py35_0.conda",
+  "version": "1.6.8"
+}

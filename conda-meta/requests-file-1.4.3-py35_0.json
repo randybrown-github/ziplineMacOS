@@ -1,0 +1,95 @@
+{
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.5,<3.6.0a0",
+    "requests >=1.0.0",
+    "six"
+  ],
+  "extracted_package_dir": "/var/root/anaconda3/pkgs/requests-file-1.4.3-py35_0",
+  "features": "",
+  "files": [
+    "lib/python3.5/site-packages/__pycache__/requests_file.cpython-35.pyc",
+    "lib/python3.5/site-packages/requests_file-1.4.3-py3.5.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/requests_file-1.4.3-py3.5.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/requests_file-1.4.3-py3.5.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/requests_file-1.4.3-py3.5.egg-info/requires.txt",
+    "lib/python3.5/site-packages/requests_file-1.4.3-py3.5.egg-info/top_level.txt",
+    "lib/python3.5/site-packages/requests_file.py"
+  ],
+  "fn": "requests-file-1.4.3-py35_0.conda",
+  "legacy_bz2_md5": "03316991d5e4d2eb796e4d4da98d279d",
+  "legacy_bz2_size": 7800,
+  "license": "Apache",
+  "link": {
+    "source": "/var/root/anaconda3/pkgs/requests-file-1.4.3-py35_0",
+    "type": 1
+  },
+  "md5": "63ef7780f76958e933167fafcdbf310c",
+  "name": "requests-file",
+  "package_tarball_full_path": "/var/root/anaconda3/pkgs/requests-file-1.4.3-py35_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.5/site-packages/__pycache__/requests_file.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "91500f418a347ad85809954dbc077cdb610812db3ba8aa962407d5b99734e060",
+        "sha256_in_prefix": "91500f418a347ad85809954dbc077cdb610812db3ba8aa962407d5b99734e060",
+        "size_in_bytes": 2786
+      },
+      {
+        "_path": "lib/python3.5/site-packages/requests_file-1.4.3-py3.5.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "d74c91d5393f4f7cdbb0d41d1856973e95bfa0093f1be8a4e1d9ad4bb91b1bda",
+        "sha256_in_prefix": "d74c91d5393f4f7cdbb0d41d1856973e95bfa0093f1be8a4e1d9ad4bb91b1bda",
+        "size_in_bytes": 547
+      },
+      {
+        "_path": "lib/python3.5/site-packages/requests_file-1.4.3-py3.5.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "fb7620436c4ecfe0309c876e1a8703e1854d61e179553a72dd2a67e4c662d3df",
+        "sha256_in_prefix": "fb7620436c4ecfe0309c876e1a8703e1854d61e179553a72dd2a67e4c662d3df",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "lib/python3.5/site-packages/requests_file-1.4.3-py3.5.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/requests_file-1.4.3-py3.5.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "dd0e2beec78b8f15165e365d9edaca144fe41547fe683735d54a27ab40b6f972",
+        "sha256_in_prefix": "dd0e2beec78b8f15165e365d9edaca144fe41547fe683735d54a27ab40b6f972",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/python3.5/site-packages/requests_file-1.4.3-py3.5.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "46bb05bb157734be884df4e5bb7e55bd73e6727da2646f6d24ae4eb9daaeeffc",
+        "sha256_in_prefix": "46bb05bb157734be884df4e5bb7e55bd73e6727da2646f6d24ae4eb9daaeeffc",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.5/site-packages/requests_file.py",
+        "path_type": "hardlink",
+        "sha256": "21f619664e840ca93f4c6246d21ee6013652fc442d832010d82708dfc6302718",
+        "sha256_in_prefix": "21f619664e840ca93f4c6246d21ee6013652fc442d832010d82708dfc6302718",
+        "size_in_bytes": 4507
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "945e2a2df9b9c0d2e712d5d3df85d5ee4d16a95de01edde3e6d0a096858cfdc0",
+  "size": 8171,
+  "subdir": "osx-64",
+  "timestamp": 1524232377647,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/requests-file-1.4.3-py35_0.conda",
+  "version": "1.4.3"
+}

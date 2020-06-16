@@ -1,0 +1,1204 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/Quantopian/osx-64",
+  "constrains": [],
+  "depends": [
+    "lru-dict",
+    "numpy",
+    "pandas",
+    "python >=3.5,<3.6.0a0",
+    "pytz",
+    "toolz"
+  ],
+  "extracted_package_dir": "/var/root/anaconda3/pkgs/trading-calendars-1.11.1-py35_0",
+  "features": "",
+  "files": [
+    "bin/tcal",
+    "lib/python3.5/site-packages/trading_calendars-1.11.1-py3.5.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/trading_calendars-1.11.1-py3.5.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/trading_calendars-1.11.1-py3.5.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/trading_calendars-1.11.1-py3.5.egg-info/entry_points.txt",
+    "lib/python3.5/site-packages/trading_calendars-1.11.1-py3.5.egg-info/requires.txt",
+    "lib/python3.5/site-packages/trading_calendars-1.11.1-py3.5.egg-info/top_level.txt",
+    "lib/python3.5/site-packages/trading_calendars/__init__.py",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/_version.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/always_open.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/calendar_helpers.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/calendar_utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/common_holidays.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/errors.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_asex.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_bvmf.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_cmes.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_iepa.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xams.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xasx.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xbkk.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xbog.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xbom.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xbru.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xbud.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xbue.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xcbf.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xcse.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xdub.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xfra.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xhel.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xhkg.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xice.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xidx.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xist.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xjse.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xkar.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xkls.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xkrx.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xlim.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xlis.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xlon.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xmad.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xmex.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xmil.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xmos.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xnys.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xnze.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xosl.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xpar.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xphs.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xpra.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xses.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xsgo.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xshg.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xsto.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xswx.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xtai.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xtks.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xtse.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xwar.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xwbo.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/precomputed_trading_calendar.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/tcal.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/trading_calendar.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/us_futures_calendar.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/us_holidays.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/weekday_calendar.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/xbkk_holidays.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/xkls_holidays.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/__pycache__/xtks_holidays.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/_version.py",
+    "lib/python3.5/site-packages/trading_calendars/always_open.py",
+    "lib/python3.5/site-packages/trading_calendars/calendar_helpers.py",
+    "lib/python3.5/site-packages/trading_calendars/calendar_utils.py",
+    "lib/python3.5/site-packages/trading_calendars/common_holidays.py",
+    "lib/python3.5/site-packages/trading_calendars/errors.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_asex.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_bvmf.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_cmes.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_iepa.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xams.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xasx.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xbkk.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xbog.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xbom.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xbru.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xbud.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xbue.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xcbf.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xcse.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xdub.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xfra.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xhel.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xhkg.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xice.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xidx.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xist.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xjse.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xkar.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xkls.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xkrx.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xlim.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xlis.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xlon.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xmad.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xmex.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xmil.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xmos.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xnys.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xnze.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xosl.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xpar.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xphs.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xpra.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xses.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xsgo.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xshg.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xsto.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xswx.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xtai.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xtks.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xtse.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xwar.py",
+    "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xwbo.py",
+    "lib/python3.5/site-packages/trading_calendars/precomputed_trading_calendar.py",
+    "lib/python3.5/site-packages/trading_calendars/tcal.py",
+    "lib/python3.5/site-packages/trading_calendars/trading_calendar.py",
+    "lib/python3.5/site-packages/trading_calendars/us_futures_calendar.py",
+    "lib/python3.5/site-packages/trading_calendars/us_holidays.py",
+    "lib/python3.5/site-packages/trading_calendars/utils/__init__.py",
+    "lib/python3.5/site-packages/trading_calendars/utils/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/utils/__pycache__/compat.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/utils/__pycache__/memoize.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/utils/__pycache__/pandas_utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/utils/__pycache__/preprocess.cpython-35.pyc",
+    "lib/python3.5/site-packages/trading_calendars/utils/compat.py",
+    "lib/python3.5/site-packages/trading_calendars/utils/memoize.py",
+    "lib/python3.5/site-packages/trading_calendars/utils/pandas_utils.py",
+    "lib/python3.5/site-packages/trading_calendars/utils/preprocess.py",
+    "lib/python3.5/site-packages/trading_calendars/weekday_calendar.py",
+    "lib/python3.5/site-packages/trading_calendars/xbkk_holidays.py",
+    "lib/python3.5/site-packages/trading_calendars/xkls_holidays.py",
+    "lib/python3.5/site-packages/trading_calendars/xtks_holidays.py"
+  ],
+  "fn": "trading-calendars-1.11.1-py35_0.tar.bz2",
+  "license": "Apache Software",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/var/root/anaconda3/pkgs/trading-calendars-1.11.1-py35_0",
+    "type": 1
+  },
+  "md5": "5cc956c205ca908e4da3d3d04f78aa34",
+  "name": "trading-calendars",
+  "package_tarball_full_path": "/var/root/anaconda3/pkgs/trading-calendars-1.11.1-py35_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/tcal",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "6b08ef33ce4e7c25b09da9730c3389456c784ccce450f7b58ad8c995486df5cc",
+        "sha256_in_prefix": "780a50ab5d1accd28e4934144fa30d9acece31ac356c1f19bffe288a3b48b446",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars-1.11.1-py3.5.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "e42a06e891cb148c033c2e1762020923a798480a2d6f22f26f6c64f04ee14bce",
+        "sha256_in_prefix": "e42a06e891cb148c033c2e1762020923a798480a2d6f22f26f6c64f04ee14bce",
+        "size_in_bytes": 1182
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars-1.11.1-py3.5.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "19ffc25f2d953ffa28fdefe581df365e12a24915987e5a5f7eabc53096547918",
+        "sha256_in_prefix": "19ffc25f2d953ffa28fdefe581df365e12a24915987e5a5f7eabc53096547918",
+        "size_in_bytes": 3249
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars-1.11.1-py3.5.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars-1.11.1-py3.5.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "ecde908c20713bff3d092aad375b100e3e6e585d27e20f8ee7fa864de45101ae",
+        "sha256_in_prefix": "ecde908c20713bff3d092aad375b100e3e6e585d27e20f8ee7fa864de45101ae",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars-1.11.1-py3.5.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "7661884c41dea36032f0ba1b0379c961c0da9a6004dde3bc2a2f43b90173a752",
+        "sha256_in_prefix": "7661884c41dea36032f0ba1b0379c961c0da9a6004dde3bc2a2f43b90173a752",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars-1.11.1-py3.5.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "dd21bf1d07e38cee5ba79b2ffeae1951907417155567b0f2609478bf9e2a396a",
+        "sha256_in_prefix": "dd21bf1d07e38cee5ba79b2ffeae1951907417155567b0f2609478bf9e2a396a",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "261c90debe827ea5b728f28a69807648a313c0c3f978c312168e45c3558bfba5",
+        "sha256_in_prefix": "261c90debe827ea5b728f28a69807648a313c0c3f978c312168e45c3558bfba5",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "63307a38367cdb04ba45a6506013fe431a59d9bb809c0c9be86664165cbf494f",
+        "sha256_in_prefix": "63307a38367cdb04ba45a6506013fe431a59d9bb809c0c9be86664165cbf494f",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/_version.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "f54499c1c45ee1c2ab8d97ebf10c731cb6fdeac99806ec2c21676022c0efdaf1",
+        "sha256_in_prefix": "f54499c1c45ee1c2ab8d97ebf10c731cb6fdeac99806ec2c21676022c0efdaf1",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/always_open.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbdabe209c65cc6e6ccf202488739330a326bfca630e95677c6e1be7ed2a5719",
+        "sha256_in_prefix": "bbdabe209c65cc6e6ccf202488739330a326bfca630e95677c6e1be7ed2a5719",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/calendar_helpers.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "e87c3fbb93b31c285f5b917bb27cf1c1d7c9135daebd1b3ecf4bd941fd9b5c4d",
+        "sha256_in_prefix": "e87c3fbb93b31c285f5b917bb27cf1c1d7c9135daebd1b3ecf4bd941fd9b5c4d",
+        "size_in_bytes": 1588
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/calendar_utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbcfc90a1e45294f9c5aa97b505c51b0dcf807c9b1efe658bccbadb52261ff21",
+        "sha256_in_prefix": "bbcfc90a1e45294f9c5aa97b505c51b0dcf807c9b1efe658bccbadb52261ff21",
+        "size_in_bytes": 11535
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/common_holidays.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "d63a07163e78a6b09d7fa7b2d76ab584f974e970a5489eb636ca9c2277542bbc",
+        "sha256_in_prefix": "d63a07163e78a6b09d7fa7b2d76ab584f974e970a5489eb636ca9c2277542bbc",
+        "size_in_bytes": 15924
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/errors.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "c965aa95db1e353320db68bfad0dd312f184e98d1e218c72a237576357c7587c",
+        "sha256_in_prefix": "c965aa95db1e353320db68bfad0dd312f184e98d1e218c72a237576357c7587c",
+        "size_in_bytes": 2660
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_asex.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "1201b518174ee295910d0a1c9e53ec93dfc2f1912bc7da8fff41de2af3b807f9",
+        "sha256_in_prefix": "1201b518174ee295910d0a1c9e53ec93dfc2f1912bc7da8fff41de2af3b807f9",
+        "size_in_bytes": 4265
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_bvmf.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "59086f031a3ed67f733a552869413cf1bb50343c8df54958055f6ab932d72782",
+        "sha256_in_prefix": "59086f031a3ed67f733a552869413cf1bb50343c8df54958055f6ab932d72782",
+        "size_in_bytes": 3823
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_cmes.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "a68ba2a7da109241cf9fe23fbd5afe7c14957005c1c8adecca494799800079e6",
+        "sha256_in_prefix": "a68ba2a7da109241cf9fe23fbd5afe7c14957005c1c8adecca494799800079e6",
+        "size_in_bytes": 2154
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_iepa.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9bfe986f1ca00d85e9686d73584608c548113631e8142a841fcd7648b1f90309",
+        "sha256_in_prefix": "9bfe986f1ca00d85e9686d73584608c548113631e8142a841fcd7648b1f90309",
+        "size_in_bytes": 2231
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xams.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "82ac42876f114dd3598d058c5931aee1acb65df6c9a16c69b2b745c4757fea62",
+        "sha256_in_prefix": "82ac42876f114dd3598d058c5931aee1acb65df6c9a16c69b2b745c4757fea62",
+        "size_in_bytes": 2605
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xasx.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2385e3c4b8acb4c78a7cae01c98bf83f8e6e87d51e2000e572457e628f1e10cb",
+        "sha256_in_prefix": "2385e3c4b8acb4c78a7cae01c98bf83f8e6e87d51e2000e572457e628f1e10cb",
+        "size_in_bytes": 3114
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xbkk.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "161bc1eabc79f6a95a1231d8da14a98e3976f0e2c690323f8c37111745e566a8",
+        "sha256_in_prefix": "161bc1eabc79f6a95a1231d8da14a98e3976f0e2c690323f8c37111745e566a8",
+        "size_in_bytes": 2824
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xbog.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "8471de96a8a0e441c5dc3e6ad47612dee2268fecbfa63901814bd9903bf1c143",
+        "sha256_in_prefix": "8471de96a8a0e441c5dc3e6ad47612dee2268fecbfa63901814bd9903bf1c143",
+        "size_in_bytes": 3793
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xbom.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7510cbf87ef083f25bc84076246837a6c4015615796bd66298fb743458950ce",
+        "sha256_in_prefix": "e7510cbf87ef083f25bc84076246837a6c4015615796bd66298fb743458950ce",
+        "size_in_bytes": 6677
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xbru.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c51e95e684fe4c006ab0c1f8a3f3a90fa37f547c4f3f21c09e6976c8dfa4ad5",
+        "sha256_in_prefix": "3c51e95e684fe4c006ab0c1f8a3f3a90fa37f547c4f3f21c09e6976c8dfa4ad5",
+        "size_in_bytes": 2640
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xbud.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "4cc80e3af9e22214f50e7e12256c67aad8dd243e0c27db1a667a02b8363f0520",
+        "sha256_in_prefix": "4cc80e3af9e22214f50e7e12256c67aad8dd243e0c27db1a667a02b8363f0520",
+        "size_in_bytes": 3312
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xbue.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "130597da2db6d6978b2a4c3aae339b7da7dd129910eccf45949ff3e5e15c5106",
+        "sha256_in_prefix": "130597da2db6d6978b2a4c3aae339b7da7dd129910eccf45949ff3e5e15c5106",
+        "size_in_bytes": 7220
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xcbf.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd5ac99d5a7b97855e52648ae4b7c5618f49d2e25dae293cd59c2fd5d2266a68",
+        "sha256_in_prefix": "cd5ac99d5a7b97855e52648ae4b7c5618f49d2e25dae293cd59c2fd5d2266a68",
+        "size_in_bytes": 2121
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xcse.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ecde11d012177df7dc2472e82e3b00e5b6ada5c0b39a9bac3a90f7dcf7f506e2",
+        "sha256_in_prefix": "ecde11d012177df7dc2472e82e3b00e5b6ada5c0b39a9bac3a90f7dcf7f506e2",
+        "size_in_bytes": 2413
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xdub.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9462bf17e3de60c7b12deed973f8c18380804f8fc748847d4c842b8431ed7dab",
+        "sha256_in_prefix": "9462bf17e3de60c7b12deed973f8c18380804f8fc748847d4c842b8431ed7dab",
+        "size_in_bytes": 3527
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xfra.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b962393f3ba57aeb0b1736b2682f4950a64dd36b3eeed5fd37645e4d30c980b",
+        "sha256_in_prefix": "4b962393f3ba57aeb0b1736b2682f4950a64dd36b3eeed5fd37645e4d30c980b",
+        "size_in_bytes": 2725
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xhel.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "80a17f884f485c533d0f88297b40f374496f4862fce48848a742e9a4f6ba50ea",
+        "sha256_in_prefix": "80a17f884f485c533d0f88297b40f374496f4862fce48848a742e9a4f6ba50ea",
+        "size_in_bytes": 2135
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xhkg.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "72395faae29324f424420015ca4eca18806c858fd5ade06229e34932ae95d50f",
+        "sha256_in_prefix": "72395faae29324f424420015ca4eca18806c858fd5ade06229e34932ae95d50f",
+        "size_in_bytes": 6871
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xice.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "50f9d534ab6badbf050fe228dd03dbfcf4886d2821a46056d2c41bb558fe6bf9",
+        "sha256_in_prefix": "50f9d534ab6badbf050fe228dd03dbfcf4886d2821a46056d2c41bb558fe6bf9",
+        "size_in_bytes": 2449
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xidx.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "1cf0dd74f237508041e3f7d0116dcb4e1755dd5e3bf69c6666cba427ac7c461e",
+        "sha256_in_prefix": "1cf0dd74f237508041e3f7d0116dcb4e1755dd5e3bf69c6666cba427ac7c461e",
+        "size_in_bytes": 7032
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xist.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "f87cba1dcf95be8931e16a88a2eb25d0c8e64bfa1ca70919faf42add85c9fd62",
+        "sha256_in_prefix": "f87cba1dcf95be8931e16a88a2eb25d0c8e64bfa1ca70919faf42add85c9fd62",
+        "size_in_bytes": 4595
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xjse.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "572ffb45f39f9b25d80b6ee692841ee6160b8c49276c8139bb1683023cfe6ad0",
+        "sha256_in_prefix": "572ffb45f39f9b25d80b6ee692841ee6160b8c49276c8139bb1683023cfe6ad0",
+        "size_in_bytes": 3236
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xkar.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "5540c3cc670f1f6ad11e2ba50b7cbff084bf476345196e23393a2046150c064f",
+        "sha256_in_prefix": "5540c3cc670f1f6ad11e2ba50b7cbff084bf476345196e23393a2046150c064f",
+        "size_in_bytes": 5687
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xkls.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf811cb9dc5eafcb1304d7780da26119d3acd0b0d3767532ca01a753bc0b75f1",
+        "sha256_in_prefix": "cf811cb9dc5eafcb1304d7780da26119d3acd0b0d3767532ca01a753bc0b75f1",
+        "size_in_bytes": 3075
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xkrx.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "d64bbb6beebec2fd62a8db1d1b219754baf5a23857ca154adeb0d02ac91cbff1",
+        "sha256_in_prefix": "d64bbb6beebec2fd62a8db1d1b219754baf5a23857ca154adeb0d02ac91cbff1",
+        "size_in_bytes": 10356
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xlim.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd3330b09edde1f51a5a85181cb97e82c991ada8681d04d731f82243c9b570c1",
+        "sha256_in_prefix": "cd3330b09edde1f51a5a85181cb97e82c991ada8681d04d731f82243c9b570c1",
+        "size_in_bytes": 3133
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xlis.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9256aa059a62a89451a2ed17cc4a93ac6e857ec4dde21f2b056bbdc524b9a62",
+        "sha256_in_prefix": "d9256aa059a62a89451a2ed17cc4a93ac6e857ec4dde21f2b056bbdc524b9a62",
+        "size_in_bytes": 3286
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xlon.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9921216e7707dca125e22f39e47da7fccd859a5349bbf2c1b7c6d98001076133",
+        "sha256_in_prefix": "9921216e7707dca125e22f39e47da7fccd859a5349bbf2c1b7c6d98001076133",
+        "size_in_bytes": 3596
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xmad.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2815ff9e9c2ad5df31a5d86be2eb186071fc7b1b19bb16559c44f3584e4a50bb",
+        "sha256_in_prefix": "2815ff9e9c2ad5df31a5d86be2eb186071fc7b1b19bb16559c44f3584e4a50bb",
+        "size_in_bytes": 3204
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xmex.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9e2faf6a72a1d85c2d0cae5b40081d47932af3b52d3775f2e3bc217cc2b6d800",
+        "sha256_in_prefix": "9e2faf6a72a1d85c2d0cae5b40081d47932af3b52d3775f2e3bc217cc2b6d800",
+        "size_in_bytes": 3010
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xmil.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "64e7ea9e6a5a0545b8f32ca7f1b09f111c41c16c059fc5acf8652ac3084fe411",
+        "sha256_in_prefix": "64e7ea9e6a5a0545b8f32ca7f1b09f111c41c16c059fc5acf8652ac3084fe411",
+        "size_in_bytes": 1859
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xmos.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d21dcacb5edbfdef6398fc1f9f845f15d8ff0f83ffabe57732bd41324a22993",
+        "sha256_in_prefix": "7d21dcacb5edbfdef6398fc1f9f845f15d8ff0f83ffabe57732bd41324a22993",
+        "size_in_bytes": 6434
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xnys.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2c5c6e980d0cd36b1da21be39c1382e716a3e83d982de0ed580a5c442248535",
+        "sha256_in_prefix": "d2c5c6e980d0cd36b1da21be39c1382e716a3e83d982de0ed580a5c442248535",
+        "size_in_bytes": 4662
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xnze.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "04242e9136390de7dfb1220e515ec8c4e014d63a011f8d040a26f184b786cb94",
+        "sha256_in_prefix": "04242e9136390de7dfb1220e515ec8c4e014d63a011f8d040a26f184b786cb94",
+        "size_in_bytes": 2989
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xosl.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0aa662313e7213abc98f1f0788abce652f96d9ac6e2c5be46246a503a91c616",
+        "sha256_in_prefix": "c0aa662313e7213abc98f1f0788abce652f96d9ac6e2c5be46246a503a91c616",
+        "size_in_bytes": 2481
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xpar.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "885304777022565913eba7719490066dd5728bb86f81129fd993f30efe0a8ed0",
+        "sha256_in_prefix": "885304777022565913eba7719490066dd5728bb86f81129fd993f30efe0a8ed0",
+        "size_in_bytes": 2538
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xphs.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "fbf494dceac8aa19348a968f1b95fe71eb441da09ef385c0b48f01a6b90d87a3",
+        "sha256_in_prefix": "fbf494dceac8aa19348a968f1b95fe71eb441da09ef385c0b48f01a6b90d87a3",
+        "size_in_bytes": 7017
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xpra.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "dca6ea5757332c40d87d557ed1a87f290761e5e4043e3ccdfca0c4cdf480e120",
+        "sha256_in_prefix": "dca6ea5757332c40d87d557ed1a87f290761e5e4043e3ccdfca0c4cdf480e120",
+        "size_in_bytes": 3076
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xses.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e19109d53d7f4ba72067830fdb50385199a54138062bf8886c2b857b85a0233",
+        "sha256_in_prefix": "3e19109d53d7f4ba72067830fdb50385199a54138062bf8886c2b857b85a0233",
+        "size_in_bytes": 7250
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xsgo.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "111170db989d49ee96391568975803e2f8b415ed5611db7b92eda185f86e827c",
+        "sha256_in_prefix": "111170db989d49ee96391568975803e2f8b415ed5611db7b92eda185f86e827c",
+        "size_in_bytes": 6404
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xshg.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "99327b59037dae85d8860eb326189169e10e0a248891ee20b7998b229b88334e",
+        "sha256_in_prefix": "99327b59037dae85d8860eb326189169e10e0a248891ee20b7998b229b88334e",
+        "size_in_bytes": 9212
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xsto.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3792362675cc115d34ebd72dbc402e6e05741630b637c12481efb5d359fc98a",
+        "sha256_in_prefix": "b3792362675cc115d34ebd72dbc402e6e05741630b637c12481efb5d359fc98a",
+        "size_in_bytes": 3268
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xswx.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad581b769a13f509c8f9282adddab7ea24e1b7d69300c25ff42cc9eeab4fc81c",
+        "sha256_in_prefix": "ad581b769a13f509c8f9282adddab7ea24e1b7d69300c25ff42cc9eeab4fc81c",
+        "size_in_bytes": 2089
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xtai.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "f65b6f3b3f8f15edfb2ac760aaa9d329eff8750f7c4dc06a145f90e1703d90cd",
+        "sha256_in_prefix": "f65b6f3b3f8f15edfb2ac760aaa9d329eff8750f7c4dc06a145f90e1703d90cd",
+        "size_in_bytes": 7145
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xtks.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "113a5e78ff8669fe3bfe955212985d6de3444d5ca8cd5c4d28079c8011fe50c1",
+        "sha256_in_prefix": "113a5e78ff8669fe3bfe955212985d6de3444d5ca8cd5c4d28079c8011fe50c1",
+        "size_in_bytes": 3709
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xtse.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "980de79d6d07a8c3f3a1316be8ed6580af36452f823ad4bb528f1943f39daaf1",
+        "sha256_in_prefix": "980de79d6d07a8c3f3a1316be8ed6580af36452f823ad4bb528f1943f39daaf1",
+        "size_in_bytes": 3845
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xwar.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ac7d474596b07adc423a4f9c89beda87f8cd31559470abd60127e4b14484363",
+        "sha256_in_prefix": "8ac7d474596b07adc423a4f9c89beda87f8cd31559470abd60127e4b14484363",
+        "size_in_bytes": 3177
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/exchange_calendar_xwbo.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "c707b7b2c7e4eeb195c8a8979c12e069eaaf32bc04b545b7b635a0ba64416ec4",
+        "sha256_in_prefix": "c707b7b2c7e4eeb195c8a8979c12e069eaaf32bc04b545b7b635a0ba64416ec4",
+        "size_in_bytes": 2669
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/precomputed_trading_calendar.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee5b61152eec957695b3181d3c3eed8574f81c72dd88f8dbf58eeb95598c80f9",
+        "sha256_in_prefix": "ee5b61152eec957695b3181d3c3eed8574f81c72dd88f8dbf58eeb95598c80f9",
+        "size_in_bytes": 1911
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/tcal.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ddbec2adabd3376df2e9d9548fcc2aff4a322550394f9fd507483204fb08d44a",
+        "sha256_in_prefix": "ddbec2adabd3376df2e9d9548fcc2aff4a322550394f9fd507483204fb08d44a",
+        "size_in_bytes": 4571
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/trading_calendar.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "599ecfd0dd35d4fa98c40d35e7ae5aba69dfb07b1b2fa46309ecec649f3eb20f",
+        "sha256_in_prefix": "599ecfd0dd35d4fa98c40d35e7ae5aba69dfb07b1b2fa46309ecec649f3eb20f",
+        "size_in_bytes": 30713
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/us_futures_calendar.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "08011983e45bcad1ee5cf5fd61b3503a674edbe69f572557d08e9547795703f4",
+        "sha256_in_prefix": "08011983e45bcad1ee5cf5fd61b3503a674edbe69f572557d08e9547795703f4",
+        "size_in_bytes": 2523
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/us_holidays.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "01edc3f88dcd3056757b8741f44374e944ad149cbd320d8032657df468cd0a4d",
+        "sha256_in_prefix": "01edc3f88dcd3056757b8741f44374e944ad149cbd320d8032657df468cd0a4d",
+        "size_in_bytes": 2657
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/weekday_calendar.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "50b1939566173163936767804eb4a774ce66157c4cd735274ae156cdcba318a3",
+        "sha256_in_prefix": "50b1939566173163936767804eb4a774ce66157c4cd735274ae156cdcba318a3",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/xbkk_holidays.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e06d4a070477a7368de8a2c033997e29909a33bc32b75fbd80656a7a6aa4d7c",
+        "sha256_in_prefix": "8e06d4a070477a7368de8a2c033997e29909a33bc32b75fbd80656a7a6aa4d7c",
+        "size_in_bytes": 6023
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/xkls_holidays.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "7acdaa61f42d78eab63a40652e1d7bad2273bd796e30cf1aba23f96c3b5fc983",
+        "sha256_in_prefix": "7acdaa61f42d78eab63a40652e1d7bad2273bd796e30cf1aba23f96c3b5fc983",
+        "size_in_bytes": 9236
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/__pycache__/xtks_holidays.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "0db8051c6f7d9be0b56f17db45df7c432062a68e88c1f33fb763cbc3e47a0d0c",
+        "sha256_in_prefix": "0db8051c6f7d9be0b56f17db45df7c432062a68e88c1f33fb763cbc3e47a0d0c",
+        "size_in_bytes": 4708
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/_version.py",
+        "path_type": "hardlink",
+        "sha256": "efb4ae262a720a93cfca48eda5d298a55356a8323cdfff0ff2c3ff0d9b1f80b0",
+        "sha256_in_prefix": "efb4ae262a720a93cfca48eda5d298a55356a8323cdfff0ff2c3ff0d9b1f80b0",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/always_open.py",
+        "path_type": "hardlink",
+        "sha256": "4e7232d250cb7e46311b480b46a584108859564d7eb7907477a05db659b43791",
+        "sha256_in_prefix": "4e7232d250cb7e46311b480b46a584108859564d7eb7907477a05db659b43791",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/calendar_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "12ac02a18ca995a4d2bf4bca4c6a1d72d8f67badb64993e41ac5354111a33905",
+        "sha256_in_prefix": "12ac02a18ca995a4d2bf4bca4c6a1d72d8f67badb64993e41ac5354111a33905",
+        "size_in_bytes": 2035
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/calendar_utils.py",
+        "path_type": "hardlink",
+        "sha256": "0052c72536500237c97314fe3b4c1300316509fad453aa86fd571c2cdbf4df53",
+        "sha256_in_prefix": "0052c72536500237c97314fe3b4c1300316509fad453aa86fd571c2cdbf4df53",
+        "size_in_bytes": 12580
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/common_holidays.py",
+        "path_type": "hardlink",
+        "sha256": "4bd1ff1cec63a3e6ad74f81046744a7a5bde8bfa1701b6f76bf602e6b6f5a610",
+        "sha256_in_prefix": "4bd1ff1cec63a3e6ad74f81046744a7a5bde8bfa1701b6f76bf602e6b6f5a610",
+        "size_in_bytes": 19274
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/errors.py",
+        "path_type": "hardlink",
+        "sha256": "e4166d18707146a1fd894cf96aef2f9460356dc11d98d5a0db6e4d2cfde0482d",
+        "sha256_in_prefix": "e4166d18707146a1fd894cf96aef2f9460356dc11d98d5a0db6e4d2cfde0482d",
+        "size_in_bytes": 2316
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_asex.py",
+        "path_type": "hardlink",
+        "sha256": "770529aa6e44f6da6a20e0a919a1917ce16223070887924f507c2f9fc6923786",
+        "sha256_in_prefix": "770529aa6e44f6da6a20e0a919a1917ce16223070887924f507c2f9fc6923786",
+        "size_in_bytes": 4875
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_bvmf.py",
+        "path_type": "hardlink",
+        "sha256": "254401a060629e50cd98094437f1bfc0b720d24a2802c0494f74e6b0b4a41b8e",
+        "sha256_in_prefix": "254401a060629e50cd98094437f1bfc0b720d24a2802c0494f74e6b0b4a41b8e",
+        "size_in_bytes": 5020
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_cmes.py",
+        "path_type": "hardlink",
+        "sha256": "c4ccededff7af278f6bc8a2d062af135cd79e5539a73b35f1d777a4c5cada58e",
+        "sha256_in_prefix": "c4ccededff7af278f6bc8a2d062af135cd79e5539a73b35f1d777a4c5cada58e",
+        "size_in_bytes": 3081
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_iepa.py",
+        "path_type": "hardlink",
+        "sha256": "5de38f96c4252cd26d96235355d70d1a678732101af2746c3e09e6582a504c7a",
+        "sha256_in_prefix": "5de38f96c4252cd26d96235355d70d1a678732101af2746c3e09e6582a504c7a",
+        "size_in_bytes": 1925
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xams.py",
+        "path_type": "hardlink",
+        "sha256": "c9e9a498f97214504d69e61a0f850b5410f93941e0e1cf4e6087dea954c1912d",
+        "sha256_in_prefix": "c9e9a498f97214504d69e61a0f850b5410f93941e0e1cf4e6087dea954c1912d",
+        "size_in_bytes": 2928
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xasx.py",
+        "path_type": "hardlink",
+        "sha256": "66991b54af4cec41ab99c2d30f2e17cf9599bb97768afb9cb88b26eb0e72fd07",
+        "sha256_in_prefix": "66991b54af4cec41ab99c2d30f2e17cf9599bb97768afb9cb88b26eb0e72fd07",
+        "size_in_bytes": 4001
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xbkk.py",
+        "path_type": "hardlink",
+        "sha256": "0c7c25e94e8afc9d3a36cdf57db602f6efe1b35826793185ce54d3efad65c07d",
+        "sha256_in_prefix": "0c7c25e94e8afc9d3a36cdf57db602f6efe1b35826793185ce54d3efad65c07d",
+        "size_in_bytes": 3321
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xbog.py",
+        "path_type": "hardlink",
+        "sha256": "f24d64086448c0d87ef754fa71ead84581ec3802e583e2acff040ce6bfded5b6",
+        "sha256_in_prefix": "f24d64086448c0d87ef754fa71ead84581ec3802e583e2acff040ce6bfded5b6",
+        "size_in_bytes": 4664
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xbom.py",
+        "path_type": "hardlink",
+        "sha256": "49c0b279e48c5b61d4f5f8ae63c6faaebf18d773485dfbc08b187aa9ae77819d",
+        "sha256_in_prefix": "49c0b279e48c5b61d4f5f8ae63c6faaebf18d773485dfbc08b187aa9ae77819d",
+        "size_in_bytes": 6571
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xbru.py",
+        "path_type": "hardlink",
+        "sha256": "cce6c2598fbc7dfef9e7955c3644709c441939c252948a236da3957ecb39315a",
+        "sha256_in_prefix": "cce6c2598fbc7dfef9e7955c3644709c441939c252948a236da3957ecb39315a",
+        "size_in_bytes": 2975
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xbud.py",
+        "path_type": "hardlink",
+        "sha256": "94d60a235ecabe1f1be2e5009fb59a18276f4d7768d7cf0a7e80001c5d596a45",
+        "sha256_in_prefix": "94d60a235ecabe1f1be2e5009fb59a18276f4d7768d7cf0a7e80001c5d596a45",
+        "size_in_bytes": 4438
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xbue.py",
+        "path_type": "hardlink",
+        "sha256": "996670462ad0d0a8dfbe5ee658b545020250caf83ae0fb58d0e35df7bf39d32e",
+        "sha256_in_prefix": "996670462ad0d0a8dfbe5ee658b545020250caf83ae0fb58d0e35df7bf39d32e",
+        "size_in_bytes": 8773
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xcbf.py",
+        "path_type": "hardlink",
+        "sha256": "11a804e4adac137a91f4b8e3ffd70383c10b16668e4f7b354a451faa6f4afb38",
+        "sha256_in_prefix": "11a804e4adac137a91f4b8e3ffd70383c10b16668e4f7b354a451faa6f4afb38",
+        "size_in_bytes": 1730
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xcse.py",
+        "path_type": "hardlink",
+        "sha256": "ecff17625847b19754f4a5bcccc68b3076c37c3957182ca1ffbbe2a2529bbf49",
+        "sha256_in_prefix": "ecff17625847b19754f4a5bcccc68b3076c37c3957182ca1ffbbe2a2529bbf49",
+        "size_in_bytes": 2722
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xdub.py",
+        "path_type": "hardlink",
+        "sha256": "447eddda7b88684e18868b0a8f42226038ba72bc39a6bfae6deea3688a180cbf",
+        "sha256_in_prefix": "447eddda7b88684e18868b0a8f42226038ba72bc39a6bfae6deea3688a180cbf",
+        "size_in_bytes": 4051
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xfra.py",
+        "path_type": "hardlink",
+        "sha256": "f6900f3ad2aa03bbee1efe986309cc9c96256eb77d6cc17bc124c95797d9df56",
+        "sha256_in_prefix": "f6900f3ad2aa03bbee1efe986309cc9c96256eb77d6cc17bc124c95797d9df56",
+        "size_in_bytes": 3316
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xhel.py",
+        "path_type": "hardlink",
+        "sha256": "938db17698ddfa8c45765c54c9c28d16b51439b3dde47954442fca449f572ad6",
+        "sha256_in_prefix": "938db17698ddfa8c45765c54c9c28d16b51439b3dde47954442fca449f572ad6",
+        "size_in_bytes": 2407
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xhkg.py",
+        "path_type": "hardlink",
+        "sha256": "9a547a9d2da840b8252daaec267a52f4a5119cb5f4f2c6e05f04ff584e30b8e3",
+        "sha256_in_prefix": "9a547a9d2da840b8252daaec267a52f4a5119cb5f4f2c6e05f04ff584e30b8e3",
+        "size_in_bytes": 10099
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xice.py",
+        "path_type": "hardlink",
+        "sha256": "7f25310c8e1b920704a586e0b97bfca2659169d04d98021396ddc6e61b72d108",
+        "sha256_in_prefix": "7f25310c8e1b920704a586e0b97bfca2659169d04d98021396ddc6e61b72d108",
+        "size_in_bytes": 2871
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xidx.py",
+        "path_type": "hardlink",
+        "sha256": "e98806b5605d534c26c56f7c659a675693f294eb477b9785969cfdd46ad8ecd5",
+        "sha256_in_prefix": "e98806b5605d534c26c56f7c659a675693f294eb477b9785969cfdd46ad8ecd5",
+        "size_in_bytes": 11214
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xist.py",
+        "path_type": "hardlink",
+        "sha256": "89e1821ff1d6d83ab4a42814177c2ed11fb6026f6ab03d085405019e0e26ec12",
+        "sha256_in_prefix": "89e1821ff1d6d83ab4a42814177c2ed11fb6026f6ab03d085405019e0e26ec12",
+        "size_in_bytes": 5438
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xjse.py",
+        "path_type": "hardlink",
+        "sha256": "62cd30ba0132a413daf414e00020040e04b75688902aff544676383f959512d4",
+        "sha256_in_prefix": "62cd30ba0132a413daf414e00020040e04b75688902aff544676383f959512d4",
+        "size_in_bytes": 4826
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xkar.py",
+        "path_type": "hardlink",
+        "sha256": "01ebc3ba1a1eaefd2e4ceb01a2e81bf83c554a7170b2b6bd66d456648f3346a3",
+        "sha256_in_prefix": "01ebc3ba1a1eaefd2e4ceb01a2e81bf83c554a7170b2b6bd66d456648f3346a3",
+        "size_in_bytes": 9737
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xkls.py",
+        "path_type": "hardlink",
+        "sha256": "4d7d22529107c36a6a0c06736828737e30166bfded1fac6ae5dc7b6217f134f3",
+        "sha256_in_prefix": "4d7d22529107c36a6a0c06736828737e30166bfded1fac6ae5dc7b6217f134f3",
+        "size_in_bytes": 3575
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xkrx.py",
+        "path_type": "hardlink",
+        "sha256": "35ee9a99c95593be89a3649cd2d59969d3d2d99d60e75731f7f09a5182d7e3f2",
+        "sha256_in_prefix": "35ee9a99c95593be89a3649cd2d59969d3d2d99d60e75731f7f09a5182d7e3f2",
+        "size_in_bytes": 10862
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xlim.py",
+        "path_type": "hardlink",
+        "sha256": "8cfc66fad34489140804201e6870c30bbf26041ece7d910dfa913f23ef289bad",
+        "sha256_in_prefix": "8cfc66fad34489140804201e6870c30bbf26041ece7d910dfa913f23ef289bad",
+        "size_in_bytes": 3713
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xlis.py",
+        "path_type": "hardlink",
+        "sha256": "739036a2475164f9040e75371112d90bd0c369e5d9f5631ee0a71b267cb364bb",
+        "sha256_in_prefix": "739036a2475164f9040e75371112d90bd0c369e5d9f5631ee0a71b267cb364bb",
+        "size_in_bytes": 3814
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xlon.py",
+        "path_type": "hardlink",
+        "sha256": "199a08b554d8244f049c7e35511a37f65089827a85eae5ec98dbbea0cbbac5d9",
+        "sha256_in_prefix": "199a08b554d8244f049c7e35511a37f65089827a85eae5ec98dbbea0cbbac5d9",
+        "size_in_bytes": 4631
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xmad.py",
+        "path_type": "hardlink",
+        "sha256": "e932cda19f28601286d01a9fbc2cf0890431aad49ff3a48dceecbb00448c4f60",
+        "sha256_in_prefix": "e932cda19f28601286d01a9fbc2cf0890431aad49ff3a48dceecbb00448c4f60",
+        "size_in_bytes": 3801
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xmex.py",
+        "path_type": "hardlink",
+        "sha256": "1d585f5cd35b8181026594f8f0d082c54cb5ba3cf21b30967e4d8cc6f5878191",
+        "sha256_in_prefix": "1d585f5cd35b8181026594f8f0d082c54cb5ba3cf21b30967e4d8cc6f5878191",
+        "size_in_bytes": 3635
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xmil.py",
+        "path_type": "hardlink",
+        "sha256": "0635f23662d6c443e6876ccb914ecdbff57690aabab7642003c8281464c02d6a",
+        "sha256_in_prefix": "0635f23662d6c443e6876ccb914ecdbff57690aabab7642003c8281464c02d6a",
+        "size_in_bytes": 2138
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xmos.py",
+        "path_type": "hardlink",
+        "sha256": "46af7ea1891753652f0b60bddf7043067f2ebe76ec6ff58bf08956a3e0398b27",
+        "sha256_in_prefix": "46af7ea1891753652f0b60bddf7043067f2ebe76ec6ff58bf08956a3e0398b27",
+        "size_in_bytes": 8019
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xnys.py",
+        "path_type": "hardlink",
+        "sha256": "319055271ce98b2d1c59524ebf786fd8cbb2bd9c6492f2d470e3839dc10a5576",
+        "sha256_in_prefix": "319055271ce98b2d1c59524ebf786fd8cbb2bd9c6492f2d470e3839dc10a5576",
+        "size_in_bytes": 5347
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xnze.py",
+        "path_type": "hardlink",
+        "sha256": "d019037dbf370ebc70bddac2f3a3e95691c06b9c5b2ad46ccbe32f628475b116",
+        "sha256_in_prefix": "d019037dbf370ebc70bddac2f3a3e95691c06b9c5b2ad46ccbe32f628475b116",
+        "size_in_bytes": 3966
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xosl.py",
+        "path_type": "hardlink",
+        "sha256": "621481269169175e35256175034a812aa5594648e92dc7cd17220f114a1d480b",
+        "sha256_in_prefix": "621481269169175e35256175034a812aa5594648e92dc7cd17220f114a1d480b",
+        "size_in_bytes": 2680
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xpar.py",
+        "path_type": "hardlink",
+        "sha256": "1574ae407d65803ccbcb4596645705753bc8484a4f69921099960f5ec35ad430",
+        "sha256_in_prefix": "1574ae407d65803ccbcb4596645705753bc8484a4f69921099960f5ec35ad430",
+        "size_in_bytes": 2841
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xphs.py",
+        "path_type": "hardlink",
+        "sha256": "4232c30a3324b871ddbef54c3da047d47d9d3409d552eda29d497a903e25e395",
+        "sha256_in_prefix": "4232c30a3324b871ddbef54c3da047d47d9d3409d552eda29d497a903e25e395",
+        "size_in_bytes": 10413
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xpra.py",
+        "path_type": "hardlink",
+        "sha256": "a773e1e75276a5992b90a64e7315748b273e488d9cebd44f8f01a5481b42ade0",
+        "sha256_in_prefix": "a773e1e75276a5992b90a64e7315748b273e488d9cebd44f8f01a5481b42ade0",
+        "size_in_bytes": 3577
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xses.py",
+        "path_type": "hardlink",
+        "sha256": "9c74356ffcc3c01af597ae175e623f22c69120089af907af082156dd47e5ce76",
+        "sha256_in_prefix": "9c74356ffcc3c01af597ae175e623f22c69120089af907af082156dd47e5ce76",
+        "size_in_bytes": 7166
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xsgo.py",
+        "path_type": "hardlink",
+        "sha256": "4c993e38e90892621649e29d8c9e0dfa0686a625fe7645f825990c70a05dac43",
+        "sha256_in_prefix": "4c993e38e90892621649e29d8c9e0dfa0686a625fe7645f825990c70a05dac43",
+        "size_in_bytes": 7244
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xshg.py",
+        "path_type": "hardlink",
+        "sha256": "50fc85d9dff138b68c4ec232b947856c397d7060acf4d0f20508433582f05199",
+        "sha256_in_prefix": "50fc85d9dff138b68c4ec232b947856c397d7060acf4d0f20508433582f05199",
+        "size_in_bytes": 9253
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xsto.py",
+        "path_type": "hardlink",
+        "sha256": "a9b6b95c21f35b013c9409cb46a915c35b8d67f2075ce7f7fc2ebbdffa9cc2ff",
+        "sha256_in_prefix": "a9b6b95c21f35b013c9409cb46a915c35b8d67f2075ce7f7fc2ebbdffa9cc2ff",
+        "size_in_bytes": 3798
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xswx.py",
+        "path_type": "hardlink",
+        "sha256": "ff97aed435769d532585ac8ed3814f2aea2be9a63ad06aa090f8eda5af557e35",
+        "sha256_in_prefix": "ff97aed435769d532585ac8ed3814f2aea2be9a63ad06aa090f8eda5af557e35",
+        "size_in_bytes": 2466
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xtai.py",
+        "path_type": "hardlink",
+        "sha256": "5ede6c71a96a98b7721c2ff2a10ae478ec5abc372784ff7417dbb8eba9d95b25",
+        "sha256_in_prefix": "5ede6c71a96a98b7721c2ff2a10ae478ec5abc372784ff7417dbb8eba9d95b25",
+        "size_in_bytes": 7883
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xtks.py",
+        "path_type": "hardlink",
+        "sha256": "a04347de5aa14a52270b7f27e592ef2031081397f1fa624dd42b20309db96664",
+        "sha256_in_prefix": "a04347de5aa14a52270b7f27e592ef2031081397f1fa624dd42b20309db96664",
+        "size_in_bytes": 3628
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xtse.py",
+        "path_type": "hardlink",
+        "sha256": "980b5f4eef8f432af81dee218a67ea881e355a783eeb47e6e5401e3a02dbca44",
+        "sha256_in_prefix": "980b5f4eef8f432af81dee218a67ea881e355a783eeb47e6e5401e3a02dbca44",
+        "size_in_bytes": 3776
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xwar.py",
+        "path_type": "hardlink",
+        "sha256": "c4cc760fc720d954d99faec872fd8ad61be112c079189972df72ceede3501ccf",
+        "sha256_in_prefix": "c4cc760fc720d954d99faec872fd8ad61be112c079189972df72ceede3501ccf",
+        "size_in_bytes": 3651
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/exchange_calendar_xwbo.py",
+        "path_type": "hardlink",
+        "sha256": "360706cc42517f0d7e9134f4e89d0b04d953bdc75e7193a75c6ad80f98dffe6b",
+        "sha256_in_prefix": "360706cc42517f0d7e9134f4e89d0b04d953bdc75e7193a75c6ad80f98dffe6b",
+        "size_in_bytes": 3234
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/precomputed_trading_calendar.py",
+        "path_type": "hardlink",
+        "sha256": "3db64955b54abccf6a212cdfc0f8fd179fbf6b98012bff03bc642120f4aa4d5f",
+        "sha256_in_prefix": "3db64955b54abccf6a212cdfc0f8fd179fbf6b98012bff03bc642120f4aa4d5f",
+        "size_in_bytes": 1889
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/tcal.py",
+        "path_type": "hardlink",
+        "sha256": "c917b2d731b24ed5ebbe0e5ba88d0ecff767883c6128f133d5d65b8280fe79da",
+        "sha256_in_prefix": "c917b2d731b24ed5ebbe0e5ba88d0ecff767883c6128f133d5d65b8280fe79da",
+        "size_in_bytes": 3864
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/trading_calendar.py",
+        "path_type": "hardlink",
+        "sha256": "1cdcad93f7f08902954859b1f4aa129958b2a031f6f879e3c7dcd9c241492cb8",
+        "sha256_in_prefix": "1cdcad93f7f08902954859b1f4aa129958b2a031f6f879e3c7dcd9c241492cb8",
+        "size_in_bytes": 33319
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/us_futures_calendar.py",
+        "path_type": "hardlink",
+        "sha256": "8982d3b2641aad36dd4fe3b8a0019dd886642b7416b03d6b4546ddf3aa112c0f",
+        "sha256_in_prefix": "8982d3b2641aad36dd4fe3b8a0019dd886642b7416b03d6b4546ddf3aa112c0f",
+        "size_in_bytes": 2276
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/us_holidays.py",
+        "path_type": "hardlink",
+        "sha256": "6ef622ee9a2f630182d49eeee9c0d9b51c60bdf10b8c053ee910d366fb3e67bc",
+        "sha256_in_prefix": "6ef622ee9a2f630182d49eeee9c0d9b51c60bdf10b8c053ee910d366fb3e67bc",
+        "size_in_bytes": 4203
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/utils/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ffbc9de28b256134508916dd237e38cc1b2eea4f48752dc93df3e29ca42da2e",
+        "sha256_in_prefix": "7ffbc9de28b256134508916dd237e38cc1b2eea4f48752dc93df3e29ca42da2e",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/utils/__pycache__/compat.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "66a7b6bad518c914411e85f12afb7c2c5f2d8128a66ed460754e65b3e98b6ee2",
+        "sha256_in_prefix": "66a7b6bad518c914411e85f12afb7c2c5f2d8128a66ed460754e65b3e98b6ee2",
+        "size_in_bytes": 2629
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/utils/__pycache__/memoize.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "0eb71f32aed68c2d66daebb74357137eb187c2521e3edfc23944527594e367b9",
+        "sha256_in_prefix": "0eb71f32aed68c2d66daebb74357137eb187c2521e3edfc23944527594e367b9",
+        "size_in_bytes": 1854
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/utils/__pycache__/pandas_utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "47a2fad372915112d6ee3635efb246871c855320346b1c00dbc146dc290b999c",
+        "sha256_in_prefix": "47a2fad372915112d6ee3635efb246871c855320346b1c00dbc146dc290b999c",
+        "size_in_bytes": 2266
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/utils/__pycache__/preprocess.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "84c0acbac432009aa7035f84fbe650ce40ab63b3c5cd58e9e65fc01660391624",
+        "sha256_in_prefix": "84c0acbac432009aa7035f84fbe650ce40ab63b3c5cd58e9e65fc01660391624",
+        "size_in_bytes": 7795
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/utils/compat.py",
+        "path_type": "hardlink",
+        "sha256": "2e348f6aff744e77827ad8cb79b89feee82fcb3079f6d3ec05179e44a4e11885",
+        "sha256_in_prefix": "2e348f6aff744e77827ad8cb79b89feee82fcb3079f6d3ec05179e44a4e11885",
+        "size_in_bytes": 3490
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/utils/memoize.py",
+        "path_type": "hardlink",
+        "sha256": "b04b7b3a265f287856a8a44501aa9c6612de27e9deabfed9e8e7dd03d42b1d97",
+        "sha256_in_prefix": "b04b7b3a265f287856a8a44501aa9c6612de27e9deabfed9e8e7dd03d42b1d97",
+        "size_in_bytes": 1323
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/utils/pandas_utils.py",
+        "path_type": "hardlink",
+        "sha256": "1459149c4306bcc2c6d580a226c9763301ba5d4931aa39b5ccc47a086c4a1a44",
+        "sha256_in_prefix": "1459149c4306bcc2c6d580a226c9763301ba5d4931aa39b5ccc47a086c4a1a44",
+        "size_in_bytes": 2020
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/utils/preprocess.py",
+        "path_type": "hardlink",
+        "sha256": "55a47d9410175cda1b4d76b90090f1cda3fda9de000aabc87aed8b0e3b90c253",
+        "sha256_in_prefix": "55a47d9410175cda1b4d76b90090f1cda3fda9de000aabc87aed8b0e3b90c253",
+        "size_in_bytes": 8282
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/weekday_calendar.py",
+        "path_type": "hardlink",
+        "sha256": "3a5529d069a7487d91374f4b043891b6489399a78ff6d8cef82d22ffe9fb150d",
+        "sha256_in_prefix": "3a5529d069a7487d91374f4b043891b6489399a78ff6d8cef82d22ffe9fb150d",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/xbkk_holidays.py",
+        "path_type": "hardlink",
+        "sha256": "87b20a2cf545db952d53f27ed77c3112d34b34cc39d8d3c1e61bbefdc6c0ddaf",
+        "sha256_in_prefix": "87b20a2cf545db952d53f27ed77c3112d34b34cc39d8d3c1e61bbefdc6c0ddaf",
+        "size_in_bytes": 7336
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/xkls_holidays.py",
+        "path_type": "hardlink",
+        "sha256": "78f0b0558ebf7f0ab680c3ff2ea377917134216ab7dbc927ca33080a2dc0c9ab",
+        "sha256_in_prefix": "78f0b0558ebf7f0ab680c3ff2ea377917134216ab7dbc927ca33080a2dc0c9ab",
+        "size_in_bytes": 10467
+      },
+      {
+        "_path": "lib/python3.5/site-packages/trading_calendars/xtks_holidays.py",
+        "path_type": "hardlink",
+        "sha256": "4e2f39bf8a22fdb2b89e3d8bcd61631246e760b0659ae3917ca603cbf504c756",
+        "sha256_in_prefix": "4e2f39bf8a22fdb2b89e3d8bcd61631246e760b0659ae3917ca603cbf504c756",
+        "size_in_bytes": 7190
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "None",
+  "size": 122353,
+  "subdir": "osx-64",
+  "timestamp": 1574887032275,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/Quantopian/osx-64/trading-calendars-1.11.1-py35_0.tar.bz2",
+  "version": "1.11.1"
+}

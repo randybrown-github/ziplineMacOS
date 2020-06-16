@@ -1,0 +1,332 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/Quantopian/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.5,<3.6.0a0"
+  ],
+  "extracted_package_dir": "/var/root/anaconda3/pkgs/logbook-0.12.5-py35_0",
+  "features": "",
+  "files": [
+    "lib/python3.5/site-packages/Logbook-0.12.5-py3.5-macosx-10.6-x86_64.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/Logbook-0.12.5-py3.5-macosx-10.6-x86_64.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/Logbook-0.12.5-py3.5-macosx-10.6-x86_64.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/Logbook-0.12.5-py3.5-macosx-10.6-x86_64.egg-info/native_libs.txt",
+    "lib/python3.5/site-packages/Logbook-0.12.5-py3.5-macosx-10.6-x86_64.egg-info/not-zip-safe",
+    "lib/python3.5/site-packages/Logbook-0.12.5-py3.5-macosx-10.6-x86_64.egg-info/top_level.txt",
+    "lib/python3.5/site-packages/logbook/__init__.py",
+    "lib/python3.5/site-packages/logbook/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/__version__.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/_fallback.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/_speedups.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/_termcolors.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/base.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/compat.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/concurrency.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/handlers.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/helpers.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/more.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/notifiers.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/queues.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/ticketing.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__pycache__/utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/logbook/__version__.py",
+    "lib/python3.5/site-packages/logbook/_fallback.py",
+    "lib/python3.5/site-packages/logbook/_speedups.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/logbook/_speedups.py",
+    "lib/python3.5/site-packages/logbook/_termcolors.py",
+    "lib/python3.5/site-packages/logbook/base.py",
+    "lib/python3.5/site-packages/logbook/compat.py",
+    "lib/python3.5/site-packages/logbook/concurrency.py",
+    "lib/python3.5/site-packages/logbook/handlers.py",
+    "lib/python3.5/site-packages/logbook/helpers.py",
+    "lib/python3.5/site-packages/logbook/more.py",
+    "lib/python3.5/site-packages/logbook/notifiers.py",
+    "lib/python3.5/site-packages/logbook/queues.py",
+    "lib/python3.5/site-packages/logbook/ticketing.py",
+    "lib/python3.5/site-packages/logbook/utils.py"
+  ],
+  "fn": "logbook-0.12.5-py35_0.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/var/root/anaconda3/pkgs/logbook-0.12.5-py35_0",
+    "type": 1
+  },
+  "md5": "3e691e28d82b0b8fcb172b553d24be19",
+  "name": "logbook",
+  "package_tarball_full_path": "/var/root/anaconda3/pkgs/logbook-0.12.5-py35_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.5/site-packages/Logbook-0.12.5-py3.5-macosx-10.6-x86_64.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "70b0c77c98441371e82e65a3caa5f8f889b54d07674def64ab22c81c2548e5de",
+        "sha256_in_prefix": "70b0c77c98441371e82e65a3caa5f8f889b54d07674def64ab22c81c2548e5de",
+        "size_in_bytes": 2399
+      },
+      {
+        "_path": "lib/python3.5/site-packages/Logbook-0.12.5-py3.5-macosx-10.6-x86_64.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "19f478c7a83c2d585e4769cb7637b4c7d75dd12b1ab55fe4e91b9d28d57dabd3",
+        "sha256_in_prefix": "19f478c7a83c2d585e4769cb7637b4c7d75dd12b1ab55fe4e91b9d28d57dabd3",
+        "size_in_bytes": 2588
+      },
+      {
+        "_path": "lib/python3.5/site-packages/Logbook-0.12.5-py3.5-macosx-10.6-x86_64.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/Logbook-0.12.5-py3.5-macosx-10.6-x86_64.egg-info/native_libs.txt",
+        "path_type": "hardlink",
+        "sha256": "faa378f577ac44d9f1c0cf15da4fc81b9091255c1986c3b519f1c75f750982f2",
+        "sha256_in_prefix": "faa378f577ac44d9f1c0cf15da4fc81b9091255c1986c3b519f1c75f750982f2",
+        "size_in_bytes": 40
+      },
+      {
+        "_path": "lib/python3.5/site-packages/Logbook-0.12.5-py3.5-macosx-10.6-x86_64.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/Logbook-0.12.5-py3.5-macosx-10.6-x86_64.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ab3987de11cb267f0516cb39f38d69a6b3babacb059be7d9d09695ee194f1d75",
+        "sha256_in_prefix": "ab3987de11cb267f0516cb39f38d69a6b3babacb059be7d9d09695ee194f1d75",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "773097d767ceb405f54fdf607d377423cdc40cf2d2ea19c1d70fe3074ecacb83",
+        "sha256_in_prefix": "773097d767ceb405f54fdf607d377423cdc40cf2d2ea19c1d70fe3074ecacb83",
+        "size_in_bytes": 1711
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9687c58980e0daf2c1d07f775fbfd091fc585f1848ae1f8a2f8ed122e6a252e7",
+        "sha256_in_prefix": "9687c58980e0daf2c1d07f775fbfd091fc585f1848ae1f8a2f8ed122e6a252e7",
+        "size_in_bytes": 1974
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/__version__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "dfbb9cc7956c4205938cf9fe11bf25ac8b21e10373b82c6a777c28e2041c2d57",
+        "sha256_in_prefix": "dfbb9cc7956c4205938cf9fe11bf25ac8b21e10373b82c6a777c28e2041c2d57",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/_fallback.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "407a1f67b7fd5c1f897a65a6691e80f6bbc846828e486475c03f7d6652cc54fa",
+        "sha256_in_prefix": "407a1f67b7fd5c1f897a65a6691e80f6bbc846828e486475c03f7d6652cc54fa",
+        "size_in_bytes": 8397
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/_speedups.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "da77dc5ee21c6b9a4eef28c59c904c45a69dcf29771f24bcd26e831d3c5e6fe3",
+        "sha256_in_prefix": "da77dc5ee21c6b9a4eef28c59c904c45a69dcf29771f24bcd26e831d3c5e6fe3",
+        "size_in_bytes": 519
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/_termcolors.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "33ed14566c952b52cd4d54a299948a266910c34931b0355b5e6cd1dab193b7f5",
+        "sha256_in_prefix": "33ed14566c952b52cd4d54a299948a266910c34931b0355b5e6cd1dab193b7f5",
+        "size_in_bytes": 1353
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/base.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "49cf8c80288b570f4d93a877490a0d274da0890466610bdb2f0d3b34cf076a9e",
+        "sha256_in_prefix": "49cf8c80288b570f4d93a877490a0d274da0890466610bdb2f0d3b34cf076a9e",
+        "size_in_bytes": 33936
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/compat.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "3913347b09868e83e46fe26001371afa6052572de03812f5536473fb06a44aa4",
+        "sha256_in_prefix": "3913347b09868e83e46fe26001371afa6052572de03812f5536473fb06a44aa4",
+        "size_in_bytes": 10959
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/concurrency.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ecce8381fe948f3544f7896b846bc11f31728c7e4a87499c45181593bf9fdf75",
+        "sha256_in_prefix": "ecce8381fe948f3544f7896b846bc11f31728c7e4a87499c45181593bf9fdf75",
+        "size_in_bytes": 4667
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/handlers.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "55dab496a8972b53072a8bfc6607d13186cd1f43fcf23fb9112eeaae629ccfe1",
+        "sha256_in_prefix": "55dab496a8972b53072a8bfc6607d13186cd1f43fcf23fb9112eeaae629ccfe1",
+        "size_in_bytes": 59691
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/helpers.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "985e4635460a3fac3b78713b2f7c927c5bdb101fd2a5f309e7fd4242fe00d15c",
+        "sha256_in_prefix": "985e4635460a3fac3b78713b2f7c927c5bdb101fd2a5f309e7fd4242fe00d15c",
+        "size_in_bytes": 8580
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/more.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b2fdbad6c6b8922bec07c680105ad378ee5623af8cc6763b4122be5ce94630d",
+        "sha256_in_prefix": "9b2fdbad6c6b8922bec07c680105ad378ee5623af8cc6763b4122be5ce94630d",
+        "size_in_bytes": 16698
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/notifiers.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "6db97ad71fa8a71329889bc95df535095981db401ea5304771f9879229cb8ae8",
+        "sha256_in_prefix": "6db97ad71fa8a71329889bc95df535095981db401ea5304771f9879229cb8ae8",
+        "size_in_bytes": 11228
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/queues.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "e450fa4c09e7f95ccb7739f2c532e2c6a9b6871bdf36dc416a83b5b0305a2756",
+        "sha256_in_prefix": "e450fa4c09e7f95ccb7739f2c532e2c6a9b6871bdf36dc416a83b5b0305a2756",
+        "size_in_bytes": 26800
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/ticketing.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "e116b7303f015c8a1db6bd5794206b696753abb1f21958675d77e218de3eeb5e",
+        "sha256_in_prefix": "e116b7303f015c8a1db6bd5794206b696753abb1f21958675d77e218de3eeb5e",
+        "size_in_bytes": 19581
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__pycache__/utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "a30c8fc5881c798e294e0c728a920f3425101d73102ff01df9add68a61dbb7cf",
+        "sha256_in_prefix": "a30c8fc5881c798e294e0c728a920f3425101d73102ff01df9add68a61dbb7cf",
+        "size_in_bytes": 6262
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/__version__.py",
+        "path_type": "hardlink",
+        "sha256": "40541fbb709455ef4d72bf24bf769a058de85ab666bfcc5ba1e9ff530cbb7975",
+        "sha256_in_prefix": "40541fbb709455ef4d72bf24bf769a058de85ab666bfcc5ba1e9ff530cbb7975",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/_fallback.py",
+        "path_type": "hardlink",
+        "sha256": "797c6feb9e30e551df6b22236e1615ebc734e6e7d989a24e4f3cbcea468569c2",
+        "sha256_in_prefix": "797c6feb9e30e551df6b22236e1615ebc734e6e7d989a24e4f3cbcea468569c2",
+        "size_in_bytes": 6734
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/_speedups.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "cddac8f8d1030fb47f69ad9e8cc24af197797649646e6f65a7bdeb8d8d449a28",
+        "sha256_in_prefix": "cddac8f8d1030fb47f69ad9e8cc24af197797649646e6f65a7bdeb8d8d449a28",
+        "size_in_bytes": 98988
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/_speedups.py",
+        "path_type": "hardlink",
+        "sha256": "e5ffb14bb6570727a2d68276e7f4440b951ae3e18250993665e5ddb8fffbc282",
+        "sha256_in_prefix": "e5ffb14bb6570727a2d68276e7f4440b951ae3e18250993665e5ddb8fffbc282",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/_termcolors.py",
+        "path_type": "hardlink",
+        "sha256": "d26492c83df6087b8dca61d004550e4715c03dabaad9c0ab1f801d0777d36cb4",
+        "sha256_in_prefix": "d26492c83df6087b8dca61d004550e4715c03dabaad9c0ab1f801d0777d36cb4",
+        "size_in_bytes": 1154
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/base.py",
+        "path_type": "hardlink",
+        "sha256": "eaa12375342b0b8e6f400ec4ad95e2589098221db08bf73824a48e15bb0ea418",
+        "sha256_in_prefix": "eaa12375342b0b8e6f400ec4ad95e2589098221db08bf73824a48e15bb0ea418",
+        "size_in_bytes": 37849
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/compat.py",
+        "path_type": "hardlink",
+        "sha256": "37580e346a59abe0572fb457cb582acea70bc0e9b287187109f010bb97c973d7",
+        "sha256_in_prefix": "37580e346a59abe0572fb457cb582acea70bc0e9b287187109f010bb97c973d7",
+        "size_in_bytes": 10002
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/concurrency.py",
+        "path_type": "hardlink",
+        "sha256": "e2caffe2f9c5f2f320cdc8c6857c7091ca03bb650025537886581e8996bd0d1f",
+        "sha256_in_prefix": "e2caffe2f9c5f2f320cdc8c6857c7091ca03bb650025537886581e8996bd0d1f",
+        "size_in_bytes": 4983
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "d499a0877788d23b65e80d1e46e2c5707a9971c55b878302a9de3a2ffb5b47a7",
+        "sha256_in_prefix": "d499a0877788d23b65e80d1e46e2c5707a9971c55b878302a9de3a2ffb5b47a7",
+        "size_in_bytes": 60355
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "1d0e21e133174e1e9bdd7537b9e2a46e58e2137197e596d5cb8551f703f7ceab",
+        "sha256_in_prefix": "1d0e21e133174e1e9bdd7537b9e2a46e58e2137197e596d5cb8551f703f7ceab",
+        "size_in_bytes": 8275
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/more.py",
+        "path_type": "hardlink",
+        "sha256": "c2d8a5e0604bbe4572d0a6efaaa1a94c10c7a615205bef87cea0d4ea01342aea",
+        "sha256_in_prefix": "c2d8a5e0604bbe4572d0a6efaaa1a94c10c7a615205bef87cea0d4ea01342aea",
+        "size_in_bytes": 14635
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/notifiers.py",
+        "path_type": "hardlink",
+        "sha256": "7a2d6fc1fd30f6bea653d9de90eb35e784ab5cbe0f38242822c35eeb90071c51",
+        "sha256_in_prefix": "7a2d6fc1fd30f6bea653d9de90eb35e784ab5cbe0f38242822c35eeb90071c51",
+        "size_in_bytes": 11853
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/queues.py",
+        "path_type": "hardlink",
+        "sha256": "057462ff4ba1d46f0bd6e0b3fef94a4c046b3fdba91b10f2f8f14214a54fec0d",
+        "sha256_in_prefix": "057462ff4ba1d46f0bd6e0b3fef94a4c046b3fdba91b10f2f8f14214a54fec0d",
+        "size_in_bytes": 23983
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/ticketing.py",
+        "path_type": "hardlink",
+        "sha256": "f1f76a31fac7540059c7ed7467b4e86a2001a4f3e50f4d73923e4de51fe37295",
+        "sha256_in_prefix": "f1f76a31fac7540059c7ed7467b4e86a2001a4f3e50f4d73923e4de51fe37295",
+        "size_in_bytes": 19215
+      },
+      {
+        "_path": "lib/python3.5/site-packages/logbook/utils.py",
+        "path_type": "hardlink",
+        "sha256": "28933fa4d65bfa2a0129c8d0f49dd2b6fb4ce48d6f5440ce8237c1702655cb30",
+        "sha256_in_prefix": "28933fa4d65bfa2a0129c8d0f49dd2b6fb4ce48d6f5440ce8237c1702655cb30",
+        "size_in_bytes": 5382
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "None",
+  "size": 127897,
+  "subdir": "osx-64",
+  "timestamp": 1531795360071,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/Quantopian/osx-64/logbook-0.12.5-py35_0.tar.bz2",
+  "version": "0.12.5"
+}

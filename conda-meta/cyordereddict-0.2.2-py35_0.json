@@ -1,0 +1,133 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/Quantopian/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.5,<3.6.0a0"
+  ],
+  "extracted_package_dir": "/var/root/anaconda3/pkgs/cyordereddict-0.2.2-py35_0",
+  "features": "",
+  "files": [
+    "lib/python3.5/site-packages/cyordereddict-0.2.2-py3.5.egg-info",
+    "lib/python3.5/site-packages/cyordereddict/__init__.py",
+    "lib/python3.5/site-packages/cyordereddict/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/cyordereddict/__pycache__/_version.cpython-35.pyc",
+    "lib/python3.5/site-packages/cyordereddict/_cyordereddict.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/cyordereddict/_version.py",
+    "lib/python3.5/site-packages/cyordereddict/benchmark/__init__.py",
+    "lib/python3.5/site-packages/cyordereddict/benchmark/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/cyordereddict/benchmark/__pycache__/benchmark.cpython-35.pyc",
+    "lib/python3.5/site-packages/cyordereddict/benchmark/__pycache__/magic_timeit.cpython-35.pyc",
+    "lib/python3.5/site-packages/cyordereddict/benchmark/benchmark.py",
+    "lib/python3.5/site-packages/cyordereddict/benchmark/magic_timeit.py"
+  ],
+  "fn": "cyordereddict-0.2.2-py35_0.tar.bz2",
+  "license": "BSD License",
+  "license_family": "BSD",
+  "link": {
+    "source": "/var/root/anaconda3/pkgs/cyordereddict-0.2.2-py35_0",
+    "type": 1
+  },
+  "md5": "53dea9e1b74c266802beb7144db2d555",
+  "name": "cyordereddict",
+  "package_tarball_full_path": "/var/root/anaconda3/pkgs/cyordereddict-0.2.2-py35_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.5/site-packages/cyordereddict-0.2.2-py3.5.egg-info",
+        "path_type": "hardlink",
+        "sha256": "5c74beeee5143f415db90f3c7160ad8258e33ba2d3a30d04a0dad5d852a79a5a",
+        "sha256_in_prefix": "5c74beeee5143f415db90f3c7160ad8258e33ba2d3a30d04a0dad5d852a79a5a",
+        "size_in_bytes": 5752
+      },
+      {
+        "_path": "lib/python3.5/site-packages/cyordereddict/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "702ec32474e1cc9df59ee3fcb185f25bef06c5c36d14a447160778be6c213d31",
+        "sha256_in_prefix": "702ec32474e1cc9df59ee3fcb185f25bef06c5c36d14a447160778be6c213d31",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/python3.5/site-packages/cyordereddict/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ef7f80c66f329a74e3626d31585c4cf9f2ce40b5dff5e82265637a0f5434682",
+        "sha256_in_prefix": "9ef7f80c66f329a74e3626d31585c4cf9f2ce40b5dff5e82265637a0f5434682",
+        "size_in_bytes": 295
+      },
+      {
+        "_path": "lib/python3.5/site-packages/cyordereddict/__pycache__/_version.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "dbdb740e40407f1a0a84c92fdd9a2c574d8e2b87cd6fb7d3d0585983dda62d29",
+        "sha256_in_prefix": "dbdb740e40407f1a0a84c92fdd9a2c574d8e2b87cd6fb7d3d0585983dda62d29",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "lib/python3.5/site-packages/cyordereddict/_cyordereddict.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "31e49c8aa6bc8bcb9503df530dfdded30775368dda2dc0bd8339fb8d252ee0dc",
+        "sha256_in_prefix": "31e49c8aa6bc8bcb9503df530dfdded30775368dda2dc0bd8339fb8d252ee0dc",
+        "size_in_bytes": 131100
+      },
+      {
+        "_path": "lib/python3.5/site-packages/cyordereddict/_version.py",
+        "path_type": "hardlink",
+        "sha256": "a4a876fe1985354c06d09c5b2f5f2ac5d9a2fe7985a6045b47c5fa20f66bd3ca",
+        "sha256_in_prefix": "a4a876fe1985354c06d09c5b2f5f2ac5d9a2fe7985a6045b47c5fa20f66bd3ca",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/python3.5/site-packages/cyordereddict/benchmark/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.5/site-packages/cyordereddict/benchmark/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "88e46e487213451580993d3e8032f9c8c50aa97937b34d3e263dab3019629aa6",
+        "sha256_in_prefix": "88e46e487213451580993d3e8032f9c8c50aa97937b34d3e263dab3019629aa6",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/python3.5/site-packages/cyordereddict/benchmark/__pycache__/benchmark.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "f200147453d255e4f277eaeaddc879f8ad36bd6b3d8ea34d9b05d7590b6f40e0",
+        "sha256_in_prefix": "f200147453d255e4f277eaeaddc879f8ad36bd6b3d8ea34d9b05d7590b6f40e0",
+        "size_in_bytes": 2023
+      },
+      {
+        "_path": "lib/python3.5/site-packages/cyordereddict/benchmark/__pycache__/magic_timeit.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb421bb19054c558090b6200bb800da4a58cdd8df9543f5bb1e37fd27cc28b8b",
+        "sha256_in_prefix": "cb421bb19054c558090b6200bb800da4a58cdd8df9543f5bb1e37fd27cc28b8b",
+        "size_in_bytes": 2543
+      },
+      {
+        "_path": "lib/python3.5/site-packages/cyordereddict/benchmark/benchmark.py",
+        "path_type": "hardlink",
+        "sha256": "4ee8b23b65c586d06c09900013c5aab343c4d9ec7ce86f52a9b3d3238dbf1771",
+        "sha256_in_prefix": "4ee8b23b65c586d06c09900013c5aab343c4d9ec7ce86f52a9b3d3238dbf1771",
+        "size_in_bytes": 1751
+      },
+      {
+        "_path": "lib/python3.5/site-packages/cyordereddict/benchmark/magic_timeit.py",
+        "path_type": "hardlink",
+        "sha256": "68e166886ab385d01050f494d9628f3dd26e8433142563a1dca239e2ed0d557d",
+        "sha256_in_prefix": "68e166886ab385d01050f494d9628f3dd26e8433142563a1dca239e2ed0d557d",
+        "size_in_bytes": 2715
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "None",
+  "size": 46672,
+  "subdir": "osx-64",
+  "timestamp": 1531795212177,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/Quantopian/osx-64/cyordereddict-0.2.2-py35_0.tar.bz2",
+  "version": "0.2.2"
+}

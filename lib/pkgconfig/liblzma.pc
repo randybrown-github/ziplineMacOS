@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/var/root/anaconda3/envs/env_zipline
+exec_prefix=/var/root/anaconda3/envs/env_zipline
+libdir=/var/root/anaconda3/envs/env_zipline/lib
+includedir=/var/root/anaconda3/envs/env_zipline/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.5
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -Qunused-arguments -pthread -lpthread

@@ -1,0 +1,53 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/Quantopian/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.5,<3.6.0a0",
+    "sortedcontainers"
+  ],
+  "extracted_package_dir": "/var/root/anaconda3/pkgs/intervaltree-2.1.0-py35_0",
+  "features": "",
+  "files": [
+    "lib/python3.5/site-packages/intervaltree-2.1.0-py3.5.egg",
+    "lib/python3.5/site-packages/intervaltree.pth"
+  ],
+  "fn": "intervaltree-2.1.0-py35_0.tar.bz2",
+  "license": "Apache Software License",
+  "link": {
+    "source": "/var/root/anaconda3/pkgs/intervaltree-2.1.0-py35_0",
+    "type": 1
+  },
+  "md5": "965df308ee18e8c1dae92b37ce899ae9",
+  "name": "intervaltree",
+  "package_tarball_full_path": "/var/root/anaconda3/pkgs/intervaltree-2.1.0-py35_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.5/site-packages/intervaltree-2.1.0-py3.5.egg",
+        "path_type": "hardlink",
+        "sha256": "de52d13ec91c770acde2e925f98eb95e8b523296fb03af99bbc0d18db98c4b85",
+        "sha256_in_prefix": "de52d13ec91c770acde2e925f98eb95e8b523296fb03af99bbc0d18db98c4b85",
+        "size_in_bytes": 45530
+      },
+      {
+        "_path": "lib/python3.5/site-packages/intervaltree.pth",
+        "path_type": "hardlink",
+        "sha256": "55a3b7273d265be11931ebd409aa82022204870f30cd60294e793419a22fd3b6",
+        "sha256_in_prefix": "55a3b7273d265be11931ebd409aa82022204870f30cd60294e793419a22fd3b6",
+        "size_in_bytes": 31
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "None",
+  "size": 49457,
+  "subdir": "osx-64",
+  "timestamp": 1531795301931,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/Quantopian/osx-64/intervaltree-2.1.0-py35_0.tar.bz2",
+  "version": "2.1.0"
+}

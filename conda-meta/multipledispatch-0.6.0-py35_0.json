@@ -1,0 +1,191 @@
+{
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.5,<3.6.0a0",
+    "six"
+  ],
+  "extracted_package_dir": "/var/root/anaconda3/pkgs/multipledispatch-0.6.0-py35_0",
+  "features": "",
+  "files": [
+    "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/installed-files.txt",
+    "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/not-zip-safe",
+    "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/requires.txt",
+    "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/top_level.txt",
+    "lib/python3.5/site-packages/multipledispatch/__init__.py",
+    "lib/python3.5/site-packages/multipledispatch/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/multipledispatch/__pycache__/conflict.cpython-35.pyc",
+    "lib/python3.5/site-packages/multipledispatch/__pycache__/core.cpython-35.pyc",
+    "lib/python3.5/site-packages/multipledispatch/__pycache__/dispatcher.cpython-35.pyc",
+    "lib/python3.5/site-packages/multipledispatch/__pycache__/utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/multipledispatch/__pycache__/variadic.cpython-35.pyc",
+    "lib/python3.5/site-packages/multipledispatch/conflict.py",
+    "lib/python3.5/site-packages/multipledispatch/core.py",
+    "lib/python3.5/site-packages/multipledispatch/dispatcher.py",
+    "lib/python3.5/site-packages/multipledispatch/utils.py",
+    "lib/python3.5/site-packages/multipledispatch/variadic.py"
+  ],
+  "fn": "multipledispatch-0.6.0-py35_0.conda",
+  "legacy_bz2_md5": "699aed362859fd1a381ff2b009578c9a",
+  "legacy_bz2_size": 21681,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/var/root/anaconda3/pkgs/multipledispatch-0.6.0-py35_0",
+    "type": 1
+  },
+  "md5": "e8249fdd15d747a0d4a86d245c7361a1",
+  "name": "multipledispatch",
+  "package_tarball_full_path": "/var/root/anaconda3/pkgs/multipledispatch-0.6.0-py35_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "15d5ab8920f9f3cb6efc782a7d66faab8651e56b99c9db59143b3ece8370178b",
+        "sha256_in_prefix": "15d5ab8920f9f3cb6efc782a7d66faab8651e56b99c9db59143b3ece8370178b",
+        "size_in_bytes": 5126
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "d11bf67bb25e244c030d94ac78317fd204c8ef44cad91375b2dea7e57d8bb620",
+        "sha256_in_prefix": "d11bf67bb25e244c030d94ac78317fd204c8ef44cad91375b2dea7e57d8bb620",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "dfc8d1ce9bb531263397d55dee650f23e4e4ab898cba48cc9f8acfb7a3c1c08c",
+        "sha256_in_prefix": "dfc8d1ce9bb531263397d55dee650f23e4e4ab898cba48cc9f8acfb7a3c1c08c",
+        "size_in_bytes": 600
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "fe2547fe2604b445e70fc9d819062960552f9145bdb043b51986e478a4806a2b",
+        "sha256_in_prefix": "fe2547fe2604b445e70fc9d819062960552f9145bdb043b51986e478a4806a2b",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch-0.6.0-py3.5.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "bd117f8742881e7d250725676495e5cf3eaa28ada632c1671f994b921a39ace2",
+        "sha256_in_prefix": "bd117f8742881e7d250725676495e5cf3eaa28ada632c1671f994b921a39ace2",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ce92a124e71188d69571d20cc1db9743338bec3ffc524f5f8abbe75135ed7b5f",
+        "sha256_in_prefix": "ce92a124e71188d69571d20cc1db9743338bec3ffc524f5f8abbe75135ed7b5f",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "41bcd26ff91738a6b145243f8df0da036e22f9d3ce4f27f8c81b5ee08c701e42",
+        "sha256_in_prefix": "41bcd26ff91738a6b145243f8df0da036e22f9d3ce4f27f8c81b5ee08c701e42",
+        "size_in_bytes": 346
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch/__pycache__/conflict.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d4eeb4fa0ba1634d2142e55ca6e54ba3266ab2df775601cbf1d5508d3776237",
+        "sha256_in_prefix": "2d4eeb4fa0ba1634d2142e55ca6e54ba3266ab2df775601cbf1d5508d3776237",
+        "size_in_bytes": 4925
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch/__pycache__/core.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca7414f1b5e4a097e041c0c3c0f3e9e98a18e2bad02a65dec317c88148a88f2d",
+        "sha256_in_prefix": "ca7414f1b5e4a097e041c0c3c0f3e9e98a18e2bad02a65dec317c88148a88f2d",
+        "size_in_bytes": 2307
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch/__pycache__/dispatcher.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "319c085f13473e474c0848ea27f50eac4fd1b118792ec244814f52cc57a413d4",
+        "sha256_in_prefix": "319c085f13473e474c0848ea27f50eac4fd1b118792ec244814f52cc57a413d4",
+        "size_in_bytes": 14939
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch/__pycache__/utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a50b6ba11192f1d3b6e2d856fc31d5f741586a51bec7dd0dfee96de1bdbd246",
+        "sha256_in_prefix": "2a50b6ba11192f1d3b6e2d856fc31d5f741586a51bec7dd0dfee96de1bdbd246",
+        "size_in_bytes": 4314
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch/__pycache__/variadic.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "e8505490a87bb09fe4c88721d23fe1c98e336236716dbf6ba5db3b63002fbac1",
+        "sha256_in_prefix": "e8505490a87bb09fe4c88721d23fe1c98e336236716dbf6ba5db3b63002fbac1",
+        "size_in_bytes": 3488
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch/conflict.py",
+        "path_type": "hardlink",
+        "sha256": "e2be0b04a1760b75899e2f7f9b28d85bc2fc7c6d0a4595a990d3b7f6e20f8e27",
+        "sha256_in_prefix": "e2be0b04a1760b75899e2f7f9b28d85bc2fc7c6d0a4595a990d3b7f6e20f8e27",
+        "size_in_bytes": 3912
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch/core.py",
+        "path_type": "hardlink",
+        "sha256": "5904bfb28c67df5c810a59b427d6927f8579611dc1d4f1d28becdbe58bddefbe",
+        "sha256_in_prefix": "5904bfb28c67df5c810a59b427d6927f8579611dc1d4f1d28becdbe58bddefbe",
+        "size_in_bytes": 2148
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch/dispatcher.py",
+        "path_type": "hardlink",
+        "sha256": "d79c5eccf6d0e8b349e48921b40a1eeef4d0ef4d2baccd254472261e333b55cc",
+        "sha256_in_prefix": "d79c5eccf6d0e8b349e48921b40a1eeef4d0ef4d2baccd254472261e333b55cc",
+        "size_in_bytes": 13562
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch/utils.py",
+        "path_type": "hardlink",
+        "sha256": "b991fc2c59540aa90cc31a0fb8838dca692b0ab4ab62de70721d3ae14df2637a",
+        "sha256_in_prefix": "b991fc2c59540aa90cc31a0fb8838dca692b0ab4ab62de70721d3ae14df2637a",
+        "size_in_bytes": 3630
+      },
+      {
+        "_path": "lib/python3.5/site-packages/multipledispatch/variadic.py",
+        "path_type": "hardlink",
+        "sha256": "eadcb09085c28c4abdfe6afc2f30309a499d400cee905ac522be1185264baf2a",
+        "sha256_in_prefix": "eadcb09085c28c4abdfe6afc2f30309a499d400cee905ac522be1185264baf2a",
+        "size_in_bytes": 2752
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9a9943283dd79f39b7029b3e24353c457b4ae7d9150a883e3294dd8a6e7202bc",
+  "size": 22337,
+  "subdir": "osx-64",
+  "timestamp": 1534268986243,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/multipledispatch-0.6.0-py35_0.conda",
+  "version": "0.6.0"
+}

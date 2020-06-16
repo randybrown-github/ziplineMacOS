@@ -1,0 +1,77 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/Quantopian/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.5,<3.6.0a0"
+  ],
+  "extracted_package_dir": "/var/root/anaconda3/pkgs/lru-dict-1.1.4-py35_0",
+  "features": "",
+  "files": [
+    "lib/python3.5/site-packages/lru.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/lru_dict-1.1.4-py3.5.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/lru_dict-1.1.4-py3.5.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/lru_dict-1.1.4-py3.5.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/lru_dict-1.1.4-py3.5.egg-info/top_level.txt"
+  ],
+  "fn": "lru-dict-1.1.4-py35_0.tar.bz2",
+  "license": "MIT License",
+  "license_family": "MIT",
+  "link": {
+    "source": "/var/root/anaconda3/pkgs/lru-dict-1.1.4-py35_0",
+    "type": 1
+  },
+  "md5": "082691b536c5cd0d2d8be2341fa5d702",
+  "name": "lru-dict",
+  "package_tarball_full_path": "/var/root/anaconda3/pkgs/lru-dict-1.1.4-py35_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.5/site-packages/lru.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "a510263b3c1e4addb030b85fc31b199cc58de9f0ef9acc054cc7ad0b2d180b68",
+        "sha256_in_prefix": "a510263b3c1e4addb030b85fc31b199cc58de9f0ef9acc054cc7ad0b2d180b68",
+        "size_in_bytes": 16548
+      },
+      {
+        "_path": "lib/python3.5/site-packages/lru_dict-1.1.4-py3.5.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "06d63425528454376c996ddcc2a5ed7f0a8b8f5202dd1ef76a0082d0231340e9",
+        "sha256_in_prefix": "06d63425528454376c996ddcc2a5ed7f0a8b8f5202dd1ef76a0082d0231340e9",
+        "size_in_bytes": 3884
+      },
+      {
+        "_path": "lib/python3.5/site-packages/lru_dict-1.1.4-py3.5.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "6e831ac75f5fedfd3b7f85e60145c688f4afbddb11808b7c768123c3de0a96d3",
+        "sha256_in_prefix": "6e831ac75f5fedfd3b7f85e60145c688f4afbddb11808b7c768123c3de0a96d3",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "lib/python3.5/site-packages/lru_dict-1.1.4-py3.5.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/lru_dict-1.1.4-py3.5.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3883d28fbd0c753f4c73b65e3e8492ede7a37b9e50bbed38ce0a69f96b3be6ce",
+        "sha256_in_prefix": "3883d28fbd0c753f4c73b65e3e8492ede7a37b9e50bbed38ce0a69f96b3be6ce",
+        "size_in_bytes": 4
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "None",
+  "size": 9807,
+  "subdir": "osx-64",
+  "timestamp": 1531795414065,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/Quantopian/osx-64/lru-dict-1.1.4-py35_0.tar.bz2",
+  "version": "1.1.4"
+}

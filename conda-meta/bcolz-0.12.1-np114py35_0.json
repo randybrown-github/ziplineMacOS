@@ -1,0 +1,416 @@
+{
+  "arch": "x86_64",
+  "build": "np114py35_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/Quantopian/osx-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.14,<1.15.0a0",
+    "python >=3.5,<3.6.0a0"
+  ],
+  "extracted_package_dir": "/var/root/anaconda3/pkgs/bcolz-0.12.1-np114py35_0",
+  "features": "",
+  "files": [
+    "lib/python3.5/site-packages/bcolz-0.12.1-py3.5.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/bcolz-0.12.1-py3.5.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/bcolz-0.12.1-py3.5.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/bcolz-0.12.1-py3.5.egg-info/requires.txt",
+    "lib/python3.5/site-packages/bcolz-0.12.1-py3.5.egg-info/top_level.txt",
+    "lib/python3.5/site-packages/bcolz/__init__.py",
+    "lib/python3.5/site-packages/bcolz/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/__pycache__/arrayprint.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/__pycache__/attrs.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/__pycache__/chunked_eval.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/__pycache__/ctable.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/__pycache__/defaults.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/__pycache__/py2help.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/__pycache__/py2help_tests.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/__pycache__/toplevel.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/__pycache__/utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/__pycache__/version.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/arrayprint.py",
+    "lib/python3.5/site-packages/bcolz/attrs.py",
+    "lib/python3.5/site-packages/bcolz/carray_ext.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/bcolz/carray_ext.pxd",
+    "lib/python3.5/site-packages/bcolz/chunked_eval.py",
+    "lib/python3.5/site-packages/bcolz/ctable.py",
+    "lib/python3.5/site-packages/bcolz/defaults.py",
+    "lib/python3.5/site-packages/bcolz/py2help.py",
+    "lib/python3.5/site-packages/bcolz/py2help_tests.py",
+    "lib/python3.5/site-packages/bcolz/tests/__init__.py",
+    "lib/python3.5/site-packages/bcolz/tests/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/tests/__pycache__/all.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/tests/__pycache__/common.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/tests/__pycache__/test_attrs.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/tests/__pycache__/test_carray.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/tests/__pycache__/test_carray_objects.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/tests/__pycache__/test_ctable.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/tests/__pycache__/test_ndcarray.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/tests/__pycache__/test_queries.cpython-35.pyc",
+    "lib/python3.5/site-packages/bcolz/tests/all.py",
+    "lib/python3.5/site-packages/bcolz/tests/common.py",
+    "lib/python3.5/site-packages/bcolz/tests/test_attrs.py",
+    "lib/python3.5/site-packages/bcolz/tests/test_carray.py",
+    "lib/python3.5/site-packages/bcolz/tests/test_carray_objects.py",
+    "lib/python3.5/site-packages/bcolz/tests/test_ctable.py",
+    "lib/python3.5/site-packages/bcolz/tests/test_ndcarray.py",
+    "lib/python3.5/site-packages/bcolz/tests/test_queries.py",
+    "lib/python3.5/site-packages/bcolz/toplevel.py",
+    "lib/python3.5/site-packages/bcolz/utils.py",
+    "lib/python3.5/site-packages/bcolz/version.py"
+  ],
+  "fn": "bcolz-0.12.1-np114py35_0.tar.bz2",
+  "license": "BSD License",
+  "license_family": "BSD",
+  "link": {
+    "source": "/var/root/anaconda3/pkgs/bcolz-0.12.1-np114py35_0",
+    "type": 1
+  },
+  "md5": "e520bbf9a843d68e5f21ce5b9e41be93",
+  "name": "bcolz",
+  "package_tarball_full_path": "/var/root/anaconda3/pkgs/bcolz-0.12.1-np114py35_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.5/site-packages/bcolz-0.12.1-py3.5.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "54f577f008af8611f01abd8f5af94dc280d6435667a3b0eb7d8e0be2661f6946",
+        "sha256_in_prefix": "54f577f008af8611f01abd8f5af94dc280d6435667a3b0eb7d8e0be2661f6946",
+        "size_in_bytes": 1586
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz-0.12.1-py3.5.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "4ce7955ee54ca1df5db7d9011db21f6b64bc09177b13eb2845b2af9e036bcd6d",
+        "sha256_in_prefix": "4ce7955ee54ca1df5db7d9011db21f6b64bc09177b13eb2845b2af9e036bcd6d",
+        "size_in_bytes": 5868
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz-0.12.1-py3.5.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz-0.12.1-py3.5.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "fc156ed0f32c7d8d1fb854f419b6ecfffd8fa831445aed8673619f912b108a51",
+        "sha256_in_prefix": "fc156ed0f32c7d8d1fb854f419b6ecfffd8fa831445aed8673619f912b108a51",
+        "size_in_bytes": 60
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz-0.12.1-py3.5.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "41ed09b85a85e64354b21a9f5cf452b737fce0309bf6466ed6b8334a48f57c5a",
+        "sha256_in_prefix": "41ed09b85a85e64354b21a9f5cf452b737fce0309bf6466ed6b8334a48f57c5a",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e74fb7dc2fb2526fe499da7bed2efc3ceb756c29c61f9a1afc2c13efde6b3d5a",
+        "sha256_in_prefix": "e74fb7dc2fb2526fe499da7bed2efc3ceb756c29c61f9a1afc2c13efde6b3d5a",
+        "size_in_bytes": 3523
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "09444d5f82cfaa23893f986725cf85824508ccde20420e0f0bb9cd032f2e9da6",
+        "sha256_in_prefix": "09444d5f82cfaa23893f986725cf85824508ccde20420e0f0bb9cd032f2e9da6",
+        "size_in_bytes": 2828
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/__pycache__/arrayprint.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b1a26af6e3710062617e5d48db7ea4262b5ce51d047b1b8da2d0e23cd79d84c",
+        "sha256_in_prefix": "4b1a26af6e3710062617e5d48db7ea4262b5ce51d047b1b8da2d0e23cd79d84c",
+        "size_in_bytes": 22190
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/__pycache__/attrs.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "73b9e82aa662104300f0e968553c20cc65404dd298664012a69364c379ad2bc2",
+        "sha256_in_prefix": "73b9e82aa662104300f0e968553c20cc65404dd298664012a69364c379ad2bc2",
+        "size_in_bytes": 4075
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/__pycache__/chunked_eval.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "959f19a3efda3ebf59ab128713ea60f01a399b4769e5bb09064e87aaee856221",
+        "sha256_in_prefix": "959f19a3efda3ebf59ab128713ea60f01a399b4769e5bb09064e87aaee856221",
+        "size_in_bytes": 6248
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/__pycache__/ctable.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "12a582054b5bb95cc696f9f67b369fa089790b9aaead428ea6795d7bf273e4f9",
+        "sha256_in_prefix": "12a582054b5bb95cc696f9f67b369fa089790b9aaead428ea6795d7bf273e4f9",
+        "size_in_bytes": 38681
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/__pycache__/defaults.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "f34c511e1ba11320cbc1c393ba731dfab496fc7fb41d1dba99ea6c6915e2c547",
+        "sha256_in_prefix": "f34c511e1ba11320cbc1c393ba731dfab496fc7fb41d1dba99ea6c6915e2c547",
+        "size_in_bytes": 2700
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/__pycache__/py2help.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d41decaa7989b46f29fe230ea9a0a7c75877de9900c6d0eacf997a97a47c79c",
+        "sha256_in_prefix": "2d41decaa7989b46f29fe230ea9a0a7c75877de9900c6d0eacf997a97a47c79c",
+        "size_in_bytes": 2157
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/__pycache__/py2help_tests.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9140d3f4aa10d82b3bf65030ec0781327dbfa001c4d28688bb947bc92d5ae2b5",
+        "sha256_in_prefix": "9140d3f4aa10d82b3bf65030ec0781327dbfa001c4d28688bb947bc92d5ae2b5",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/__pycache__/toplevel.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "87ed1694d6ca659a5587266ec68b9e3bb450831f8beae8f48bdd58fd59a4b4b0",
+        "sha256_in_prefix": "87ed1694d6ca659a5587266ec68b9e3bb450831f8beae8f48bdd58fd59a4b4b0",
+        "size_in_bytes": 18045
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/__pycache__/utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "22823d451debe5add096e9257b256d510bfd106a40c05a0611f8ccb6b2460a35",
+        "sha256_in_prefix": "22823d451debe5add096e9257b256d510bfd106a40c05a0611f8ccb6b2460a35",
+        "size_in_bytes": 4797
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/__pycache__/version.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "47cc53e9d173bfee0c7dcff59aed0e213f94b3ed43869e974b5d169853efc95b",
+        "sha256_in_prefix": "47cc53e9d173bfee0c7dcff59aed0e213f94b3ed43869e974b5d169853efc95b",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/arrayprint.py",
+        "path_type": "hardlink",
+        "sha256": "914cac4f9cc280e7cc4b55ed5220a97af3cedab382a320b6d8fc8988679f4650",
+        "sha256_in_prefix": "914cac4f9cc280e7cc4b55ed5220a97af3cedab382a320b6d8fc8988679f4650",
+        "size_in_bytes": 26658
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/attrs.py",
+        "path_type": "hardlink",
+        "sha256": "5dd861a65c3f207ceb20d6c0ff68656cd93741af370ad22564f6d1c2c20c940a",
+        "sha256_in_prefix": "5dd861a65c3f207ceb20d6c0ff68656cd93741af370ad22564f6d1c2c20c940a",
+        "size_in_bytes": 3706
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/carray_ext.cpython-35m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/travis/miniconda/conda-bld/bcolz_1531795079929/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "9ba0e2e3fb84713dd53b0614857f232ad3420aba978a7b99b000cf42dba6118b",
+        "sha256_in_prefix": "c01da5d2f6a1cdaa3169aef268447f816b04a85f45b9092521753467b2d914be",
+        "size_in_bytes": 652344
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/carray_ext.pxd",
+        "path_type": "hardlink",
+        "sha256": "3a94b030e12990565fdac2425e83d396a5350e2f3c2a7300e3664a4bf96d5b6b",
+        "sha256_in_prefix": "3a94b030e12990565fdac2425e83d396a5350e2f3c2a7300e3664a4bf96d5b6b",
+        "size_in_bytes": 1920
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/chunked_eval.py",
+        "path_type": "hardlink",
+        "sha256": "1560d3681ec34b9b4c567683b31eacda9553bf48b5568462cf3f030d98f76c37",
+        "sha256_in_prefix": "1560d3681ec34b9b4c567683b31eacda9553bf48b5568462cf3f030d98f76c37",
+        "size_in_bytes": 9250
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/ctable.py",
+        "path_type": "hardlink",
+        "sha256": "5605abf2be89b08ac6971617582169460d2f0bdaad918f7196d80078c874ea46",
+        "sha256_in_prefix": "5605abf2be89b08ac6971617582169460d2f0bdaad918f7196d80078c874ea46",
+        "size_in_bytes": 44468
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/defaults.py",
+        "path_type": "hardlink",
+        "sha256": "b587146f74381e6beecbcfe7c2c062d7cb60d2128e2ea5d5b793011dfbe6d19a",
+        "sha256_in_prefix": "b587146f74381e6beecbcfe7c2c062d7cb60d2128e2ea5d5b793011dfbe6d19a",
+        "size_in_bytes": 3043
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/py2help.py",
+        "path_type": "hardlink",
+        "sha256": "cf123b0d66446c98a2a25de85713ffcae81e555a9cb4d2f4c685259390449d92",
+        "sha256_in_prefix": "cf123b0d66446c98a2a25de85713ffcae81e555a9cb4d2f4c685259390449d92",
+        "size_in_bytes": 3392
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/py2help_tests.py",
+        "path_type": "hardlink",
+        "sha256": "7bb58249d21536dba3b9872d481b859d8c93c7a04bf648f8dc0f9f1b0bc55680",
+        "sha256_in_prefix": "7bb58249d21536dba3b9872d481b859d8c93c7a04bf648f8dc0f9f1b0bc55680",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "73cf2bda0f3f62bcb547142a9fd90b590fd6a1ca8131c6bdf09ceb5be75ba4d8",
+        "sha256_in_prefix": "73cf2bda0f3f62bcb547142a9fd90b590fd6a1ca8131c6bdf09ceb5be75ba4d8",
+        "size_in_bytes": 506
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "1355ea5d1ff0648ded3f8679b1455ffa51a14841dbd30b268ddf5ad5ed6b359c",
+        "sha256_in_prefix": "1355ea5d1ff0648ded3f8679b1455ffa51a14841dbd30b268ddf5ad5ed6b359c",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/__pycache__/all.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "651b1808d4dfc90b2438101f20ed93c76f42156f6575d942f20596d0b768e962",
+        "sha256_in_prefix": "651b1808d4dfc90b2438101f20ed93c76f42156f6575d942f20596d0b768e962",
+        "size_in_bytes": 2571
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/__pycache__/common.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "52cd53e4632a6228fde6720a17fdc8dad830047a97a065792a428472cdaa8949",
+        "sha256_in_prefix": "52cd53e4632a6228fde6720a17fdc8dad830047a97a065792a428472cdaa8949",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/__pycache__/test_attrs.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f3cc0bf9e72ab1f1e34857691bfd71569d8bd748577e7a8a17652389a50e233",
+        "sha256_in_prefix": "2f3cc0bf9e72ab1f1e34857691bfd71569d8bd748577e7a8a17652389a50e233",
+        "size_in_bytes": 5178
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/__pycache__/test_carray.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "3149c7d48755826b1232060e8a3d4ecf24ea19118aa860f9d7d5c40e94f71973",
+        "sha256_in_prefix": "3149c7d48755826b1232060e8a3d4ecf24ea19118aa860f9d7d5c40e94f71973",
+        "size_in_bytes": 109679
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/__pycache__/test_carray_objects.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5332d594c10e78164be251401f84af24e234f36a509771cc72436c159b83cef",
+        "sha256_in_prefix": "a5332d594c10e78164be251401f84af24e234f36a509771cc72436c159b83cef",
+        "size_in_bytes": 6726
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/__pycache__/test_ctable.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5c52dfaea00be62231ced4f5c80cf023b502662031bd7ba8c4c27589718a0c5",
+        "sha256_in_prefix": "b5c52dfaea00be62231ced4f5c80cf023b502662031bd7ba8c4c27589718a0c5",
+        "size_in_bytes": 127562
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/__pycache__/test_ndcarray.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "138a7767215f490ae1f3c2e4fb51e5e3a61d627aaf1376a31ccc8e5a1f0a4739",
+        "sha256_in_prefix": "138a7767215f490ae1f3c2e4fb51e5e3a61d627aaf1376a31ccc8e5a1f0a4739",
+        "size_in_bytes": 35931
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/__pycache__/test_queries.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc024bb66e071b6dc5ad74d7628478952e85ab3c8239867744a52b3530bbc9b4",
+        "sha256_in_prefix": "dc024bb66e071b6dc5ad74d7628478952e85ab3c8239867744a52b3530bbc9b4",
+        "size_in_bytes": 12539
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/all.py",
+        "path_type": "hardlink",
+        "sha256": "4ed42fb7eb3de846c75552e418aa8d83dd6ee42f1344c417a86cd81ea490b63c",
+        "sha256_in_prefix": "4ed42fb7eb3de846c75552e418aa8d83dd6ee42f1344c417a86cd81ea490b63c",
+        "size_in_bytes": 2902
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/common.py",
+        "path_type": "hardlink",
+        "sha256": "47ff8f873d28f71e5d9a6ccd080270be7d557f89678d95a6b17f0585e23872e9",
+        "sha256_in_prefix": "47ff8f873d28f71e5d9a6ccd080270be7d557f89678d95a6b17f0585e23872e9",
+        "size_in_bytes": 1348
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/test_attrs.py",
+        "path_type": "hardlink",
+        "sha256": "f58e8803d8965548e312ba774ffc3a34ea26510f3d42ef78453b607f280dcd98",
+        "sha256_in_prefix": "f58e8803d8965548e312ba774ffc3a34ea26510f3d42ef78453b607f280dcd98",
+        "size_in_bytes": 5312
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/test_carray.py",
+        "path_type": "hardlink",
+        "sha256": "0a2c320e4a487975c6810f70f5f60d69b3cf9eede2b082969ca3354f1e5bac08",
+        "sha256_in_prefix": "0a2c320e4a487975c6810f70f5f60d69b3cf9eede2b082969ca3354f1e5bac08",
+        "size_in_bytes": 82321
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/test_carray_objects.py",
+        "path_type": "hardlink",
+        "sha256": "e7dde4764de7835bdb1e339470545d50c6370179651f21cfa14fc739c0a7b621",
+        "sha256_in_prefix": "e7dde4764de7835bdb1e339470545d50c6370179651f21cfa14fc739c0a7b621",
+        "size_in_bytes": 5637
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/test_ctable.py",
+        "path_type": "hardlink",
+        "sha256": "aaa13c769e79af11e1376f063203c64700d13f17176a4904faa649ae700faad5",
+        "sha256_in_prefix": "aaa13c769e79af11e1376f063203c64700d13f17176a4904faa649ae700faad5",
+        "size_in_bytes": 87235
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/test_ndcarray.py",
+        "path_type": "hardlink",
+        "sha256": "97e2ce4925fdfd766c4f61722af0ca0ac3ffbb1e4206a4107785a12cebe900e1",
+        "sha256_in_prefix": "97e2ce4925fdfd766c4f61722af0ca0ac3ffbb1e4206a4107785a12cebe900e1",
+        "size_in_bytes": 30277
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/tests/test_queries.py",
+        "path_type": "hardlink",
+        "sha256": "2ca7b578e6f92766a71d7e254653e453f1a878433719e28e54645f8e78978e19",
+        "sha256_in_prefix": "2ca7b578e6f92766a71d7e254653e453f1a878433719e28e54645f8e78978e19",
+        "size_in_bytes": 8838
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/toplevel.py",
+        "path_type": "hardlink",
+        "sha256": "a6ea0c3a476509caf545af3dec53889c5f3ac6063d310baeb962ac1fb0cc6cd6",
+        "sha256_in_prefix": "a6ea0c3a476509caf545af3dec53889c5f3ac6063d310baeb962ac1fb0cc6cd6",
+        "size_in_bytes": 21113
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/utils.py",
+        "path_type": "hardlink",
+        "sha256": "19c8d521a7bc3489e9cb6da6024b2398efcf487f6033752ced9f78828e334b56",
+        "sha256_in_prefix": "19c8d521a7bc3489e9cb6da6024b2398efcf487f6033752ced9f78828e334b56",
+        "size_in_bytes": 5733
+      },
+      {
+        "_path": "lib/python3.5/site-packages/bcolz/version.py",
+        "path_type": "hardlink",
+        "sha256": "47c83cc2c1976813aa839d02d762f0494fc799893ce9a91ea0074885e805dd36",
+        "sha256_in_prefix": "47c83cc2c1976813aa839d02d762f0494fc799893ce9a91ea0074885e805dd36",
+        "size_in_bytes": 117
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "None",
+  "size": 383087,
+  "subdir": "osx-64",
+  "timestamp": 1531795168134,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/Quantopian/osx-64/bcolz-0.12.1-np114py35_0.tar.bz2",
+  "version": "0.12.1"
+}

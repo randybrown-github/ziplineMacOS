@@ -1,0 +1,250 @@
+{
+  "arch": "x86_64",
+  "build": "py35_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/Quantopian/osx-64",
+  "constrains": [],
+  "depends": [
+    "bottleneck >=1.0.0",
+    "numpy >=1.9.2",
+    "pandas >=0.16.1",
+    "pandas-datareader >=0.2",
+    "python >=3.5,<3.6.0a0",
+    "scipy >=0.15.1"
+  ],
+  "extracted_package_dir": "/var/root/anaconda3/pkgs/empyrical-0.5.0-py35_0",
+  "features": "",
+  "files": [
+    "lib/python3.5/site-packages/empyrical-0.5.0-py3.5.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/empyrical-0.5.0-py3.5.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/empyrical-0.5.0-py3.5.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/empyrical-0.5.0-py3.5.egg-info/pbr.json",
+    "lib/python3.5/site-packages/empyrical-0.5.0-py3.5.egg-info/requires.txt",
+    "lib/python3.5/site-packages/empyrical-0.5.0-py3.5.egg-info/top_level.txt",
+    "lib/python3.5/site-packages/empyrical/__init__.py",
+    "lib/python3.5/site-packages/empyrical/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/empyrical/__pycache__/_version.cpython-35.pyc",
+    "lib/python3.5/site-packages/empyrical/__pycache__/deprecate.cpython-35.pyc",
+    "lib/python3.5/site-packages/empyrical/__pycache__/perf_attrib.cpython-35.pyc",
+    "lib/python3.5/site-packages/empyrical/__pycache__/periods.cpython-35.pyc",
+    "lib/python3.5/site-packages/empyrical/__pycache__/stats.cpython-35.pyc",
+    "lib/python3.5/site-packages/empyrical/__pycache__/utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/empyrical/_version.py",
+    "lib/python3.5/site-packages/empyrical/deprecate.py",
+    "lib/python3.5/site-packages/empyrical/perf_attrib.py",
+    "lib/python3.5/site-packages/empyrical/periods.py",
+    "lib/python3.5/site-packages/empyrical/stats.py",
+    "lib/python3.5/site-packages/empyrical/tests/__init__.py",
+    "lib/python3.5/site-packages/empyrical/tests/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/empyrical/tests/__pycache__/test_perf_attrib.cpython-35.pyc",
+    "lib/python3.5/site-packages/empyrical/tests/__pycache__/test_stats.cpython-35.pyc",
+    "lib/python3.5/site-packages/empyrical/tests/test_perf_attrib.py",
+    "lib/python3.5/site-packages/empyrical/tests/test_stats.py",
+    "lib/python3.5/site-packages/empyrical/utils.py"
+  ],
+  "fn": "empyrical-0.5.0-py35_0.tar.bz2",
+  "license": "Apache Software License",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/var/root/anaconda3/pkgs/empyrical-0.5.0-py35_0",
+    "type": 1
+  },
+  "md5": "05526b95ce4b1b9c7a61eba60fc2c32c",
+  "name": "empyrical",
+  "package_tarball_full_path": "/var/root/anaconda3/pkgs/empyrical-0.5.0-py35_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.5/site-packages/empyrical-0.5.0-py3.5.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "6f3c2aa1c528e1818ed361a6ae889db5cc350b6c267d404065f2c4730eaf36cd",
+        "sha256_in_prefix": "6f3c2aa1c528e1818ed361a6ae889db5cc350b6c267d404065f2c4730eaf36cd",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical-0.5.0-py3.5.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "1e80684a6b2ca5deab34bb84ddfaff2f5654891738f05d5b3fef2efe414bc09f",
+        "sha256_in_prefix": "1e80684a6b2ca5deab34bb84ddfaff2f5654891738f05d5b3fef2efe414bc09f",
+        "size_in_bytes": 499
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical-0.5.0-py3.5.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical-0.5.0-py3.5.egg-info/pbr.json",
+        "path_type": "hardlink",
+        "sha256": "7bd6017c6f9758cbe01ba3b6e65fac60e9ec14efe22a65cbe78275c31a0be2d1",
+        "sha256_in_prefix": "7bd6017c6f9758cbe01ba3b6e65fac60e9ec14efe22a65cbe78275c31a0be2d1",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical-0.5.0-py3.5.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "d4a9732ac2a37c22261fd2663db24fc3add9f1c2be44875d83c2d24aaff576d5",
+        "sha256_in_prefix": "d4a9732ac2a37c22261fd2663db24fc3add9f1c2be44875d83c2d24aaff576d5",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical-0.5.0-py3.5.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "160804f491666cb248a76bc3f4286c00ae1237760c117f9c4ee120cbefde9441",
+        "sha256_in_prefix": "160804f491666cb248a76bc3f4286c00ae1237760c117f9c4ee120cbefde9441",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "39faf75701ea4fd3e09229b57f0ef831560ac050c7827ebb25004242ba79bbb4",
+        "sha256_in_prefix": "39faf75701ea4fd3e09229b57f0ef831560ac050c7827ebb25004242ba79bbb4",
+        "size_in_bytes": 1739
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a1ebf59215dde8b3b49de57589a5bd296d9367a397c950a7396c5713f4258a6",
+        "sha256_in_prefix": "1a1ebf59215dde8b3b49de57589a5bd296d9367a397c950a7396c5713f4258a6",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/__pycache__/_version.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1e941522adb87dd9abb11c681d1e4ee28f1f266fc0c2303a5fba15fc2d19374",
+        "sha256_in_prefix": "f1e941522adb87dd9abb11c681d1e4ee28f1f266fc0c2303a5fba15fc2d19374",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/__pycache__/deprecate.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "50050ed40a7a6baf30dc2ca45baf429072542c47fec6f173a6b098584e6df70d",
+        "sha256_in_prefix": "50050ed40a7a6baf30dc2ca45baf429072542c47fec6f173a6b098584e6df70d",
+        "size_in_bytes": 1304
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/__pycache__/perf_attrib.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba87ba11f3c6fa3bc0bfa10f5e11c4fa3a9eca4150ae3a47990ebe8e4fcdbff6",
+        "sha256_in_prefix": "ba87ba11f3c6fa3bc0bfa10f5e11c4fa3a9eca4150ae3a47990ebe8e4fcdbff6",
+        "size_in_bytes": 5040
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/__pycache__/periods.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "e458111611b6432a8009f0b5969dc2d2dd9a438e17b56b72bb78fff4a6f20e5f",
+        "sha256_in_prefix": "e458111611b6432a8009f0b5969dc2d2dd9a438e17b56b72bb78fff4a6f20e5f",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/__pycache__/stats.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb4ca066226155d93aacfbc02f2b15a0aff0ed7e0a1444818198da60b74d59a7",
+        "sha256_in_prefix": "cb4ca066226155d93aacfbc02f2b15a0aff0ed7e0a1444818198da60b74d59a7",
+        "size_in_bytes": 48250
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/__pycache__/utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "701a51010d948bf615595eb523d5dc7d26c3899615fb2dfdc5f6b25a18685567",
+        "sha256_in_prefix": "701a51010d948bf615595eb523d5dc7d26c3899615fb2dfdc5f6b25a18685567",
+        "size_in_bytes": 15434
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/_version.py",
+        "path_type": "hardlink",
+        "sha256": "0285e127983b2598e53ac49085d0b874f64ac51fbd2bf48033cdc44137e6ca13",
+        "sha256_in_prefix": "0285e127983b2598e53ac49085d0b874f64ac51fbd2bf48033cdc44137e6ca13",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/deprecate.py",
+        "path_type": "hardlink",
+        "sha256": "1a1ff805d07f2ecc892b4e527edaa8f679d891b8db779a66e1b72dd16ce47926",
+        "sha256_in_prefix": "1a1ff805d07f2ecc892b4e527edaa8f679d891b8db779a66e1b72dd16ce47926",
+        "size_in_bytes": 1499
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/perf_attrib.py",
+        "path_type": "hardlink",
+        "sha256": "42e3721e3a8647d9a2344ee217888194df0fdddefc4f8b81f5ba70dcc316424e",
+        "sha256_in_prefix": "42e3721e3a8647d9a2344ee217888194df0fdddefc4f8b81f5ba70dcc316424e",
+        "size_in_bytes": 5151
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/periods.py",
+        "path_type": "hardlink",
+        "sha256": "c51826bdd21da6de190f82ab5c0623a16a55c22b6675c6bbedb5f4300097d789",
+        "sha256_in_prefix": "c51826bdd21da6de190f82ab5c0623a16a55c22b6675c6bbedb5f4300097d789",
+        "size_in_bytes": 306
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/stats.py",
+        "path_type": "hardlink",
+        "sha256": "5b46977d44295acc279d62ded3ee21092cf6d6e0a16367022f45245bff863c1c",
+        "sha256_in_prefix": "5b46977d44295acc279d62ded3ee21092cf6d6e0a16367022f45245bff863c1c",
+        "size_in_bytes": 54478
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/tests/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "506e68b93a320be0b74bb89fbf229da4f8b26c02a205e05e90d33d19aeb46612",
+        "sha256_in_prefix": "506e68b93a320be0b74bb89fbf229da4f8b26c02a205e05e90d33d19aeb46612",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/tests/__pycache__/test_perf_attrib.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "bcdbef13a6620b574994162539ee62ae10a256a4ef57ae8bc0e9582a506df77f",
+        "sha256_in_prefix": "bcdbef13a6620b574994162539ee62ae10a256a4ef57ae8bc0e9582a506df77f",
+        "size_in_bytes": 3888
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/tests/__pycache__/test_stats.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "370fe09c13edd56f53bf722fdf9783d64c2db6c9450b874cc8c757be91fdbe8b",
+        "sha256_in_prefix": "370fe09c13edd56f53bf722fdf9783d64c2db6c9450b874cc8c757be91fdbe8b",
+        "size_in_bytes": 47301
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/tests/test_perf_attrib.py",
+        "path_type": "hardlink",
+        "sha256": "8dbf7b56e98082bcd6d2bf81d38fab0a13b12f66ecdf6dde32e465d103f7ed99",
+        "sha256_in_prefix": "8dbf7b56e98082bcd6d2bf81d38fab0a13b12f66ecdf6dde32e465d103f7ed99",
+        "size_in_bytes": 7083
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/tests/test_stats.py",
+        "path_type": "hardlink",
+        "sha256": "e531ce9f227778437b354b78ce4167e6d0d5625b6b28aac23b16e34d4f324a94",
+        "sha256_in_prefix": "e531ce9f227778437b354b78ce4167e6d0d5625b6b28aac23b16e34d4f324a94",
+        "size_in_bytes": 62753
+      },
+      {
+        "_path": "lib/python3.5/site-packages/empyrical/utils.py",
+        "path_type": "hardlink",
+        "sha256": "4554d0358903e34c0b413d9ba5e6236152639479cc80300720a0f8f8d7feee22",
+        "sha256_in_prefix": "4554d0358903e34c0b413d9ba5e6236152639479cc80300720a0f8f8d7feee22",
+        "size_in_bytes": 16681
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "None",
+  "size": 58242,
+  "subdir": "osx-64",
+  "timestamp": 1529343001041,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/Quantopian/osx-64/empyrical-0.5.0-py35_0.tar.bz2",
+  "version": "0.5.0"
+}

@@ -1,0 +1,3037 @@
+{
+  "arch": "x86_64",
+  "build": "np114py35_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/Quantopian/osx-64",
+  "constrains": [],
+  "depends": [
+    "alembic >=0.7.7",
+    "bcolz >=0.12.1,<1",
+    "bottleneck >=1.0.0",
+    "click >=4.0.0",
+    "contextlib2 >=0.4.0",
+    "cyordereddict >=0.2.2",
+    "cython >=0.25.2",
+    "decorator >=4.0.0",
+    "empyrical >=0.5.0",
+    "intervaltree >=2.1.0",
+    "logbook >=0.12.5",
+    "lru-dict >=1.1.4",
+    "mako >=1.0.1",
+    "markupsafe >=0.23",
+    "multipledispatch >=0.4.8",
+    "networkx >=1.9.1,<2.0",
+    "numexpr >=2.6.1",
+    "numpy >=1.14,<1.15.0a0",
+    "pandas >=0.18.1,<=0.22",
+    "pandas-datareader >=0.2.1",
+    "patsy >=0.4.0",
+    "pip >=7.1.0",
+    "pytables >=3.3.0",
+    "python >=3.5,<3.6.0a0",
+    "python-dateutil >=2.4.2",
+    "pytz >=2016.4",
+    "requests >=2.9.1",
+    "requests-file >=1.4.1",
+    "scipy >=0.17.1",
+    "setuptools >18.0",
+    "six >=1.10.0",
+    "sortedcontainers >=1.4.4",
+    "sqlalchemy >=1.0.8",
+    "statsmodels >=0.6.1",
+    "toolz >=0.8.2",
+    "trading-calendars >=1.0.1"
+  ],
+  "extracted_package_dir": "/var/root/anaconda3/pkgs/zipline-1.3.0-np114py35_0",
+  "features": "",
+  "files": [
+    "bin/zipline",
+    "lib/python3.5/site-packages/zipline-1.3.0-py3.5.egg-info/PKG-INFO",
+    "lib/python3.5/site-packages/zipline-1.3.0-py3.5.egg-info/SOURCES.txt",
+    "lib/python3.5/site-packages/zipline-1.3.0-py3.5.egg-info/dependency_links.txt",
+    "lib/python3.5/site-packages/zipline-1.3.0-py3.5.egg-info/entry_points.txt",
+    "lib/python3.5/site-packages/zipline-1.3.0-py3.5.egg-info/requires.txt",
+    "lib/python3.5/site-packages/zipline-1.3.0-py3.5.egg-info/top_level.txt",
+    "lib/python3.5/site-packages/zipline/__init__.py",
+    "lib/python3.5/site-packages/zipline/__main__.py",
+    "lib/python3.5/site-packages/zipline/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/__pycache__/__main__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/__pycache__/_version.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/__pycache__/algorithm.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/__pycache__/api.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/__pycache__/dispatch.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/__pycache__/errors.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/__pycache__/extensions.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/__pycache__/protocol.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/__pycache__/test_algorithms.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/__pycache__/zipline_warnings.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/_protocol.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/_protocol.pxd",
+    "lib/python3.5/site-packages/zipline/_protocol.pyx",
+    "lib/python3.5/site-packages/zipline/_version.py",
+    "lib/python3.5/site-packages/zipline/algorithm.py",
+    "lib/python3.5/site-packages/zipline/api.py",
+    "lib/python3.5/site-packages/zipline/api.pyi",
+    "lib/python3.5/site-packages/zipline/assets/__init__.py",
+    "lib/python3.5/site-packages/zipline/assets/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/assets/__pycache__/asset_db_migrations.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/assets/__pycache__/asset_db_schema.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/assets/__pycache__/asset_writer.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/assets/__pycache__/assets.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/assets/__pycache__/futures.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/assets/__pycache__/roll_finder.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/assets/__pycache__/synthetic.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/assets/_assets.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/assets/_assets.pxd",
+    "lib/python3.5/site-packages/zipline/assets/_assets.pyx",
+    "lib/python3.5/site-packages/zipline/assets/asset_db_migrations.py",
+    "lib/python3.5/site-packages/zipline/assets/asset_db_schema.py",
+    "lib/python3.5/site-packages/zipline/assets/asset_writer.py",
+    "lib/python3.5/site-packages/zipline/assets/assets.py",
+    "lib/python3.5/site-packages/zipline/assets/continuous_futures.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/assets/continuous_futures.pyx",
+    "lib/python3.5/site-packages/zipline/assets/futures.py",
+    "lib/python3.5/site-packages/zipline/assets/roll_finder.py",
+    "lib/python3.5/site-packages/zipline/assets/synthetic.py",
+    "lib/python3.5/site-packages/zipline/data/__init__.py",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/bar_reader.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/benchmarks.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/continuous_future_reader.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/data_portal.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/dispatch_bar_reader.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/history_loader.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/loader.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/minute_bars.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/resample.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/session_bars.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/treasuries.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/treasuries_can.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/__pycache__/us_equity_pricing.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/_adjustments.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/data/_adjustments.pyx",
+    "lib/python3.5/site-packages/zipline/data/_equities.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/data/_equities.pyx",
+    "lib/python3.5/site-packages/zipline/data/_minute_bar_internal.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/data/_minute_bar_internal.pyx",
+    "lib/python3.5/site-packages/zipline/data/_resample.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/data/_resample.pyx",
+    "lib/python3.5/site-packages/zipline/data/bar_reader.py",
+    "lib/python3.5/site-packages/zipline/data/benchmarks.py",
+    "lib/python3.5/site-packages/zipline/data/bundles/__init__.py",
+    "lib/python3.5/site-packages/zipline/data/bundles/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/bundles/__pycache__/core.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/bundles/__pycache__/csvdir.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/bundles/__pycache__/quandl.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/data/bundles/core.py",
+    "lib/python3.5/site-packages/zipline/data/bundles/csvdir.py",
+    "lib/python3.5/site-packages/zipline/data/bundles/quandl.py",
+    "lib/python3.5/site-packages/zipline/data/continuous_future_reader.py",
+    "lib/python3.5/site-packages/zipline/data/data_portal.py",
+    "lib/python3.5/site-packages/zipline/data/dispatch_bar_reader.py",
+    "lib/python3.5/site-packages/zipline/data/history_loader.py",
+    "lib/python3.5/site-packages/zipline/data/loader.py",
+    "lib/python3.5/site-packages/zipline/data/minute_bars.py",
+    "lib/python3.5/site-packages/zipline/data/resample.py",
+    "lib/python3.5/site-packages/zipline/data/session_bars.py",
+    "lib/python3.5/site-packages/zipline/data/treasuries.py",
+    "lib/python3.5/site-packages/zipline/data/treasuries_can.py",
+    "lib/python3.5/site-packages/zipline/data/us_equity_pricing.py",
+    "lib/python3.5/site-packages/zipline/dispatch.py",
+    "lib/python3.5/site-packages/zipline/errors.py",
+    "lib/python3.5/site-packages/zipline/examples/__init__.py",
+    "lib/python3.5/site-packages/zipline/examples/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/examples/__pycache__/buy_and_hold.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/examples/__pycache__/buyapple.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/examples/__pycache__/dual_ema_talib.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/examples/__pycache__/dual_moving_average.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/examples/__pycache__/momentum_pipeline.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/examples/__pycache__/olmar.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/examples/buy_and_hold.py",
+    "lib/python3.5/site-packages/zipline/examples/buyapple.py",
+    "lib/python3.5/site-packages/zipline/examples/dual_ema_talib.py",
+    "lib/python3.5/site-packages/zipline/examples/dual_moving_average.py",
+    "lib/python3.5/site-packages/zipline/examples/momentum_pipeline.py",
+    "lib/python3.5/site-packages/zipline/examples/olmar.py",
+    "lib/python3.5/site-packages/zipline/extensions.py",
+    "lib/python3.5/site-packages/zipline/finance/__init__.py",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/asset_restrictions.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/cancel_policy.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/commission.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/constants.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/controls.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/execution.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/ledger.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/order.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/position.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/shared.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/slippage.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/trading.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/__pycache__/transaction.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/_finance_ext.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/finance/_finance_ext.pyx",
+    "lib/python3.5/site-packages/zipline/finance/asset_restrictions.py",
+    "lib/python3.5/site-packages/zipline/finance/blotter/__init__.py",
+    "lib/python3.5/site-packages/zipline/finance/blotter/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/blotter/__pycache__/blotter.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/blotter/__pycache__/simulation_blotter.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/blotter/blotter.py",
+    "lib/python3.5/site-packages/zipline/finance/blotter/simulation_blotter.py",
+    "lib/python3.5/site-packages/zipline/finance/cancel_policy.py",
+    "lib/python3.5/site-packages/zipline/finance/commission.py",
+    "lib/python3.5/site-packages/zipline/finance/constants.py",
+    "lib/python3.5/site-packages/zipline/finance/controls.py",
+    "lib/python3.5/site-packages/zipline/finance/execution.py",
+    "lib/python3.5/site-packages/zipline/finance/ledger.py",
+    "lib/python3.5/site-packages/zipline/finance/metrics/__init__.py",
+    "lib/python3.5/site-packages/zipline/finance/metrics/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/metrics/__pycache__/core.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/metrics/__pycache__/metric.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/metrics/__pycache__/tracker.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/finance/metrics/core.py",
+    "lib/python3.5/site-packages/zipline/finance/metrics/metric.py",
+    "lib/python3.5/site-packages/zipline/finance/metrics/tracker.py",
+    "lib/python3.5/site-packages/zipline/finance/order.py",
+    "lib/python3.5/site-packages/zipline/finance/position.py",
+    "lib/python3.5/site-packages/zipline/finance/shared.py",
+    "lib/python3.5/site-packages/zipline/finance/slippage.py",
+    "lib/python3.5/site-packages/zipline/finance/trading.py",
+    "lib/python3.5/site-packages/zipline/finance/transaction.py",
+    "lib/python3.5/site-packages/zipline/gens/__init__.py",
+    "lib/python3.5/site-packages/zipline/gens/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/gens/__pycache__/composites.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/gens/__pycache__/tradesimulation.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/gens/__pycache__/utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/gens/composites.py",
+    "lib/python3.5/site-packages/zipline/gens/sim_engine.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/gens/sim_engine.pyx",
+    "lib/python3.5/site-packages/zipline/gens/tradesimulation.py",
+    "lib/python3.5/site-packages/zipline/gens/utils.py",
+    "lib/python3.5/site-packages/zipline/lib/__init__.py",
+    "lib/python3.5/site-packages/zipline/lib/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/lib/__pycache__/adjusted_array.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/lib/__pycache__/labelarray.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/lib/__pycache__/normalize.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/lib/__pycache__/quantiles.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/lib/_factorize.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/lib/_factorize.pyx",
+    "lib/python3.5/site-packages/zipline/lib/_float64window.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/lib/_float64window.pyx",
+    "lib/python3.5/site-packages/zipline/lib/_int64window.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/lib/_int64window.pyx",
+    "lib/python3.5/site-packages/zipline/lib/_labelwindow.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/lib/_labelwindow.pyx",
+    "lib/python3.5/site-packages/zipline/lib/_uint8window.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/lib/_uint8window.pyx",
+    "lib/python3.5/site-packages/zipline/lib/_windowtemplate.pxi",
+    "lib/python3.5/site-packages/zipline/lib/adjusted_array.py",
+    "lib/python3.5/site-packages/zipline/lib/adjustment.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/lib/adjustment.pxd",
+    "lib/python3.5/site-packages/zipline/lib/adjustment.pyx",
+    "lib/python3.5/site-packages/zipline/lib/labelarray.py",
+    "lib/python3.5/site-packages/zipline/lib/normalize.py",
+    "lib/python3.5/site-packages/zipline/lib/quantiles.py",
+    "lib/python3.5/site-packages/zipline/lib/rank.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/lib/rank.pyx",
+    "lib/python3.5/site-packages/zipline/pipeline/__init__.py",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/api_utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/common.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/downsample_helpers.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/dtypes.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/engine.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/expression.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/graph.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/mixins.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/pipeline.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/sentinels.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/term.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/__pycache__/visualize.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/api_utils.py",
+    "lib/python3.5/site-packages/zipline/pipeline/classifiers/__init__.py",
+    "lib/python3.5/site-packages/zipline/pipeline/classifiers/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/classifiers/__pycache__/classifier.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/classifiers/classifier.py",
+    "lib/python3.5/site-packages/zipline/pipeline/common.py",
+    "lib/python3.5/site-packages/zipline/pipeline/data/__init__.py",
+    "lib/python3.5/site-packages/zipline/pipeline/data/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/data/__pycache__/dataset.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/data/__pycache__/equity_pricing.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/data/__pycache__/testing.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/data/dataset.py",
+    "lib/python3.5/site-packages/zipline/pipeline/data/equity_pricing.py",
+    "lib/python3.5/site-packages/zipline/pipeline/data/testing.py",
+    "lib/python3.5/site-packages/zipline/pipeline/downsample_helpers.py",
+    "lib/python3.5/site-packages/zipline/pipeline/dtypes.py",
+    "lib/python3.5/site-packages/zipline/pipeline/engine.py",
+    "lib/python3.5/site-packages/zipline/pipeline/expression.py",
+    "lib/python3.5/site-packages/zipline/pipeline/factors/__init__.py",
+    "lib/python3.5/site-packages/zipline/pipeline/factors/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/factors/__pycache__/basic.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/factors/__pycache__/events.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/factors/__pycache__/factor.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/factors/__pycache__/statistical.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/factors/__pycache__/technical.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/factors/basic.py",
+    "lib/python3.5/site-packages/zipline/pipeline/factors/events.py",
+    "lib/python3.5/site-packages/zipline/pipeline/factors/factor.py",
+    "lib/python3.5/site-packages/zipline/pipeline/factors/statistical.py",
+    "lib/python3.5/site-packages/zipline/pipeline/factors/technical.py",
+    "lib/python3.5/site-packages/zipline/pipeline/filters/__init__.py",
+    "lib/python3.5/site-packages/zipline/pipeline/filters/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/filters/__pycache__/filter.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/filters/__pycache__/smoothing.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/filters/filter.py",
+    "lib/python3.5/site-packages/zipline/pipeline/filters/smoothing.py",
+    "lib/python3.5/site-packages/zipline/pipeline/graph.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/__init__.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/base.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/earnings_estimates.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/equity_pricing_loader.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/events.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/frame.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/synthetic.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/testing.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/base.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/__init__.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/__pycache__/core.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/__pycache__/estimates.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/__pycache__/events.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/__pycache__/utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/_core.cpython-35m-darwin.so",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/_core.pyx",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/core.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/estimates.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/events.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/utils.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/earnings_estimates.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/equity_pricing_loader.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/events.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/frame.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/synthetic.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/testing.py",
+    "lib/python3.5/site-packages/zipline/pipeline/loaders/utils.py",
+    "lib/python3.5/site-packages/zipline/pipeline/mixins.py",
+    "lib/python3.5/site-packages/zipline/pipeline/pipeline.py",
+    "lib/python3.5/site-packages/zipline/pipeline/sentinels.py",
+    "lib/python3.5/site-packages/zipline/pipeline/term.py",
+    "lib/python3.5/site-packages/zipline/pipeline/visualize.py",
+    "lib/python3.5/site-packages/zipline/protocol.py",
+    "lib/python3.5/site-packages/zipline/sources/__init__.py",
+    "lib/python3.5/site-packages/zipline/sources/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/sources/__pycache__/benchmark_source.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/sources/__pycache__/requests_csv.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/sources/__pycache__/test_source.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/sources/benchmark_source.py",
+    "lib/python3.5/site-packages/zipline/sources/requests_csv.py",
+    "lib/python3.5/site-packages/zipline/sources/test_source.py",
+    "lib/python3.5/site-packages/zipline/test_algorithms.py",
+    "lib/python3.5/site-packages/zipline/testing/__init__.py",
+    "lib/python3.5/site-packages/zipline/testing/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/testing/__pycache__/core.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/testing/__pycache__/fixtures.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/testing/__pycache__/predicates.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/testing/__pycache__/slippage.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/testing/core.py",
+    "lib/python3.5/site-packages/zipline/testing/fixtures.py",
+    "lib/python3.5/site-packages/zipline/testing/predicates.py",
+    "lib/python3.5/site-packages/zipline/testing/slippage.py",
+    "lib/python3.5/site-packages/zipline/utils/__init__.py",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/algo_instance.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/api_support.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/argcheck.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/cache.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/calendars.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/classproperty.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/cli.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/compat.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/context_tricks.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/data.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/date_utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/deprecate.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/dummy.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/enum.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/events.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/exploding_object.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/factory.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/final.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/functional.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/input_validation.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/math_utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/memoize.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/metautils.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/numpy_utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/pandas_utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/paths.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/pool.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/preprocess.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/range.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/run_algo.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/security_list.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/sentinel.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/sharedoc.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/simfactory.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/sqlite_utils.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/__pycache__/tradingcalendar.cpython-35.pyc",
+    "lib/python3.5/site-packages/zipline/utils/algo_instance.py",
+    "lib/python3.5/site-packages/zipline/utils/api_support.py",
+    "lib/python3.5/site-packages/zipline/utils/argcheck.py",
+    "lib/python3.5/site-packages/zipline/utils/cache.py",
+    "lib/python3.5/site-packages/zipline/utils/calendars.py",
+    "lib/python3.5/site-packages/zipline/utils/classproperty.py",
+    "lib/python3.5/site-packages/zipline/utils/cli.py",
+    "lib/python3.5/site-packages/zipline/utils/compat.py",
+    "lib/python3.5/site-packages/zipline/utils/context_tricks.py",
+    "lib/python3.5/site-packages/zipline/utils/data.py",
+    "lib/python3.5/site-packages/zipline/utils/date_utils.py",
+    "lib/python3.5/site-packages/zipline/utils/deprecate.py",
+    "lib/python3.5/site-packages/zipline/utils/dummy.py",
+    "lib/python3.5/site-packages/zipline/utils/enum.py",
+    "lib/python3.5/site-packages/zipline/utils/events.py",
+    "lib/python3.5/site-packages/zipline/utils/exploding_object.py",
+    "lib/python3.5/site-packages/zipline/utils/factory.py",
+    "lib/python3.5/site-packages/zipline/utils/final.py",
+    "lib/python3.5/site-packages/zipline/utils/functional.py",
+    "lib/python3.5/site-packages/zipline/utils/input_validation.py",
+    "lib/python3.5/site-packages/zipline/utils/math_utils.py",
+    "lib/python3.5/site-packages/zipline/utils/memoize.py",
+    "lib/python3.5/site-packages/zipline/utils/metautils.py",
+    "lib/python3.5/site-packages/zipline/utils/numpy_utils.py",
+    "lib/python3.5/site-packages/zipline/utils/pandas_utils.py",
+    "lib/python3.5/site-packages/zipline/utils/paths.py",
+    "lib/python3.5/site-packages/zipline/utils/pool.py",
+    "lib/python3.5/site-packages/zipline/utils/preprocess.py",
+    "lib/python3.5/site-packages/zipline/utils/range.py",
+    "lib/python3.5/site-packages/zipline/utils/run_algo.py",
+    "lib/python3.5/site-packages/zipline/utils/security_list.py",
+    "lib/python3.5/site-packages/zipline/utils/sentinel.py",
+    "lib/python3.5/site-packages/zipline/utils/sharedoc.py",
+    "lib/python3.5/site-packages/zipline/utils/simfactory.py",
+    "lib/python3.5/site-packages/zipline/utils/sqlite_utils.py",
+    "lib/python3.5/site-packages/zipline/utils/tradingcalendar.py",
+    "lib/python3.5/site-packages/zipline/zipline_warnings.py"
+  ],
+  "fn": "zipline-1.3.0-np114py35_0.tar.bz2",
+  "license": "Apache Software License",
+  "link": {
+    "source": "/var/root/anaconda3/pkgs/zipline-1.3.0-np114py35_0",
+    "type": 1
+  },
+  "md5": "8692c3f0a75dc58271676841224540d5",
+  "name": "zipline",
+  "package_tarball_full_path": "/var/root/anaconda3/pkgs/zipline-1.3.0-np114py35_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/zipline",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "d134b1ee78d2fd3e917ba149c50252a21d4f686bf4a3be5d9a3f06b3d684478e",
+        "sha256_in_prefix": "983907dc487e66acd82faecb9b2ab9797f3d19e555161abc52ccd0069f336e31",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline-1.3.0-py3.5.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "f4d99c8014ec6e34067962b8b70030dde7229fa848196d77ecf64e245a6004e1",
+        "sha256_in_prefix": "f4d99c8014ec6e34067962b8b70030dde7229fa848196d77ecf64e245a6004e1",
+        "size_in_bytes": 870
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline-1.3.0-py3.5.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "d5eb9bb7ff9ab169428fdd9ff75d41544502ebc2af0f4144da4ffd5c69332287",
+        "sha256_in_prefix": "d5eb9bb7ff9ab169428fdd9ff75d41544502ebc2af0f4144da4ffd5c69332287",
+        "size_in_bytes": 5942
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline-1.3.0-py3.5.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline-1.3.0-py3.5.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "01ff78630daf7d22d28bdebb93ad07cc24a13b15ca00b81bf6f5f7833362965a",
+        "sha256_in_prefix": "01ff78630daf7d22d28bdebb93ad07cc24a13b15ca00b81bf6f5f7833362965a",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline-1.3.0-py3.5.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "39d025cf0a86192bdace773221e9e56eb24ed47d8801cfa088170e7835786149",
+        "sha256_in_prefix": "39d025cf0a86192bdace773221e9e56eb24ed47d8801cfa088170e7835786149",
+        "size_in_bytes": 1969
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline-1.3.0-py3.5.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b30276ffb89d29ebb64cd6c90f61248768aeb0f0033dbf52b54edae8550d9cef",
+        "sha256_in_prefix": "b30276ffb89d29ebb64cd6c90f61248768aeb0f0033dbf52b54edae8550d9cef",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "055c85e356cc6ef22da9217992b674693b4a4a7bab088b2035b3dcb150e3666e",
+        "sha256_in_prefix": "055c85e356cc6ef22da9217992b674693b4a4a7bab088b2035b3dcb150e3666e",
+        "size_in_bytes": 3571
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "07c19f7e9cd6b086be055ebc20eff887edd270c5ad75ff725175cfc065d3b815",
+        "sha256_in_prefix": "07c19f7e9cd6b086be055ebc20eff887edd270c5ad75ff725175cfc065d3b815",
+        "size_in_bytes": 10794
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "20517569a581b4e4c0d19fc7b12ecb0025f43e7ff4b044768e7f2c5801103275",
+        "sha256_in_prefix": "20517569a581b4e4c0d19fc7b12ecb0025f43e7ff4b044768e7f2c5801103275",
+        "size_in_bytes": 2684
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__pycache__/__main__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "192ff28893481c2947d196577ad338dd0eed4ea6cba598f64243ed2c2915a532",
+        "sha256_in_prefix": "192ff28893481c2947d196577ad338dd0eed4ea6cba598f64243ed2c2915a532",
+        "size_in_bytes": 8962
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__pycache__/_version.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "57dae1e73857bbc4ceb0d00c341e5f0b1ceda7412cd630070815b05fc47e11a0",
+        "sha256_in_prefix": "57dae1e73857bbc4ceb0d00c341e5f0b1ceda7412cd630070815b05fc47e11a0",
+        "size_in_bytes": 445
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__pycache__/algorithm.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e86824e0aacbeb9a707db42142674e7ef1901abbc447ca355e2a11710c68f1a",
+        "sha256_in_prefix": "2e86824e0aacbeb9a707db42142674e7ef1901abbc447ca355e2a11710c68f1a",
+        "size_in_bytes": 72766
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__pycache__/api.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "5aa9f4b4d83218d9038cc3d4540238a84eba6c4d59bfb0ac4a41140cdf5d5031",
+        "sha256_in_prefix": "5aa9f4b4d83218d9038cc3d4540238a84eba6c4d59bfb0ac4a41140cdf5d5031",
+        "size_in_bytes": 967
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__pycache__/dispatch.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "a49fa2eff6d4cbe40a8aa02d23e997f37e7e773948fe35c0aa63e553cfde60c3",
+        "sha256_in_prefix": "a49fa2eff6d4cbe40a8aa02d23e997f37e7e773948fe35c0aa63e553cfde60c3",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__pycache__/errors.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "37db5fbb7adf3ed4684789d4ba972c230b5969158179bebdbc6fc985591161b4",
+        "sha256_in_prefix": "37db5fbb7adf3ed4684789d4ba972c230b5969158179bebdbc6fc985591161b4",
+        "size_in_bytes": 30640
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__pycache__/extensions.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d700a2fa24e29fcb73500ab238d2ddd7bf53ea864e3a5ac1dd778485e3f8476",
+        "sha256_in_prefix": "5d700a2fa24e29fcb73500ab238d2ddd7bf53ea864e3a5ac1dd778485e3f8476",
+        "size_in_bytes": 7722
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__pycache__/protocol.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b69b52c131c5886ad4cddd1e9b0c3eae8e2fc6d8ec00d44a5bdf18faf65f19c",
+        "sha256_in_prefix": "9b69b52c131c5886ad4cddd1e9b0c3eae8e2fc6d8ec00d44a5bdf18faf65f19c",
+        "size_in_bytes": 10661
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__pycache__/test_algorithms.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa3053fe56ddaed53832b97c43086d582f13776e5bb76b2422d8f9563685b57e",
+        "sha256_in_prefix": "fa3053fe56ddaed53832b97c43086d582f13776e5bb76b2422d8f9563685b57e",
+        "size_in_bytes": 18939
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/__pycache__/zipline_warnings.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "0608a0a5cf5b98e6a525d60f7da39104583ee244c0872ff93959d990b1eac707",
+        "sha256_in_prefix": "0608a0a5cf5b98e6a525d60f7da39104583ee244c0872ff93959d990b1eac707",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/_protocol.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "98f4accce4c503a4bbe092580658f95640f1bb238e7d19fc2b538f8f5ee44c76",
+        "sha256_in_prefix": "98f4accce4c503a4bbe092580658f95640f1bb238e7d19fc2b538f8f5ee44c76",
+        "size_in_bytes": 270168
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/_protocol.pxd",
+        "path_type": "hardlink",
+        "sha256": "e0b9b69f6f2bb79b51288a73bc3e74b0a4cc53c8dec9421f3a52eed8b73e24f9",
+        "sha256_in_prefix": "e0b9b69f6f2bb79b51288a73bc3e74b0a4cc53c8dec9421f3a52eed8b73e24f9",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/_protocol.pyx",
+        "path_type": "hardlink",
+        "sha256": "afab8b184d37149dd56931431e0e2c6df75f2f50ab5a744844d42b1219bff780",
+        "sha256_in_prefix": "afab8b184d37149dd56931431e0e2c6df75f2f50ab5a744844d42b1219bff780",
+        "size_in_bytes": 34834
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/_version.py",
+        "path_type": "hardlink",
+        "sha256": "db24f87238cfb60a2e97dcd42d9a189a8c27a82e0d890744fe57cb362964abbe",
+        "sha256_in_prefix": "db24f87238cfb60a2e97dcd42d9a189a8c27a82e0d890744fe57cb362964abbe",
+        "size_in_bytes": 471
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/algorithm.py",
+        "path_type": "hardlink",
+        "sha256": "bdfcc9e7662b627abd00dc656fb0767e3655917ab874515d5f96fa5e52dd1e35",
+        "sha256_in_prefix": "bdfcc9e7662b627abd00dc656fb0767e3655917ab874515d5f96fa5e52dd1e35",
+        "size_in_bytes": 92772
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/api.py",
+        "path_type": "hardlink",
+        "sha256": "6df3edc417536a2a2f7a5087cb6410da383aff70fd34be83ae20eba55d1fdd44",
+        "sha256_in_prefix": "6df3edc417536a2a2f7a5087cb6410da383aff70fd34be83ae20eba55d1fdd44",
+        "size_in_bytes": 1652
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/api.pyi",
+        "path_type": "hardlink",
+        "sha256": "2aba60e88a6677c0402500ea0789e77e576ec69f60c85baa5b49589cd1435901",
+        "sha256_in_prefix": "2aba60e88a6677c0402500ea0789e77e576ec69f60c85baa5b49589cd1435901",
+        "size_in_bytes": 24754
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "54156b70d9583cc03789b45c512527d5ceea6c38edc7a1af90a8522be3eaf490",
+        "sha256_in_prefix": "54156b70d9583cc03789b45c512527d5ceea6c38edc7a1af90a8522be3eaf490",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "92863dbf309ca4097ddbd7735f05339944a8704506d3aa100809aa27a9c5c28e",
+        "sha256_in_prefix": "92863dbf309ca4097ddbd7735f05339944a8704506d3aa100809aa27a9c5c28e",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/__pycache__/asset_db_migrations.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d782efe7741bd1445091a46d81c0c5c4969fc4e32280199ca1b869bf188274f",
+        "sha256_in_prefix": "0d782efe7741bd1445091a46d81c0c5c4969fc4e32280199ca1b869bf188274f",
+        "size_in_bytes": 8124
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/__pycache__/asset_db_schema.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf8b420c35bb34b8b6c6a611f6421f9538cc77d818c8ae6bec1e68251ae3dfe7",
+        "sha256_in_prefix": "cf8b420c35bb34b8b6c6a611f6421f9538cc77d818c8ae6bec1e68251ae3dfe7",
+        "size_in_bytes": 2602
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/__pycache__/asset_writer.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f284cd6e9d08ff92c698c03e376d2afc941b8b5763c4ff01dcd237007eb26de",
+        "sha256_in_prefix": "6f284cd6e9d08ff92c698c03e376d2afc941b8b5763c4ff01dcd237007eb26de",
+        "size_in_bytes": 18004
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/__pycache__/assets.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ad287b1f25aa709d96f383cd5c5ff1bb2920bdbeec5772d82a1ad9294f81a97",
+        "sha256_in_prefix": "7ad287b1f25aa709d96f383cd5c5ff1bb2920bdbeec5772d82a1ad9294f81a97",
+        "size_in_bytes": 38007
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/__pycache__/futures.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a8edbf705511f7dca2f91c9dc3dd0b97d79afa950241629caaf67c8fbf0b87e",
+        "sha256_in_prefix": "2a8edbf705511f7dca2f91c9dc3dd0b97d79afa950241629caaf67c8fbf0b87e",
+        "size_in_bytes": 275
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/__pycache__/roll_finder.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "df547a3e74d9ef97da3e87306dbcb52796c197b0382f82953dff24178d9ded6c",
+        "sha256_in_prefix": "df547a3e74d9ef97da3e87306dbcb52796c197b0382f82953dff24178d9ded6c",
+        "size_in_bytes": 7525
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/__pycache__/synthetic.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "1712c00bc139997596f9ca74092ed086bf3e0dae6a1d0cc57936fa68a6b9d813",
+        "sha256_in_prefix": "1712c00bc139997596f9ca74092ed086bf3e0dae6a1d0cc57936fa68a6b9d813",
+        "size_in_bytes": 9047
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/_assets.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "8dfc0d7e803d53c9809c1afe3fc5031a8539cc9c69b126944e06a8ce5e0848e5",
+        "sha256_in_prefix": "8dfc0d7e803d53c9809c1afe3fc5031a8539cc9c69b126944e06a8ce5e0848e5",
+        "size_in_bytes": 101352
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/_assets.pxd",
+        "path_type": "hardlink",
+        "sha256": "5ae04b353fd7bbffc97be21bbf9c53e7cc8e2794ca62b2083b85ff76ed2a725f",
+        "sha256_in_prefix": "5ae04b353fd7bbffc97be21bbf9c53e7cc8e2794ca62b2083b85ff76ed2a725f",
+        "size_in_bytes": 725
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/_assets.pyx",
+        "path_type": "hardlink",
+        "sha256": "265293ebf5a0448be928196dc7f4e3a0bb8e738a244a9df190659fb3f25d8a8b",
+        "sha256_in_prefix": "265293ebf5a0448be928196dc7f4e3a0bb8e738a244a9df190659fb3f25d8a8b",
+        "size_in_bytes": 12367
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/asset_db_migrations.py",
+        "path_type": "hardlink",
+        "sha256": "5f3f37c47f7058cd9bee077aa0943b50b92e560870835fc5194dbd163ceecb70",
+        "sha256_in_prefix": "5f3f37c47f7058cd9bee077aa0943b50b92e560870835fc5194dbd163ceecb70",
+        "size_in_bytes": 10257
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/asset_db_schema.py",
+        "path_type": "hardlink",
+        "sha256": "5e5016e56b4910fb755f3dc468924843d392d26e6c3cb81be8298b112d38584e",
+        "sha256_in_prefix": "5e5016e56b4910fb755f3dc468924843d392d26e6c3cb81be8298b112d38584e",
+        "size_in_bytes": 4708
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/asset_writer.py",
+        "path_type": "hardlink",
+        "sha256": "fb22b6939846fc10d66d3d5d8edf06ea1babe9fd76557cf582c11841f350203e",
+        "sha256_in_prefix": "fb22b6939846fc10d66d3d5d8edf06ea1babe9fd76557cf582c11841f350203e",
+        "size_in_bytes": 23657
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/assets.py",
+        "path_type": "hardlink",
+        "sha256": "2829e0d9527aed00d4c9fe847c957adb8ec2a5f64ec1bfac234fc25f5051319d",
+        "sha256_in_prefix": "2829e0d9527aed00d4c9fe847c957adb8ec2a5f64ec1bfac234fc25f5051319d",
+        "size_in_bytes": 46840
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/continuous_futures.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "62cbffe572bae7089f27bbeb9650bd5e2420fe01260683abf5b04f6a53abd499",
+        "sha256_in_prefix": "62cbffe572bae7089f27bbeb9650bd5e2420fe01260683abf5b04f6a53abd499",
+        "size_in_bytes": 270528
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/continuous_futures.pyx",
+        "path_type": "hardlink",
+        "sha256": "1661f87c487f4e0abd4609fc9ced279d44c49eeae74e634ec75277b06a668783",
+        "sha256_in_prefix": "1661f87c487f4e0abd4609fc9ced279d44c49eeae74e634ec75277b06a668783",
+        "size_in_bytes": 12987
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/futures.py",
+        "path_type": "hardlink",
+        "sha256": "9dc95dbb0e35123ac804f98aa2d69bb661b2c5f288823ea04e3c154c1f28e84e",
+        "sha256_in_prefix": "9dc95dbb0e35123ac804f98aa2d69bb661b2c5f288823ea04e3c154c1f28e84e",
+        "size_in_bytes": 768
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/roll_finder.py",
+        "path_type": "hardlink",
+        "sha256": "6b907d06b7db13e5309f6b676046b27d2a28b3760f8bd3b7f1c7ec3e55ffd7a6",
+        "sha256_in_prefix": "6b907d06b7db13e5309f6b676046b27d2a28b3760f8bd3b7f1c7ec3e55ffd7a6",
+        "size_in_bytes": 11054
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/assets/synthetic.py",
+        "path_type": "hardlink",
+        "sha256": "7515cd0c77cd1d1c9620de8b69e4ab601a50a072d1c3c0cb2111ffc9d168883d",
+        "sha256_in_prefix": "7515cd0c77cd1d1c9620de8b69e4ab601a50a072d1c3c0cb2111ffc9d168883d",
+        "size_in_bytes": 9933
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cf34c378f748f5bfe051577c261ac7047f5fd544310b3c143661d7255fe2f34e",
+        "sha256_in_prefix": "cf34c378f748f5bfe051577c261ac7047f5fd544310b3c143661d7255fe2f34e",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "405e4e5b2681c0e0c11761a6c222ad5bf268857989fd7c0a2b9310ba1fbb2930",
+        "sha256_in_prefix": "405e4e5b2681c0e0c11761a6c222ad5bf268857989fd7c0a2b9310ba1fbb2930",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/bar_reader.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ce40728caaf8012e9e5363a2555fe5598541cd0149e961cfadde3af3d8d6860",
+        "sha256_in_prefix": "4ce40728caaf8012e9e5363a2555fe5598541cd0149e961cfadde3af3d8d6860",
+        "size_in_bytes": 4638
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/benchmarks.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce1e9f4ae42aff9d1778f17a3df003ce6c84f6d8813cd9574251ae0ed7710a7d",
+        "sha256_in_prefix": "ce1e9f4ae42aff9d1778f17a3df003ce6c84f6d8813cd9574251ae0ed7710a7d",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/continuous_future_reader.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "82e4a04ee1216f4a82eaa92a1b7673fc0b4515636fe23815852149b95155d7ab",
+        "sha256_in_prefix": "82e4a04ee1216f4a82eaa92a1b7673fc0b4515636fe23815852149b95155d7ab",
+        "size_in_bytes": 11107
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/data_portal.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "0daa399322bf8c8fbc5f5582fff78c4a6f6a18fe8e014c8ab25cf5420853169d",
+        "sha256_in_prefix": "0daa399322bf8c8fbc5f5582fff78c4a6f6a18fe8e014c8ab25cf5420853169d",
+        "size_in_bytes": 33265
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/dispatch_bar_reader.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ac303e60424676cccc74607a5072c71041467d1812e93200a9cc37b33f6c35d",
+        "sha256_in_prefix": "6ac303e60424676cccc74607a5072c71041467d1812e93200a9cc37b33f6c35d",
+        "size_in_bytes": 5914
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/history_loader.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb530886d60051546f524b9781ccc90850b2d29d309023f7d2ecfa95c49cba8e",
+        "sha256_in_prefix": "cb530886d60051546f524b9781ccc90850b2d29d309023f7d2ecfa95c49cba8e",
+        "size_in_bytes": 18982
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/loader.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba8dfb7c71e853b0580f1b8140549d8cae4686b24445b9ac3c9543100fda84ea",
+        "sha256_in_prefix": "ba8dfb7c71e853b0580f1b8140549d8cae4686b24445b9ac3c9543100fda84ea",
+        "size_in_bytes": 10028
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/minute_bars.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "51086304cf5fb2d1c9cb87f0bb2a21fc68a7189177f91cb9cc0267f05a64bbc4",
+        "sha256_in_prefix": "51086304cf5fb2d1c9cb87f0bb2a21fc68a7189177f91cb9cc0267f05a64bbc4",
+        "size_in_bytes": 41041
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/resample.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "f075a8abccd3ab8920937e5d1c645efcd5095cb1259ec64fb52c82be066971b7",
+        "sha256_in_prefix": "f075a8abccd3ab8920937e5d1c645efcd5095cb1259ec64fb52c82be066971b7",
+        "size_in_bytes": 21499
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/session_bars.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "da9f1976a837ae7c5f7d7d1efdab59196e7de07dc14bfb29a03a36df82b08734",
+        "sha256_in_prefix": "da9f1976a837ae7c5f7d7d1efdab59196e7de07dc14bfb29a03a36df82b08734",
+        "size_in_bytes": 987
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/treasuries.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "0742eeee846153a8aa6356ca57223fdde69d63aef5797cbe43b2e0f37623c14e",
+        "sha256_in_prefix": "0742eeee846153a8aa6356ca57223fdde69d63aef5797cbe43b2e0f37623c14e",
+        "size_in_bytes": 2632
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/treasuries_can.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "49760cba38d35d1ff6d46594339a71a0fb8b154eb61bf2a244830669db55fb85",
+        "sha256_in_prefix": "49760cba38d35d1ff6d46594339a71a0fb8b154eb61bf2a244830669db55fb85",
+        "size_in_bytes": 3313
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/__pycache__/us_equity_pricing.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "c77b71f8ce408f8a9e28f8342b7ccb4027982f94eda20324369e44d94d100935",
+        "sha256_in_prefix": "c77b71f8ce408f8a9e28f8342b7ccb4027982f94eda20324369e44d94d100935",
+        "size_in_bytes": 42063
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/_adjustments.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "b60ef546a4016f717161205b834b75b6fd27f66bd0efa877e7bc472671ea7aa3",
+        "sha256_in_prefix": "b60ef546a4016f717161205b834b75b6fd27f66bd0efa877e7bc472671ea7aa3",
+        "size_in_bytes": 130296
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/_adjustments.pyx",
+        "path_type": "hardlink",
+        "sha256": "26d252412d8637c6599dad32b7a5175578b28a0c20bdd6d0606cfdeeb13cb1c8",
+        "sha256_in_prefix": "26d252412d8637c6599dad32b7a5175578b28a0c20bdd6d0606cfdeeb13cb1c8",
+        "size_in_bytes": 9559
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/_equities.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "cdf55a43bf4cd38c8d86f6500cefa576ab273bd82405d190c45e2898b622fdd1",
+        "sha256_in_prefix": "cdf55a43bf4cd38c8d86f6500cefa576ab273bd82405d190c45e2898b622fdd1",
+        "size_in_bytes": 174244
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/_equities.pyx",
+        "path_type": "hardlink",
+        "sha256": "c0e35adcf82304c4688b7690bd78374e00b65747f08c34afc511ebb6f4eb324c",
+        "sha256_in_prefix": "c0e35adcf82304c4688b7690bd78374e00b65747f08c34afc511ebb6f4eb324c",
+        "size_in_bytes": 7520
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/_minute_bar_internal.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "d8beea8c699c5abffe643e65a7106afbcb8b58ce7ec6c0fa0a17affcd13a9c24",
+        "sha256_in_prefix": "d8beea8c699c5abffe643e65a7106afbcb8b58ce7ec6c0fa0a17affcd13a9c24",
+        "size_in_bytes": 65452
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/_minute_bar_internal.pyx",
+        "path_type": "hardlink",
+        "sha256": "95c5be2e524961c660a1c7ed509d6bf7cdbdfc72a10f4e53ea7eadbbc002d44e",
+        "sha256_in_prefix": "95c5be2e524961c660a1c7ed509d6bf7cdbdfc72a10f4e53ea7eadbbc002d44e",
+        "size_in_bytes": 4893
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/_resample.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "1cbf3f62ebb93a60360812058b90120818a817f0ed178a8c1837be7e8e3d1ba0",
+        "sha256_in_prefix": "1cbf3f62ebb93a60360812058b90120818a817f0ed178a8c1837be7e8e3d1ba0",
+        "size_in_bytes": 164468
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/_resample.pyx",
+        "path_type": "hardlink",
+        "sha256": "b3485660fd4aa7bfd209af26119ed2a9907f3f54379e7aadf285ada023a19533",
+        "sha256_in_prefix": "b3485660fd4aa7bfd209af26119ed2a9907f3f54379e7aadf285ada023a19533",
+        "size_in_bytes": 4131
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/bar_reader.py",
+        "path_type": "hardlink",
+        "sha256": "723e204ecf20615fc65e902dc7af07598adc78dd92b79d0818c6c56cb4555d02",
+        "sha256_in_prefix": "723e204ecf20615fc65e902dc7af07598adc78dd92b79d0818c6c56cb4555d02",
+        "size_in_bytes": 4007
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/benchmarks.py",
+        "path_type": "hardlink",
+        "sha256": "b3d6c1d616f8b9c286f77b23b760d6ed6bd9e421ef02fe47dec8265ec64abd29",
+        "sha256_in_prefix": "b3d6c1d616f8b9c286f77b23b760d6ed6bd9e421ef02fe47dec8265ec64abd29",
+        "size_in_bytes": 1271
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/bundles/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1b1721d7f429a064ef40f674d94b439ff70f436e85cd2bb583a685966847e7b4",
+        "sha256_in_prefix": "1b1721d7f429a064ef40f674d94b439ff70f436e85cd2bb583a685966847e7b4",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/bundles/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5d9eaa600ad715f508c6918dc47abece5da90692e4f9fedd4e703bd5ea0ace2",
+        "sha256_in_prefix": "b5d9eaa600ad715f508c6918dc47abece5da90692e4f9fedd4e703bd5ea0ace2",
+        "size_in_bytes": 600
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/bundles/__pycache__/core.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "eadecd4816168c069dff0021cfc20cb5e230d524e9648f082413c6197228c155",
+        "sha256_in_prefix": "eadecd4816168c069dff0021cfc20cb5e230d524e9648f082413c6197228c155",
+        "size_in_bytes": 17567
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/bundles/__pycache__/csvdir.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "c6f090dcd714b7d0ae4fb0ca3859b194295e53e99c3c2dfd5690ef486efeeb50",
+        "sha256_in_prefix": "c6f090dcd714b7d0ae4fb0ca3859b194295e53e99c3c2dfd5690ef486efeeb50",
+        "size_in_bytes": 6245
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/bundles/__pycache__/quandl.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "81000a5cbf32b08796719433111c589ce3ca0ca9d51d3e144d8332170af85e55",
+        "sha256_in_prefix": "81000a5cbf32b08796719433111c589ce3ca0ca9d51d3e144d8332170af85e55",
+        "size_in_bytes": 7705
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/bundles/core.py",
+        "path_type": "hardlink",
+        "sha256": "0dd58a13b950fb902f9fb92ffe19f16e811560be5a6a59767b96a87238aba52e",
+        "sha256_in_prefix": "0dd58a13b950fb902f9fb92ffe19f16e811560be5a6a59767b96a87238aba52e",
+        "size_in_bytes": 20526
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/bundles/csvdir.py",
+        "path_type": "hardlink",
+        "sha256": "f0c0c48a0333ef3b463a0fd43e69fd884dd8192171a7165716d8f6c5ee40bad1",
+        "sha256_in_prefix": "f0c0c48a0333ef3b463a0fd43e69fd884dd8192171a7165716d8f6c5ee40bad1",
+        "size_in_bytes": 8039
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/bundles/quandl.py",
+        "path_type": "hardlink",
+        "sha256": "c945a4da1b2b7d7dc49d11bddadf7e4400a48005881c2da639719df88a2965f1",
+        "sha256_in_prefix": "c945a4da1b2b7d7dc49d11bddadf7e4400a48005881c2da639719df88a2965f1",
+        "size_in_bytes": 9390
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/continuous_future_reader.py",
+        "path_type": "hardlink",
+        "sha256": "49ab1bcad6f6fd264b86d0a7e0625876f9d5d5f693fc3d1dc62e7eb395a7b23a",
+        "sha256_in_prefix": "49ab1bcad6f6fd264b86d0a7e0625876f9d5d5f693fc3d1dc62e7eb395a7b23a",
+        "size_in_bytes": 12274
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/data_portal.py",
+        "path_type": "hardlink",
+        "sha256": "5de8bd72ad7d3f087427e8b837acdcb9a6ba718005d7795202c2d794072ef7d8",
+        "sha256_in_prefix": "5de8bd72ad7d3f087427e8b837acdcb9a6ba718005d7795202c2d794072ef7d8",
+        "size_in_bytes": 52624
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/dispatch_bar_reader.py",
+        "path_type": "hardlink",
+        "sha256": "a2cd653ebe8d1c3c0ac2d37953c8f03dc4072134d27b734ac72fa8eb26d894eb",
+        "sha256_in_prefix": "a2cd653ebe8d1c3c0ac2d37953c8f03dc4072134d27b734ac72fa8eb26d894eb",
+        "size_in_bytes": 4838
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/history_loader.py",
+        "path_type": "hardlink",
+        "sha256": "07f3b9dda418e7af3e72a80b10d243a38f6a269077558983598a8dd3c0a43466",
+        "sha256_in_prefix": "07f3b9dda418e7af3e72a80b10d243a38f6a269077558983598a8dd3c0a43466",
+        "size_in_bytes": 22489
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/loader.py",
+        "path_type": "hardlink",
+        "sha256": "e0b7784479d2c09b1db8148d5dfcd79f0e14687d7954beca24a5ddeea418a1f7",
+        "sha256_in_prefix": "e0b7784479d2c09b1db8148d5dfcd79f0e14687d7954beca24a5ddeea418a1f7",
+        "size_in_bytes": 12669
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/minute_bars.py",
+        "path_type": "hardlink",
+        "sha256": "d37020315ec01eae69e318c70ab18d625860cbedfe1d2015dabf1419e733b3d9",
+        "sha256_in_prefix": "d37020315ec01eae69e318c70ab18d625860cbedfe1d2015dabf1419e733b3d9",
+        "size_in_bytes": 48002
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/resample.py",
+        "path_type": "hardlink",
+        "sha256": "9ad2ebaceb8417185c97fa42b85dff63e1d15ce9c0cc355dc4d3a1322294ce5a",
+        "sha256_in_prefix": "9ad2ebaceb8417185c97fa42b85dff63e1d15ce9c0cc355dc4d3a1322294ce5a",
+        "size_in_bytes": 28758
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/session_bars.py",
+        "path_type": "hardlink",
+        "sha256": "7af6c00a2d54ecf0b14621a55ef23a5cf90eda46864e4fe9d8820818a1ffdeb0",
+        "sha256_in_prefix": "7af6c00a2d54ecf0b14621a55ef23a5cf90eda46864e4fe9d8820818a1ffdeb0",
+        "size_in_bytes": 1098
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/treasuries.py",
+        "path_type": "hardlink",
+        "sha256": "ac7d964acca8a0713b6a233d8975b2f72ba6702fa61cb54e0906346aa93be8fd",
+        "sha256_in_prefix": "ac7d964acca8a0713b6a233d8975b2f72ba6702fa61cb54e0906346aa93be8fd",
+        "size_in_bytes": 3414
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/treasuries_can.py",
+        "path_type": "hardlink",
+        "sha256": "ce00401d8d1e5a8c3e04e7c820b4beb30dcc819e99899d9d0543c249af1dd393",
+        "sha256_in_prefix": "ce00401d8d1e5a8c3e04e7c820b4beb30dcc819e99899d9d0543c249af1dd393",
+        "size_in_bytes": 5257
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/data/us_equity_pricing.py",
+        "path_type": "hardlink",
+        "sha256": "655a56c898ccd4b29f000cf266a9425c637a496722312a970bddfdf989012ede",
+        "sha256_in_prefix": "655a56c898ccd4b29f000cf266a9425c637a496722312a970bddfdf989012ede",
+        "size_in_bytes": 48353
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/dispatch.py",
+        "path_type": "hardlink",
+        "sha256": "32f645d16169c65b556e8dd39e39fbffa9696ef82b609c7cb627dce6c3609012",
+        "sha256_in_prefix": "32f645d16169c65b556e8dd39e39fbffa9696ef82b609c7cb627dce6c3609012",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/errors.py",
+        "path_type": "hardlink",
+        "sha256": "90471272bf96b379d57f055813d048de85826645e5e76fecb52fca7943611b48",
+        "sha256_in_prefix": "90471272bf96b379d57f055813d048de85826645e5e76fecb52fca7943611b48",
+        "size_in_bytes": 23006
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dbb22b6603e4c2f9afb03cd7a13b4ba5e8975b950253ed16ae4b76e0e7e071ff",
+        "sha256_in_prefix": "dbb22b6603e4c2f9afb03cd7a13b4ba5e8975b950253ed16ae4b76e0e7e071ff",
+        "size_in_bytes": 2074
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9aa6c00a932e18ac123669aab35beff87cd23d79196edb85e79e87fd4508f36c",
+        "sha256_in_prefix": "9aa6c00a932e18ac123669aab35beff87cd23d79196edb85e79e87fd4508f36c",
+        "size_in_bytes": 1887
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/__pycache__/buy_and_hold.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "b373e20607aaa235e89d8d81cbc8f21420e1f5aef83ef737800f5cff2f5d69fa",
+        "sha256_in_prefix": "b373e20607aaa235e89d8d81cbc8f21420e1f5aef83ef737800f5cff2f5d69fa",
+        "size_in_bytes": 1131
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/__pycache__/buyapple.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "26715a63ebf3b4a7e3a86e16797a2a5b5d78624482bbe7bc40b54389e882e75f",
+        "sha256_in_prefix": "26715a63ebf3b4a7e3a86e16797a2a5b5d78624482bbe7bc40b54389e882e75f",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/__pycache__/dual_ema_talib.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "66893816651bf231829a3c5ad04f1f3c18ff4900c670ff8f87c3f94e33ec8cc3",
+        "sha256_in_prefix": "66893816651bf231829a3c5ad04f1f3c18ff4900c670ff8f87c3f94e33ec8cc3",
+        "size_in_bytes": 2956
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/__pycache__/dual_moving_average.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "bdd9ee647b80850cc2a2045d165a9432122f4ecf9ca3dd51a7fe43fd87f17894",
+        "sha256_in_prefix": "bdd9ee647b80850cc2a2045d165a9432122f4ecf9ca3dd51a7fe43fd87f17894",
+        "size_in_bytes": 3142
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/__pycache__/momentum_pipeline.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "82c6bb25290c1f78f80b501afb7a540a9d45b8e593e4b44ed76532a7210a74ab",
+        "sha256_in_prefix": "82c6bb25290c1f78f80b501afb7a540a9d45b8e593e4b44ed76532a7210a74ab",
+        "size_in_bytes": 2650
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/__pycache__/olmar.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7a17fdeb7dcc11055f5ac33ac8b3ee58d23d1e3610e1ef267cbe844262e18d9",
+        "sha256_in_prefix": "d7a17fdeb7dcc11055f5ac33ac8b3ee58d23d1e3610e1ef267cbe844262e18d9",
+        "size_in_bytes": 4659
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/buy_and_hold.py",
+        "path_type": "hardlink",
+        "sha256": "cf7de4485079503bab79af6076e2b25a350b98feff597cb078e857c87c8d2a4c",
+        "sha256_in_prefix": "cf7de4485079503bab79af6076e2b25a350b98feff597cb078e857c87c8d2a4c",
+        "size_in_bytes": 1568
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/buyapple.py",
+        "path_type": "hardlink",
+        "sha256": "b23b7fdefbe7a93f65095f526551675787c31ba58453ca1cf66523d13d65303a",
+        "sha256_in_prefix": "b23b7fdefbe7a93f65095f526551675787c31ba58453ca1cf66523d13d65303a",
+        "size_in_bytes": 1975
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/dual_ema_talib.py",
+        "path_type": "hardlink",
+        "sha256": "1fc3d6592f17ec5d2869845a841648b34bd8f488969b11e5449e85040a8122dd",
+        "sha256_in_prefix": "1fc3d6592f17ec5d2869845a841648b34bd8f488969b11e5449e85040a8122dd",
+        "size_in_bytes": 3903
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/dual_moving_average.py",
+        "path_type": "hardlink",
+        "sha256": "ad29023a42155aa4d5e3e188978a3ac45c86f81832eea812e11327c9875ae058",
+        "sha256_in_prefix": "ad29023a42155aa4d5e3e188978a3ac45c86f81832eea812e11327c9875ae058",
+        "size_in_bytes": 3903
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/momentum_pipeline.py",
+        "path_type": "hardlink",
+        "sha256": "28823b635b55f0e0a2b21483d0c0f93577c65d0ae2350262b4e702e5833a09f7",
+        "sha256_in_prefix": "28823b635b55f0e0a2b21483d0c0f93577c65d0ae2350262b4e702e5833a09f7",
+        "size_in_bytes": 3085
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/examples/olmar.py",
+        "path_type": "hardlink",
+        "sha256": "a1c3c5b3874c8515d65469e4e50d314cce55f44646e7c97ec49b7e1096e95009",
+        "sha256_in_prefix": "a1c3c5b3874c8515d65469e4e50d314cce55f44646e7c97ec49b7e1096e95009",
+        "size_in_bytes": 4791
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/extensions.py",
+        "path_type": "hardlink",
+        "sha256": "dc0681652ff9f6d543b7fb2bbdb3e022027dc657d5c35a07ffc6359a6b262689",
+        "sha256_in_prefix": "dc0681652ff9f6d543b7fb2bbdb3e022027dc657d5c35a07ffc6359a6b262689",
+        "size_in_bytes": 7071
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cf5737c515956b70a91fc4663753ac90a52ba52d4b492f7f79adcf3adab06e42",
+        "sha256_in_prefix": "cf5737c515956b70a91fc4663753ac90a52ba52d4b492f7f79adcf3adab06e42",
+        "size_in_bytes": 662
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "c163977854bb81e9b3a98598ee666e10e0ec045d75fd8e220cd3b0a398137d11",
+        "sha256_in_prefix": "c163977854bb81e9b3a98598ee666e10e0ec045d75fd8e220cd3b0a398137d11",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/asset_restrictions.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "dce18d6dfd38baa57f7805d951c63f2638e5f287ef9914735588d894d60ca0fa",
+        "sha256_in_prefix": "dce18d6dfd38baa57f7805d951c63f2638e5f287ef9914735588d894d60ca0fa",
+        "size_in_bytes": 8061
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/cancel_policy.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "a649614786588768c566c2779773d232be897f1c1d16c5b411b4bbb04ecbdb1f",
+        "sha256_in_prefix": "a649614786588768c566c2779773d232be897f1c1d16c5b411b4bbb04ecbdb1f",
+        "size_in_bytes": 2377
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/commission.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "d90245f9ca9d4358b3cf78c4daa22108b41f957f83da8ed53f00fd4f4e33216a",
+        "sha256_in_prefix": "d90245f9ca9d4358b3cf78c4daa22108b41f957f83da8ed53f00fd4f4e33216a",
+        "size_in_bytes": 11052
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/constants.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "69c9e52fad95ee7f08b18c027e45424e126893031b31a10ca48af654b6431d7d",
+        "sha256_in_prefix": "69c9e52fad95ee7f08b18c027e45424e126893031b31a10ca48af654b6431d7d",
+        "size_in_bytes": 2490
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/controls.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e5bc69185f4c4077ae94526ab12767b79c6eeff1028fa6982ba6bd2cbf1ff66",
+        "sha256_in_prefix": "5e5bc69185f4c4077ae94526ab12767b79c6eeff1028fa6982ba6bd2cbf1ff66",
+        "size_in_bytes": 13622
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/execution.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "a586097d1eb0db20164fb7caad2e03f12f8f8cac01acbb2d4084e296e9c29d2e",
+        "sha256_in_prefix": "a586097d1eb0db20164fb7caad2e03f12f8f8cac01acbb2d4084e296e9c29d2e",
+        "size_in_bytes": 6652
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/ledger.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "172dffa923dfb6f422c275fe2ca1caab3298c2db00552d98bb69601a69af69db",
+        "sha256_in_prefix": "172dffa923dfb6f422c275fe2ca1caab3298c2db00552d98bb69601a69af69db",
+        "size_in_bytes": 19711
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/order.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "db2be2e88da40c0c5973f9be81b1aedeb3c0a3563680bb655a1ad549247bb22b",
+        "sha256_in_prefix": "db2be2e88da40c0c5973f9be81b1aedeb3c0a3563680bb655a1ad549247bb22b",
+        "size_in_bytes": 6642
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/position.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f1ae3978f63ac606699f2c9f19683304d948cbc1833818b33eac0783248a65b",
+        "sha256_in_prefix": "7f1ae3978f63ac606699f2c9f19683304d948cbc1833818b33eac0783248a65b",
+        "size_in_bytes": 5930
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/shared.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "4dbde00ffd8fc04157c7a1d25b50693c08322ec18136798fc530ac77b616c534",
+        "sha256_in_prefix": "4dbde00ffd8fc04157c7a1d25b50693c08322ec18136798fc530ac77b616c534",
+        "size_in_bytes": 1940
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/slippage.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "d08cf6089a257ef9f1f6fb54d6a87c23a0a64ee6e91a6346fca62cb0bff48b31",
+        "sha256_in_prefix": "d08cf6089a257ef9f1f6fb54d6a87c23a0a64ee6e91a6346fca62cb0bff48b31",
+        "size_in_bytes": 15254
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/trading.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ce15d703d1416e2ae699de249f39de68f92889d8f8d1d11141199c2e37396d0",
+        "sha256_in_prefix": "2ce15d703d1416e2ae699de249f39de68f92889d8f8d1d11141199c2e37396d0",
+        "size_in_bytes": 8133
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/__pycache__/transaction.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "a07ecc4b3fd2a56317fff116d97662249633f8565bf0484b1ee4873a277d5a1f",
+        "sha256_in_prefix": "a07ecc4b3fd2a56317fff116d97662249633f8565bf0484b1ee4873a277d5a1f",
+        "size_in_bytes": 1954
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/_finance_ext.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "d9b78112589a4eee329c2718bdad3589f326f9333ad57a409ed185951342cbe2",
+        "sha256_in_prefix": "d9b78112589a4eee329c2718bdad3589f326f9333ad57a409ed185951342cbe2",
+        "size_in_bytes": 86560
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/_finance_ext.pyx",
+        "path_type": "hardlink",
+        "sha256": "2336a7134a5e49ea35ae459ea47ab35127b72daf3c810ce85ba0e4af43f979c8",
+        "sha256_in_prefix": "2336a7134a5e49ea35ae459ea47ab35127b72daf3c810ce85ba0e4af43f979c8",
+        "size_in_bytes": 9999
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/asset_restrictions.py",
+        "path_type": "hardlink",
+        "sha256": "251df9f8d4666e2e44045186aef780eb0d9d94615364c047ff3850a11726073d",
+        "sha256_in_prefix": "251df9f8d4666e2e44045186aef780eb0d9d94615364c047ff3850a11726073d",
+        "size_in_bytes": 6847
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/blotter/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8de877ff30385d1fdc10858fd32ce66370d4100d39107c8bc6c867cc1baee7af",
+        "sha256_in_prefix": "8de877ff30385d1fdc10858fd32ce66370d4100d39107c8bc6c867cc1baee7af",
+        "size_in_bytes": 717
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/blotter/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "6689982997f9ec5897b1dc60d3a110253dbaeb9c663258888d4895e860ec0f2a",
+        "sha256_in_prefix": "6689982997f9ec5897b1dc60d3a110253dbaeb9c663258888d4895e860ec0f2a",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/blotter/__pycache__/blotter.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "33f04e17cd7c55483d096b2c99dc7b8852a983f0903bb12092d24d0f6c2827d3",
+        "sha256_in_prefix": "33f04e17cd7c55483d096b2c99dc7b8852a983f0903bb12092d24d0f6c2827d3",
+        "size_in_bytes": 6667
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/blotter/__pycache__/simulation_blotter.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "269395356e4329cb0ed669ff6bb4777dffb374686b1610dbcc05203e2e63bbbe",
+        "sha256_in_prefix": "269395356e4329cb0ed669ff6bb4777dffb374686b1610dbcc05203e2e63bbbe",
+        "size_in_bytes": 10095
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/blotter/blotter.py",
+        "path_type": "hardlink",
+        "sha256": "e2265d53068acb83407256a6917241ed679fc0cc6c5ee6dbc6f236fdce21d3ae",
+        "sha256_in_prefix": "e2265d53068acb83407256a6917241ed679fc0cc6c5ee6dbc6f236fdce21d3ae",
+        "size_in_bytes": 6272
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/blotter/simulation_blotter.py",
+        "path_type": "hardlink",
+        "sha256": "be765eef93951b528bf7316f3ba2cb0a7bac9d263f91b6787166be10bbfc9b7c",
+        "sha256_in_prefix": "be765eef93951b528bf7316f3ba2cb0a7bac9d263f91b6787166be10bbfc9b7c",
+        "size_in_bytes": 14261
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/cancel_policy.py",
+        "path_type": "hardlink",
+        "sha256": "8a507e8dd2a26f6d38ada21ce9fd20a0f5f77739d2b834c4c9951f72e4e14bbe",
+        "sha256_in_prefix": "8a507e8dd2a26f6d38ada21ce9fd20a0f5f77739d2b834c4c9951f72e4e14bbe",
+        "size_in_bytes": 2071
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/commission.py",
+        "path_type": "hardlink",
+        "sha256": "697a10e2d9b9c5ab7d7ef25a518ffacfd74e2832a3e677591c8c31ff4b2314b3",
+        "sha256_in_prefix": "697a10e2d9b9c5ab7d7ef25a518ffacfd74e2832a3e677591c8c31ff4b2314b3",
+        "size_in_bytes": 13356
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/constants.py",
+        "path_type": "hardlink",
+        "sha256": "f472c0f3601697ecff4493cd66ddf0a99d6d38d267b83c540feb14456c6d0fa0",
+        "sha256_in_prefix": "f472c0f3601697ecff4493cd66ddf0a99d6d38d267b83c540feb14456c6d0fa0",
+        "size_in_bytes": 6910
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/controls.py",
+        "path_type": "hardlink",
+        "sha256": "61e43d0d1e8a3597629d81f78a233fbd0d122eb463481b8454b47d7bf519298d",
+        "sha256_in_prefix": "61e43d0d1e8a3597629d81f78a233fbd0d122eb463481b8454b47d7bf519298d",
+        "size_in_bytes": 15463
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/execution.py",
+        "path_type": "hardlink",
+        "sha256": "9b598f89a0d132795e484eb57cc91c7795e04f951f71206fb77d33f771f4e1df",
+        "sha256_in_prefix": "9b598f89a0d132795e484eb57cc91c7795e04f951f71206fb77d33f771f4e1df",
+        "size_in_bytes": 6673
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/ledger.py",
+        "path_type": "hardlink",
+        "sha256": "9eb632496edd73b4555e46b16ba7b63588f430783c231cd86febc3842046f34c",
+        "sha256_in_prefix": "9eb632496edd73b4555e46b16ba7b63588f430783c231cd86febc3842046f34c",
+        "size_in_bytes": 28766
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/metrics/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a8093e11f851ea245bc5fc44d33612d7335e908ac41b43b1b576e61634e08d00",
+        "sha256_in_prefix": "a8093e11f851ea245bc5fc44d33612d7335e908ac41b43b1b576e61634e08d00",
+        "size_in_bytes": 3341
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/metrics/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2e2554cda72d89e60748fe195b777c000d305b1db2e112e471720dd01ecc198",
+        "sha256_in_prefix": "a2e2554cda72d89e60748fe195b777c000d305b1db2e112e471720dd01ecc198",
+        "size_in_bytes": 2450
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/metrics/__pycache__/core.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "908e7d9ab016007b3ad4d1cfe37ee0f55c556eaa52dd3bbca4199c0d6d3f4164",
+        "sha256_in_prefix": "908e7d9ab016007b3ad4d1cfe37ee0f55c556eaa52dd3bbca4199c0d6d3f4164",
+        "size_in_bytes": 2868
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/metrics/__pycache__/metric.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f384b6184b111b2d07ebe964374ea5db18e13f56cfe2fbe50d2c5f22fac606c",
+        "sha256_in_prefix": "0f384b6184b111b2d07ebe964374ea5db18e13f56cfe2fbe50d2c5f22fac606c",
+        "size_in_bytes": 20609
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/metrics/__pycache__/tracker.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "affbc9f6440bf324247ac35a787db58705f6382fb112f0143a400836703aeebc",
+        "sha256_in_prefix": "affbc9f6440bf324247ac35a787db58705f6382fb112f0143a400836703aeebc",
+        "size_in_bytes": 9083
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/metrics/core.py",
+        "path_type": "hardlink",
+        "sha256": "6a3d0ee87298d65e84451e4452a7a3728eaea3f2b092d11d1e23b5f67ea7ad9e",
+        "sha256_in_prefix": "6a3d0ee87298d65e84451e4452a7a3728eaea3f2b092d11d1e23b5f67ea7ad9e",
+        "size_in_bytes": 2972
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/metrics/metric.py",
+        "path_type": "hardlink",
+        "sha256": "cf46ae86b55f442ccbf8bd7b30c71ef2ea574a6c67533b7d128d0925ebb73883",
+        "sha256_in_prefix": "cf46ae86b55f442ccbf8bd7b30c71ef2ea574a6c67533b7d128d0925ebb73883",
+        "size_in_bytes": 24538
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/metrics/tracker.py",
+        "path_type": "hardlink",
+        "sha256": "1eb1117910aeece7a93139be06e5105ac8cfff61ea3c54079d7ace30e8beb4f2",
+        "sha256_in_prefix": "1eb1117910aeece7a93139be06e5105ac8cfff61ea3c54079d7ace30e8beb4f2",
+        "size_in_bytes": 10979
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/order.py",
+        "path_type": "hardlink",
+        "sha256": "da8896a42d20b5d082c1b32c44c209ba482d8965947ff8e9ffb8de2e582b8f08",
+        "sha256_in_prefix": "da8896a42d20b5d082c1b32c44c209ba482d8965947ff8e9ffb8de2e582b8f08",
+        "size_in_bytes": 8024
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/position.py",
+        "path_type": "hardlink",
+        "sha256": "313fa8262453cb4c2822e2c800d621495df64fd83016e18a436ed720e304ad47",
+        "sha256_in_prefix": "313fa8262453cb4c2822e2c800d621495df64fd83016e18a436ed720e304ad47",
+        "size_in_bytes": 8111
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/shared.py",
+        "path_type": "hardlink",
+        "sha256": "0178e73906e2a5812fcf266d60bbb2b5762e3f56905b5b188b5654fdfdb608b8",
+        "sha256_in_prefix": "0178e73906e2a5812fcf266d60bbb2b5762e3f56905b5b188b5654fdfdb608b8",
+        "size_in_bytes": 1566
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/slippage.py",
+        "path_type": "hardlink",
+        "sha256": "f65514e40c30867d8165e6f4a62e92999403e26994a547ed7b3514aebc60284c",
+        "sha256_in_prefix": "f65514e40c30867d8165e6f4a62e92999403e26994a547ed7b3514aebc60284c",
+        "size_in_bytes": 18630
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/trading.py",
+        "path_type": "hardlink",
+        "sha256": "003a95f6f81a8cf8b80ab9f739180c79bbf8973e11ff37d87954d31e3f7d8a78",
+        "sha256_in_prefix": "003a95f6f81a8cf8b80ab9f739180c79bbf8973e11ff37d87954d31e3f7d8a78",
+        "size_in_bytes": 9379
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/finance/transaction.py",
+        "path_type": "hardlink",
+        "sha256": "8acd1d977fc0b6012b0a8ab080033ec4ade789f0d7dfe005acc405a52975bc9e",
+        "sha256_in_prefix": "8acd1d977fc0b6012b0a8ab080033ec4ade789f0d7dfe005acc405a52975bc9e",
+        "size_in_bytes": 2497
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/gens/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/gens/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "96b4a8a371dbcf47c976d552692eccdd72dcc9243ae39f25ad5c005ed3d50034",
+        "sha256_in_prefix": "96b4a8a371dbcf47c976d552692eccdd72dcc9243ae39f25ad5c005ed3d50034",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/gens/__pycache__/composites.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "539dc65d8cd120ea8b777c2dc81209f9aca2c55db0192f0c86140136bb03e3c9",
+        "sha256_in_prefix": "539dc65d8cd120ea8b777c2dc81209f9aca2c55db0192f0c86140136bb03e3c9",
+        "size_in_bytes": 806
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/gens/__pycache__/tradesimulation.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d3b3832da743c29b671f8ee28227eb277e2145fa4808e043da7a9d5f4d1e059",
+        "sha256_in_prefix": "9d3b3832da743c29b671f8ee28227eb277e2145fa4808e043da7a9d5f4d1e059",
+        "size_in_bytes": 7714
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/gens/__pycache__/utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "6306d9b54bcda0ec21a952510e435582ff098e751989586ceb0bb8942ee728a0",
+        "sha256_in_prefix": "6306d9b54bcda0ec21a952510e435582ff098e751989586ceb0bb8942ee728a0",
+        "size_in_bytes": 2002
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/gens/composites.py",
+        "path_type": "hardlink",
+        "sha256": "9724a28de053fbf96ff2ab254129be9814666c86739a33dea3c1e6345efc81fd",
+        "sha256_in_prefix": "9724a28de053fbf96ff2ab254129be9814666c86739a33dea3c1e6345efc81fd",
+        "size_in_bytes": 1030
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/gens/sim_engine.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "08ab503ed4b555c6ba518b46f73af9acb19fee19f03228a20c2b029a730fc7c0",
+        "sha256_in_prefix": "08ab503ed4b555c6ba518b46f73af9acb19fee19f03228a20c2b029a730fc7c0",
+        "size_in_bytes": 196620
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/gens/sim_engine.pyx",
+        "path_type": "hardlink",
+        "sha256": "6a57aad89c133d255fc3a483263e5baa2072cc1846c09934b3cbce358641ca94",
+        "sha256_in_prefix": "6a57aad89c133d255fc3a483263e5baa2072cc1846c09934b3cbce358641ca94",
+        "size_in_bytes": 4188
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/gens/tradesimulation.py",
+        "path_type": "hardlink",
+        "sha256": "7bf8c1c33bde9ccca5f94d76fdfd5b9f7f0dcaefe74a649986c51bfc57bfd498",
+        "sha256_in_prefix": "7bf8c1c33bde9ccca5f94d76fdfd5b9f7f0dcaefe74a649986c51bfc57bfd498",
+        "size_in_bytes": 11107
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/gens/utils.py",
+        "path_type": "hardlink",
+        "sha256": "cde87e16ac6c7a4bb39f07c33da35e5987a0255890a2be2418ba15a282ce34b5",
+        "sha256_in_prefix": "cde87e16ac6c7a4bb39f07c33da35e5987a0255890a2be2418ba15a282ce34b5",
+        "size_in_bytes": 1989
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2abcfd04de09860ebfc003e56e7baba376159301e0b0bf1af051c4fead4443f7",
+        "sha256_in_prefix": "2abcfd04de09860ebfc003e56e7baba376159301e0b0bf1af051c4fead4443f7",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/__pycache__/adjusted_array.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e0dcd80b3b6d7c07adb4a640ba31b4fdc275eb1091d9ec01da4f55521c8575c",
+        "sha256_in_prefix": "2e0dcd80b3b6d7c07adb4a640ba31b4fdc275eb1091d9ec01da4f55521c8575c",
+        "size_in_bytes": 8180
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/__pycache__/labelarray.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d176bbf4c97e5cfa0ef806475ea890ec5ddaaea74cf055a6de2374c9675e79d",
+        "sha256_in_prefix": "6d176bbf4c97e5cfa0ef806475ea890ec5ddaaea74cf055a6de2374c9675e79d",
+        "size_in_bytes": 23024
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/__pycache__/normalize.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "099e3a36b3e3a99c3ee6b39fcc4a379771d4b648cc65d2385f0f6a768c85cefb",
+        "sha256_in_prefix": "099e3a36b3e3a99c3ee6b39fcc4a379771d4b648cc65d2385f0f6a768c85cefb",
+        "size_in_bytes": 1914
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/__pycache__/quantiles.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "f11a4fc8148cbbce32259a69f801dc88486e175ab2580aa5be206bf5860c4b1c",
+        "sha256_in_prefix": "f11a4fc8148cbbce32259a69f801dc88486e175ab2580aa5be206bf5860c4b1c",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/_factorize.cpython-35m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/travis/miniconda/conda-bld/zipline_1531789276778/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "4e1bded145864e0d352f3733122b766379f1dbed2bf378f1bfe4ea9b15f9b707",
+        "sha256_in_prefix": "c917eb8029cfd0949b6940bf6ce493db0b2b4117879ada3cb6805a9ff33209de",
+        "size_in_bytes": 170068
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/_factorize.pyx",
+        "path_type": "hardlink",
+        "sha256": "5df3d01efba5d3f31b0997d11be022720b2229cc94e974d49e06225e1bec08db",
+        "sha256_in_prefix": "5df3d01efba5d3f31b0997d11be022720b2229cc94e974d49e06225e1bec08db",
+        "size_in_bytes": 8206
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/_float64window.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "e39183c7422a90c52a8328acae448329473421607ba4cc79dfaf5071ab11ffd4",
+        "sha256_in_prefix": "e39183c7422a90c52a8328acae448329473421607ba4cc79dfaf5071ab11ffd4",
+        "size_in_bytes": 173624
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/_float64window.pyx",
+        "path_type": "hardlink",
+        "sha256": "832ff8e895ee93f2d116012fa90118b2d87442fe024ceb9508c129215cea6121",
+        "sha256_in_prefix": "832ff8e895ee93f2d116012fa90118b2d87442fe024ceb9508c129215cea6121",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/_int64window.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "85d8c51f700d898b25fbae91d509a291977e87021518c9beed3717ad6bb4d216",
+        "sha256_in_prefix": "85d8c51f700d898b25fbae91d509a291977e87021518c9beed3717ad6bb4d216",
+        "size_in_bytes": 173712
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/_int64window.pyx",
+        "path_type": "hardlink",
+        "sha256": "28273f8d0995dac05c8332e548b1e2a7e068e5f3461b9ac39f529ef3861d9ed3",
+        "sha256_in_prefix": "28273f8d0995dac05c8332e548b1e2a7e068e5f3461b9ac39f529ef3861d9ed3",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/_labelwindow.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "bf547775f78c254964a2671694a6b5fdbed2beccd78dbd6b5311106fd39ffdb8",
+        "sha256_in_prefix": "bf547775f78c254964a2671694a6b5fdbed2beccd78dbd6b5311106fd39ffdb8",
+        "size_in_bytes": 63056
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/_labelwindow.pyx",
+        "path_type": "hardlink",
+        "sha256": "249b5c4cbac06647d3f24dfbfff826976b68f549d95ca956d80eb108f99e2076",
+        "sha256_in_prefix": "249b5c4cbac06647d3f24dfbfff826976b68f549d95ca956d80eb108f99e2076",
+        "size_in_bytes": 113
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/_uint8window.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "3c2d6dadd1c6635e9a2e5a91e05e3435454ed99e7aaad619dfa1bb52e74d6ae0",
+        "sha256_in_prefix": "3c2d6dadd1c6635e9a2e5a91e05e3435454ed99e7aaad619dfa1bb52e74d6ae0",
+        "size_in_bytes": 173784
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/_uint8window.pyx",
+        "path_type": "hardlink",
+        "sha256": "8b1763959204c78a8083cb61c106bee419c85ff0bf1ce0c5d8a7c41a54591cb3",
+        "sha256_in_prefix": "8b1763959204c78a8083cb61c106bee419c85ff0bf1ce0c5d8a7c41a54591cb3",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/_windowtemplate.pxi",
+        "path_type": "hardlink",
+        "sha256": "b5f093b8ca0916f63a9678e9c276e5b14a47e02e35b3260c8a319b26d6e597c9",
+        "sha256_in_prefix": "b5f093b8ca0916f63a9678e9c276e5b14a47e02e35b3260c8a319b26d6e597c9",
+        "size_in_bytes": 5388
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/adjusted_array.py",
+        "path_type": "hardlink",
+        "sha256": "dbc4ff2ce694e37ca9f45ef19954cd79211fab23e978129286049c1b351883c9",
+        "sha256_in_prefix": "dbc4ff2ce694e37ca9f45ef19954cd79211fab23e978129286049c1b351883c9",
+        "size_in_bytes": 8898
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/adjustment.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "a2d2a834357c7e753467b4a899de0279022a15f2d65d26a7046eeb0b7425240e",
+        "sha256_in_prefix": "a2d2a834357c7e753467b4a899de0279022a15f2d65d26a7046eeb0b7425240e",
+        "size_in_bytes": 370272
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/adjustment.pxd",
+        "path_type": "hardlink",
+        "sha256": "45218f72172d7fcbffd4ec382a61c20f7cbdf04e7a4d674afad025c92cdee9ea",
+        "sha256_in_prefix": "45218f72172d7fcbffd4ec382a61c20f7cbdf04e7a4d674afad025c92cdee9ea",
+        "size_in_bytes": 8875
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/adjustment.pyx",
+        "path_type": "hardlink",
+        "sha256": "cd0450875ae450f731d7975869df0725ae92ca1ba1ff559760ee201e4f641937",
+        "sha256_in_prefix": "cd0450875ae450f731d7975869df0725ae92ca1ba1ff559760ee201e4f641937",
+        "size_in_bytes": 28766
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/labelarray.py",
+        "path_type": "hardlink",
+        "sha256": "83db0a906ab49be4ba436dabd863edba8351d74c57c19cbf42492545c2bc49c0",
+        "sha256_in_prefix": "83db0a906ab49be4ba436dabd863edba8351d74c57c19cbf42492545c2bc49c0",
+        "size_in_bytes": 27009
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/normalize.py",
+        "path_type": "hardlink",
+        "sha256": "28fe5894530dc24434cf2bb96ac2e4608f4be83d286efc7e788831a021dfa000",
+        "sha256_in_prefix": "28fe5894530dc24434cf2bb96ac2e4608f4be83d286efc7e788831a021dfa000",
+        "size_in_bytes": 1896
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/quantiles.py",
+        "path_type": "hardlink",
+        "sha256": "14a95ec06ebc142cfb59f1dcde06efb36805dbbb0ac3e9721eda681069604a10",
+        "sha256_in_prefix": "14a95ec06ebc142cfb59f1dcde06efb36805dbbb0ac3e9721eda681069604a10",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/rank.cpython-35m-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/travis/miniconda/conda-bld/zipline_1531789276778/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "0d6c28b6bbfe187e8e66b4a2a9e5c6601bde877f76b7443f20196a2aa573ba86",
+        "sha256_in_prefix": "dced13dc12dc0702f4551b35d984756a3c5ce13464b18f161d259934b5610a3a",
+        "size_in_bytes": 85728
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/lib/rank.pyx",
+        "path_type": "hardlink",
+        "sha256": "7d6ea32f38348b7b1fe1be6c469bcac72b70c8bd213ea15f114c004329f704cf",
+        "sha256_in_prefix": "7d6ea32f38348b7b1fe1be6c469bcac72b70c8bd213ea15f114c004329f704cf",
+        "size_in_bytes": 5522
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01212826267f7e8c43a8d6f61cb511f1c0b3d760d0907ab6fa0d26582d93f2c3",
+        "sha256_in_prefix": "01212826267f7e8c43a8d6f61cb511f1c0b3d760d0907ab6fa0d26582d93f2c3",
+        "size_in_bytes": 1834
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "7cf2bc05f83284682c8843e688129c7ab95b58e79e0e2ca38880ca39ece5da39",
+        "sha256_in_prefix": "7cf2bc05f83284682c8843e688129c7ab95b58e79e0e2ca38880ca39ece5da39",
+        "size_in_bytes": 2027
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/api_utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b2cc01fa591b5daf98c985fa309f44b52789fd9c56ce2b11cb5da50f02d56dd",
+        "sha256_in_prefix": "2b2cc01fa591b5daf98c985fa309f44b52789fd9c56ce2b11cb5da50f02d56dd",
+        "size_in_bytes": 1834
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/common.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7f1023ad6a35451bd62f7cb23758db0025eed7fa0484442ad13f257f5e698d5",
+        "sha256_in_prefix": "e7f1023ad6a35451bd62f7cb23758db0025eed7fa0484442ad13f257f5e698d5",
+        "size_in_bytes": 722
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/downsample_helpers.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa1efc1961594d66d42ae0d9368f5447a7c75f73450a66c95ffdda8036482eb7",
+        "sha256_in_prefix": "aa1efc1961594d66d42ae0d9368f5447a7c75f73450a66c95ffdda8036482eb7",
+        "size_in_bytes": 1867
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/dtypes.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "06cf010aef20661960806fdaa3815d0fc785331eed8d3b5483c7e8950c44e50e",
+        "sha256_in_prefix": "06cf010aef20661960806fdaa3815d0fc785331eed8d3b5483c7e8950c44e50e",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/engine.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ecfe0b98d8fa496954315f570fef4e376576a40c4f0c4f68e3211d0774fde2ea",
+        "sha256_in_prefix": "ecfe0b98d8fa496954315f570fef4e376576a40c4f0c4f68e3211d0774fde2ea",
+        "size_in_bytes": 20111
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/expression.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce1712d084061152fd6cf7021fc3ea87449c7e681bec017d08e8acfd71395660",
+        "sha256_in_prefix": "ce1712d084061152fd6cf7021fc3ea87449c7e681bec017d08e8acfd71395660",
+        "size_in_bytes": 9779
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/graph.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "1faa054d3f47da48224085baee7100ddb5a734f05e47c34fa9ea20e12652994a",
+        "sha256_in_prefix": "1faa054d3f47da48224085baee7100ddb5a734f05e47c34fa9ea20e12652994a",
+        "size_in_bytes": 14353
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/mixins.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "787dea0f9b5cc895952388e253f85d92294e280c04fc1db57c1f35eef5da3012",
+        "sha256_in_prefix": "787dea0f9b5cc895952388e253f85d92294e280c04fc1db57c1f35eef5da3012",
+        "size_in_bytes": 15794
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/pipeline.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "d281ac2b038ac76b895a5c2b752c2daed2892686741f011f86f4b366ec96e814",
+        "sha256_in_prefix": "d281ac2b038ac76b895a5c2b752c2daed2892686741f011f86f4b366ec96e814",
+        "size_in_bytes": 7284
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/sentinels.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "34d39fbcc220a036b77d2ce11b6b9a61b88d39764e34e58cb3d86a053c39a908",
+        "sha256_in_prefix": "34d39fbcc220a036b77d2ce11b6b9a61b88d39764e34e58cb3d86a053c39a908",
+        "size_in_bytes": 327
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/term.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "52476782e552e27c2662e605a138bff430462e3fcda5f03b467d9051070960df",
+        "sha256_in_prefix": "52476782e552e27c2662e605a138bff430462e3fcda5f03b467d9051070960df",
+        "size_in_bytes": 24136
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/__pycache__/visualize.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "1f74fdae0ecc1d6468706c7de895ee96c2c91bfa6a3f6831270847121767fc2e",
+        "sha256_in_prefix": "1f74fdae0ecc1d6468706c7de895ee96c2c91bfa6a3f6831270847121767fc2e",
+        "size_in_bytes": 7167
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/api_utils.py",
+        "path_type": "hardlink",
+        "sha256": "7ed396814ab6c8aa823d6a17e5433df81cf23b3afdad36cd09f573e6e22e8a0d",
+        "sha256_in_prefix": "7ed396814ab6c8aa823d6a17e5433df81cf23b3afdad36cd09f573e6e22e8a0d",
+        "size_in_bytes": 1654
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/classifiers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8cf95f3122ae30adee642045f9ec463aa260a0d6cc8672b86c1888f9e2a90ba5",
+        "sha256_in_prefix": "8cf95f3122ae30adee642045f9ec463aa260a0d6cc8672b86c1888f9e2a90ba5",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/classifiers/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ab33166d62f8ae1a27237b379e23d9784dcd7d0339cec4ee165a0ca865bfb25",
+        "sha256_in_prefix": "2ab33166d62f8ae1a27237b379e23d9784dcd7d0339cec4ee165a0ca865bfb25",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/classifiers/__pycache__/classifier.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4bf91d136aa1a259e5fe3192561cd67d35c7cde389c8d4f6a0a461f4275eb9d",
+        "sha256_in_prefix": "e4bf91d136aa1a259e5fe3192561cd67d35c7cde389c8d4f6a0a461f4275eb9d",
+        "size_in_bytes": 16698
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/classifiers/classifier.py",
+        "path_type": "hardlink",
+        "sha256": "9e56eff355b885c8923d44f59c8d19de70f5bb4973703c14d53d2b48ce197ecc",
+        "sha256_in_prefix": "9e56eff355b885c8923d44f59c8d19de70f5bb4973703c14d53d2b48ce197ecc",
+        "size_in_bytes": 18100
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/common.py",
+        "path_type": "hardlink",
+        "sha256": "866d2e6abb6b3fb4d08f5445c3bcb2bf77dd67fd5d34a5181d6d091546396695",
+        "sha256_in_prefix": "866d2e6abb6b3fb4d08f5445c3bcb2bf77dd67fd5d34a5181d6d091546396695",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6ccd2862f0b8d979de0a2e8b5d18bfe1a2e2e1d8215356268fe3fac449c28e9b",
+        "sha256_in_prefix": "6ccd2862f0b8d979de0a2e8b5d18bfe1a2e2e1d8215356268fe3fac449c28e9b",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/data/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "e17989d7234b44377eb2870213cff7844b42dfa4e5c8fc014085941a9fc5d3fb",
+        "sha256_in_prefix": "e17989d7234b44377eb2870213cff7844b42dfa4e5c8fc014085941a9fc5d3fb",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/data/__pycache__/dataset.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2fdebb0b7761e0d986bbe833ff621b82702971e5b3773518a881c274d3fd8b16",
+        "sha256_in_prefix": "2fdebb0b7761e0d986bbe833ff621b82702971e5b3773518a881c274d3fd8b16",
+        "size_in_bytes": 11090
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/data/__pycache__/equity_pricing.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "bfc0bfe33de21d290406eb28c638fe3fa21c70db61d3dd3025692c337cd163c1",
+        "sha256_in_prefix": "bfc0bfe33de21d290406eb28c638fe3fa21c70db61d3dd3025692c337cd163c1",
+        "size_in_bytes": 696
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/data/__pycache__/testing.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "577cb0a2108dc9e0d5bbb9aef68ebfe867b7063a684f57a52e13a018f9750fc8",
+        "sha256_in_prefix": "577cb0a2108dc9e0d5bbb9aef68ebfe867b7063a684f57a52e13a018f9750fc8",
+        "size_in_bytes": 1093
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/data/dataset.py",
+        "path_type": "hardlink",
+        "sha256": "e087d78e2e3340f055257ec61e5ae71bce75d4a5c60b5dab264cd5425f089c30",
+        "sha256_in_prefix": "e087d78e2e3340f055257ec61e5ae71bce75d4a5c60b5dab264cd5425f089c30",
+        "size_in_bytes": 10432
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/data/equity_pricing.py",
+        "path_type": "hardlink",
+        "sha256": "ad3c166793b592488e153e9390da665712eeaa1de1fc6bff269325017a2696ac",
+        "sha256_in_prefix": "ad3c166793b592488e153e9390da665712eeaa1de1fc6bff269325017a2696ac",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/data/testing.py",
+        "path_type": "hardlink",
+        "sha256": "3dc45e2d7f969b221b62aa44d546a7b2599694bf4a705b887461c85b3218a2ce",
+        "sha256_in_prefix": "3dc45e2d7f969b221b62aa44d546a7b2599694bf4a705b887461c85b3218a2ce",
+        "size_in_bytes": 969
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/downsample_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "79076e8941b19b6d0cfe4e7ccf7403ce6e8cdd3707d96098ef71f5a530c7f60d",
+        "sha256_in_prefix": "79076e8941b19b6d0cfe4e7ccf7403ce6e8cdd3707d96098ef71f5a530c7f60d",
+        "size_in_bytes": 1772
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/dtypes.py",
+        "path_type": "hardlink",
+        "sha256": "f3177c0157e3920c2e0a1b0e4e9aea7188794c973207d0f5418acb97a2164074",
+        "sha256_in_prefix": "f3177c0157e3920c2e0a1b0e4e9aea7188794c973207d0f5418acb97a2164074",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/engine.py",
+        "path_type": "hardlink",
+        "sha256": "fcafdcecfec0f52e1f50365c872be6264186eebc2bc2b80c6cc6671390a4f526",
+        "sha256_in_prefix": "fcafdcecfec0f52e1f50365c872be6264186eebc2bc2b80c6cc6671390a4f526",
+        "size_in_bytes": 24162
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/expression.py",
+        "path_type": "hardlink",
+        "sha256": "3d3223d4a7d66e0556f219e779fbccdb5e8e5a675c1a1e85f66c8969887d243f",
+        "sha256_in_prefix": "3d3223d4a7d66e0556f219e779fbccdb5e8e5a675c1a1e85f66c8969887d243f",
+        "size_in_bytes": 10041
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/factors/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a01d99537d30f4cf65e87f57ccaff0f395448480a61ea40bf2ebaf5a47a21fed",
+        "sha256_in_prefix": "a01d99537d30f4cf65e87f57ccaff0f395448480a61ea40bf2ebaf5a47a21fed",
+        "size_in_bytes": 1664
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/factors/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "f6cabf3831d367c014be67bb1a65cb4f2d036ddce90da0c2abf28e398abe5e74",
+        "sha256_in_prefix": "f6cabf3831d367c014be67bb1a65cb4f2d036ddce90da0c2abf28e398abe5e74",
+        "size_in_bytes": 1552
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/factors/__pycache__/basic.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "05cd1e843d1d757e7468f11aac401f46bd7ebd7cc33269a5ffc24a09d700f43e",
+        "sha256_in_prefix": "05cd1e843d1d757e7468f11aac401f46bd7ebd7cc33269a5ffc24a09d700f43e",
+        "size_in_bytes": 14310
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/factors/__pycache__/events.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad03477311cc93b6a73be718aaabda02928ed58db7db2cb30a64c8a1f9a4e46d",
+        "sha256_in_prefix": "ad03477311cc93b6a73be718aaabda02928ed58db7db2cb30a64c8a1f9a4e46d",
+        "size_in_bytes": 2857
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/factors/__pycache__/factor.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "a471774a5b7eb5ea2101a9d06d56176c96ab4c1fdfd4e98698ffed64ca6a0c57",
+        "sha256_in_prefix": "a471774a5b7eb5ea2101a9d06d56176c96ab4c1fdfd4e98698ffed64ca6a0c57",
+        "size_in_bytes": 56065
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/factors/__pycache__/statistical.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e8940e77d8754c359c895fe5abecb98519a058cf8726fff820e7f1f83653ca0",
+        "sha256_in_prefix": "7e8940e77d8754c359c895fe5abecb98519a058cf8726fff820e7f1f83653ca0",
+        "size_in_bytes": 20901
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/factors/__pycache__/technical.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "744274d452bdcdc2261964bd7556fbcb6b39c5106fcb701744fe266d31ef75c5",
+        "sha256_in_prefix": "744274d452bdcdc2261964bd7556fbcb6b39c5106fcb701744fe266d31ef75c5",
+        "size_in_bytes": 11831
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/factors/basic.py",
+        "path_type": "hardlink",
+        "sha256": "1cf942c9f8877bcb49ab088c66a843442eb27b497c9823226320449a282c65b6",
+        "sha256_in_prefix": "1cf942c9f8877bcb49ab088c66a843442eb27b497c9823226320449a282c65b6",
+        "size_in_bytes": 13046
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/factors/events.py",
+        "path_type": "hardlink",
+        "sha256": "da64e30eaf8cfba56e0bac26e7736e7776a676be26aa949bff0c04ef9b71166f",
+        "sha256_in_prefix": "da64e30eaf8cfba56e0bac26e7736e7776a676be26aa949bff0c04ef9b71166f",
+        "size_in_bytes": 2743
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/factors/factor.py",
+        "path_type": "hardlink",
+        "sha256": "c574c5de708f405a52b14200245368dee9617b0f79c821c6edd7c7729e00469e",
+        "sha256_in_prefix": "c574c5de708f405a52b14200245368dee9617b0f79c821c6edd7c7729e00469e",
+        "size_in_bytes": 59659
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/factors/statistical.py",
+        "path_type": "hardlink",
+        "sha256": "86155aba36b489badbf6a470dfd25f7186407962e602c5022a85742d4109811b",
+        "sha256_in_prefix": "86155aba36b489badbf6a470dfd25f7186407962e602c5022a85742d4109811b",
+        "size_in_bytes": 24294
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/factors/technical.py",
+        "path_type": "hardlink",
+        "sha256": "59baa7ed3d310a429cb59cd6749fd9538436ce405e2e1f1c120999ca6a5940a3",
+        "sha256_in_prefix": "59baa7ed3d310a429cb59cd6749fd9538436ce405e2e1f1c120999ca6a5940a3",
+        "size_in_bytes": 12040
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/filters/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "eb1db1ede891ebd472ba93b69bf42a6d93367ad4b2bfce18518f7d3e4b515095",
+        "sha256_in_prefix": "eb1db1ede891ebd472ba93b69bf42a6d93367ad4b2bfce18518f7d3e4b515095",
+        "size_in_bytes": 593
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/filters/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "d26c555900fab9b1ec9aead97f9540110003479c4fad0443110a6e6bcaa975b4",
+        "sha256_in_prefix": "d26c555900fab9b1ec9aead97f9540110003479c4fad0443110a6e6bcaa975b4",
+        "size_in_bytes": 737
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/filters/__pycache__/filter.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a4269c71365c9fdc9c7c7cb195dbaa3a96da01130c525e795e43641b11ac98e",
+        "sha256_in_prefix": "4a4269c71365c9fdc9c7c7cb195dbaa3a96da01130c525e795e43641b11ac98e",
+        "size_in_bytes": 21551
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/filters/__pycache__/smoothing.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "88fc3e49f845fd928e8720b2306d835bee5c16a091dd1961e939c69331c8ed4b",
+        "sha256_in_prefix": "88fc3e49f845fd928e8720b2306d835bee5c16a091dd1961e939c69331c8ed4b",
+        "size_in_bytes": 1946
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/filters/filter.py",
+        "path_type": "hardlink",
+        "sha256": "139bf857022827f3aea52a79b258d4b21e6b2785109df749966e0dc879d4be09",
+        "sha256_in_prefix": "139bf857022827f3aea52a79b258d4b21e6b2785109df749966e0dc879d4be09",
+        "size_in_bytes": 21280
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/filters/smoothing.py",
+        "path_type": "hardlink",
+        "sha256": "b8508cc627249ca01a5ec34ac700525471f1d4c3684432424d643fc9635a136c",
+        "sha256_in_prefix": "b8508cc627249ca01a5ec34ac700525471f1d4c3684432424d643fc9635a136c",
+        "size_in_bytes": 1135
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/graph.py",
+        "path_type": "hardlink",
+        "sha256": "8271492be4c9eb1e959a1c3425380c55e6e421da2e3c0c21905fcc055589f258",
+        "sha256_in_prefix": "8271492be4c9eb1e959a1c3425380c55e6e421da2e3c0c21905fcc055589f258",
+        "size_in_bytes": 14607
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4de8e0264e881974895fc17786c422b5fa40b25ac4be13d68e6a82e252ea38e0",
+        "sha256_in_prefix": "4de8e0264e881974895fc17786c422b5fa40b25ac4be13d68e6a82e252ea38e0",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "012f31cbf48732b0609208648a5c774088267d180fb9c4b1127140a7527da7d2",
+        "sha256_in_prefix": "012f31cbf48732b0609208648a5c774088267d180fb9c4b1127140a7527da7d2",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/base.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "56024ff1a4f5642ca3de68e51b73788e8021b00c6bf451ab5d5d8310bd3e81e7",
+        "sha256_in_prefix": "56024ff1a4f5642ca3de68e51b73788e8021b00c6bf451ab5d5d8310bd3e81e7",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/earnings_estimates.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c0ac8865900a855a9fc73f7b0787f7aaf4121943f41af7a36440b7fc90cf0f0",
+        "sha256_in_prefix": "9c0ac8865900a855a9fc73f7b0787f7aaf4121943f41af7a36440b7fc90cf0f0",
+        "size_in_bytes": 41125
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/equity_pricing_loader.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "004bd2ebb7005308f803afd8ed128a99a2ae1c25c40a8e1e974d3901cb2a63b6",
+        "sha256_in_prefix": "004bd2ebb7005308f803afd8ed128a99a2ae1c25c40a8e1e974d3901cb2a63b6",
+        "size_in_bytes": 2539
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/events.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b162134556f689cdd6780c6fe8b8295fc1a0c95b62bfbaf705f04458907aab3",
+        "sha256_in_prefix": "0b162134556f689cdd6780c6fe8b8295fc1a0c95b62bfbaf705f04458907aab3",
+        "size_in_bytes": 6554
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/frame.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c9d7a967e603a02edabbbfbe8fab95b3291559fb409c568cf76e01234b50f01",
+        "sha256_in_prefix": "0c9d7a967e603a02edabbbfbe8fab95b3291559fb409c568cf76e01234b50f01",
+        "size_in_bytes": 4881
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/synthetic.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f1bc0fa435fc47ff0b7b3d55161977e04eb90d4be40117e7c0110b44c5e48d8",
+        "sha256_in_prefix": "4f1bc0fa435fc47ff0b7b3d55161977e04eb90d4be40117e7c0110b44c5e48d8",
+        "size_in_bytes": 11980
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/testing.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed61924d7d2ed274d9989018c355df50f639d83e2d44a76edb3d71bfc2787b96",
+        "sha256_in_prefix": "ed61924d7d2ed274d9989018c355df50f639d83e2d44a76edb3d71bfc2787b96",
+        "size_in_bytes": 889
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/__pycache__/utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "747796689116e076593afa78777090f97ad99a0fffe1bea4782642b5eebc6df9",
+        "sha256_in_prefix": "747796689116e076593afa78777090f97ad99a0fffe1bea4782642b5eebc6df9",
+        "size_in_bytes": 12693
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/base.py",
+        "path_type": "hardlink",
+        "sha256": "5783083ea204e1064f6e9c4be79477a3fbf20e0fe39d43a84e402696cfaf3b73",
+        "sha256_in_prefix": "5783083ea204e1064f6e9c4be79477a3fbf20e0fe39d43a84e402696cfaf3b73",
+        "size_in_bytes": 405
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2797f2dcd044015b86e4652ff71ae5ba606d276b4c69b42af98be78f7b5d1feb",
+        "sha256_in_prefix": "2797f2dcd044015b86e4652ff71ae5ba606d276b4c69b42af98be78f7b5d1feb",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "580797c62487d6bd80e9b4529a1c97a6a8df519c627b2631380eb05c0e7f4e8a",
+        "sha256_in_prefix": "580797c62487d6bd80e9b4529a1c97a6a8df519c627b2631380eb05c0e7f4e8a",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/__pycache__/core.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "b73510cc2ad812d9cb0e9f1f8724840871e2bef34b7c7c956d5152b5922c5127",
+        "sha256_in_prefix": "b73510cc2ad812d9cb0e9f1f8724840871e2bef34b7c7c956d5152b5922c5127",
+        "size_in_bytes": 32840
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/__pycache__/estimates.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae35b344bd1eabda4f51396264f724e27ac3850c8ae22adfa933cc3cec66bba8",
+        "sha256_in_prefix": "ae35b344bd1eabda4f51396264f724e27ac3850c8ae22adfa933cc3cec66bba8",
+        "size_in_bytes": 6824
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/__pycache__/events.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb638749bd4f77f6154bc2a8db89c32ca836cee863420cd1328c0dd9b27858dd",
+        "sha256_in_prefix": "eb638749bd4f77f6154bc2a8db89c32ca836cee863420cd1328c0dd9b27858dd",
+        "size_in_bytes": 3636
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/__pycache__/utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "34296d4bd5d999e10d2372e01589fa71436e55a69476096687b639d2232df7ca",
+        "sha256_in_prefix": "34296d4bd5d999e10d2372e01589fa71436e55a69476096687b639d2232df7ca",
+        "size_in_bytes": 1927
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/_core.cpython-35m-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "b5c2ef1d7e819f95d81c0a7449f9844c92a9902ae9ec5e8333956165b5d9c79a",
+        "sha256_in_prefix": "b5c2ef1d7e819f95d81c0a7449f9844c92a9902ae9ec5e8333956165b5d9c79a",
+        "size_in_bytes": 398924
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/_core.pyx",
+        "path_type": "hardlink",
+        "sha256": "556609d7ab7fa1cdb51c9b621766c3e4dd8fc95e63121144f5a373998506f752",
+        "sha256_in_prefix": "556609d7ab7fa1cdb51c9b621766c3e4dd8fc95e63121144f5a373998506f752",
+        "size_in_bytes": 28439
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/core.py",
+        "path_type": "hardlink",
+        "sha256": "6d315fbad1844a05c84d265e87db36cc0118aa045d5dad82d8b3ed8fc680d8f2",
+        "sha256_in_prefix": "6d315fbad1844a05c84d265e87db36cc0118aa045d5dad82d8b3ed8fc680d8f2",
+        "size_in_bytes": 36368
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/estimates.py",
+        "path_type": "hardlink",
+        "sha256": "ececcf437e8027caffb0a49ea2acc3bbf1e8e046aa6cbb9cb4e95cfd8592c56d",
+        "sha256_in_prefix": "ececcf437e8027caffb0a49ea2acc3bbf1e8e046aa6cbb9cb4e95cfd8592c56d",
+        "size_in_bytes": 6653
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/events.py",
+        "path_type": "hardlink",
+        "sha256": "3523a206748078ea6fb2c4dd1792d7bd48b5421cda1cbf38a352ede7468602a4",
+        "sha256_in_prefix": "3523a206748078ea6fb2c4dd1792d7bd48b5421cda1cbf38a352ede7468602a4",
+        "size_in_bytes": 3983
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/blaze/utils.py",
+        "path_type": "hardlink",
+        "sha256": "19a0f04165b834c090280bf0dfff39f090f28e889f90cc3a2a7f442b1673c393",
+        "sha256_in_prefix": "19a0f04165b834c090280bf0dfff39f090f28e889f90cc3a2a7f442b1673c393",
+        "size_in_bytes": 2091
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/earnings_estimates.py",
+        "path_type": "hardlink",
+        "sha256": "b0e940766949140a5d8f3d907c1c6da38886b0e74651882903256a823ff39955",
+        "sha256_in_prefix": "b0e940766949140a5d8f3d907c1c6da38886b0e74651882903256a823ff39955",
+        "size_in_bytes": 63291
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/equity_pricing_loader.py",
+        "path_type": "hardlink",
+        "sha256": "ff73cf22892aba923e7391b62ce39bc41b733c97a696c1633956a1618518fdd2",
+        "sha256_in_prefix": "ff73cf22892aba923e7391b62ce39bc41b733c97a696c1633956a1618518fdd2",
+        "size_in_bytes": 3067
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/events.py",
+        "path_type": "hardlink",
+        "sha256": "91260e1cb2ddf9ff83b7faf71516d9bf3614027d18a29395d6dddfbfa386dcab",
+        "sha256_in_prefix": "91260e1cb2ddf9ff83b7faf71516d9bf3614027d18a29395d6dddfbfa386dcab",
+        "size_in_bytes": 7986
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/frame.py",
+        "path_type": "hardlink",
+        "sha256": "88439d7efdf11017e488c07585c643d0340b4fe5d6e8a2adca5eaff248e1a777",
+        "sha256_in_prefix": "88439d7efdf11017e488c07585c643d0340b4fe5d6e8a2adca5eaff248e1a777",
+        "size_in_bytes": 6427
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/synthetic.py",
+        "path_type": "hardlink",
+        "sha256": "f6caada16774e348ca07d91fc8804c0ece5d31fc3768788fd9858b0f77892ef8",
+        "sha256_in_prefix": "f6caada16774e348ca07d91fc8804c0ece5d31fc3768788fd9858b0f77892ef8",
+        "size_in_bytes": 11157
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/testing.py",
+        "path_type": "hardlink",
+        "sha256": "8867bd771d922668f6115b2531ba4cb8e3845b96863a374d55dde97ba5a92572",
+        "sha256_in_prefix": "8867bd771d922668f6115b2531ba4cb8e3845b96863a374d55dde97ba5a92572",
+        "size_in_bytes": 613
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/loaders/utils.py",
+        "path_type": "hardlink",
+        "sha256": "c1368fecce7b81b6005804cd9665be58cbef1775e87f0d044e52e5ec9842ef0e",
+        "sha256_in_prefix": "c1368fecce7b81b6005804cd9665be58cbef1775e87f0d044e52e5ec9842ef0e",
+        "size_in_bytes": 17568
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/mixins.py",
+        "path_type": "hardlink",
+        "sha256": "7b0285b2da91a1c16fffe63730ad08460a3a81b64aeb79ee4593b714358fea40",
+        "sha256_in_prefix": "7b0285b2da91a1c16fffe63730ad08460a3a81b64aeb79ee4593b714358fea40",
+        "size_in_bytes": 17986
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/pipeline.py",
+        "path_type": "hardlink",
+        "sha256": "1e9649183c993e54a71615fe2a5fdfeb082cc887c1dec70dcfb6c730e901141a",
+        "sha256_in_prefix": "1e9649183c993e54a71615fe2a5fdfeb082cc887c1dec70dcfb6c730e901141a",
+        "size_in_bytes": 7443
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/sentinels.py",
+        "path_type": "hardlink",
+        "sha256": "27ab2dedc202000f4885f615c94ecf712a854f6dc8a2764d3efabbd87c9e9d41",
+        "sha256_in_prefix": "27ab2dedc202000f4885f615c94ecf712a854f6dc8a2764d3efabbd87c9e9d41",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/term.py",
+        "path_type": "hardlink",
+        "sha256": "173c78432f320e4261bf52a153b228ed9460c54882cb86eace28d340462047a2",
+        "sha256_in_prefix": "173c78432f320e4261bf52a153b228ed9460c54882cb86eace28d340462047a2",
+        "size_in_bytes": 27179
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/pipeline/visualize.py",
+        "path_type": "hardlink",
+        "sha256": "0481de33285822bd2ff81e16632d3c568dfc2dc3c7783b71192ee4174b9ba94e",
+        "sha256_in_prefix": "0481de33285822bd2ff81e16632d3c568dfc2dc3c7783b71192ee4174b9ba94e",
+        "size_in_bytes": 5975
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/protocol.py",
+        "path_type": "hardlink",
+        "sha256": "11e656ea87abe6de844e3a182d5bc43a432e1bb6fb30ef1ce3cb0e91d2b3b1c4",
+        "sha256_in_prefix": "11e656ea87abe6de844e3a182d5bc43a432e1bb6fb30ef1ce3cb0e91d2b3b1c4",
+        "size_in_bytes": 10877
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/sources/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "72bf15fddbeecbe08df69bb38c5ac74ab75823f7b15cf510eae0015ebdecb208",
+        "sha256_in_prefix": "72bf15fddbeecbe08df69bb38c5ac74ab75823f7b15cf510eae0015ebdecb208",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/sources/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "3206053c6abb87ec82c36b48da92a4d40c0ffdd59274f638f3f135bb049ba2f9",
+        "sha256_in_prefix": "3206053c6abb87ec82c36b48da92a4d40c0ffdd59274f638f3f135bb049ba2f9",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/sources/__pycache__/benchmark_source.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab06ddcd962a4076d8ed22c4060fbd720684025d37b53d4f5ab0042511efa0ee",
+        "sha256_in_prefix": "ab06ddcd962a4076d8ed22c4060fbd720684025d37b53d4f5ab0042511efa0ee",
+        "size_in_bytes": 7103
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/sources/__pycache__/requests_csv.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "a47f4b9b0939ccab5cb68833859c2d851b250ebdcd95244806fa96220bb832c2",
+        "sha256_in_prefix": "a47f4b9b0939ccab5cb68833859c2d851b250ebdcd95244806fa96220bb832c2",
+        "size_in_bytes": 12185
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/sources/__pycache__/test_source.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "33fb2cba3bcb1967ae38272e78ce160fbc3c9b8b138221befc14a2089ed3aae6",
+        "sha256_in_prefix": "33fb2cba3bcb1967ae38272e78ce160fbc3c9b8b138221befc14a2089ed3aae6",
+        "size_in_bytes": 6470
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/sources/benchmark_source.py",
+        "path_type": "hardlink",
+        "sha256": "2996faac945abcdc0fcc1dff719fa4bb4246e37e91896879e96b81d052ec7073",
+        "sha256_in_prefix": "2996faac945abcdc0fcc1dff719fa4bb4246e37e91896879e96b81d052ec7073",
+        "size_in_bytes": 10741
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/sources/requests_csv.py",
+        "path_type": "hardlink",
+        "sha256": "91668c6518cce9d387397d78eff7ce70a60904a32aacdb8be5fd35ad8c77e33f",
+        "sha256_in_prefix": "91668c6518cce9d387397d78eff7ce70a60904a32aacdb8be5fd35ad8c77e33f",
+        "size_in_bytes": 19279
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/sources/test_source.py",
+        "path_type": "hardlink",
+        "sha256": "df92b11aafee9dcc0e836d4caaea530d18cfd19c1ac5f3758683a36618ad9b28",
+        "sha256_in_prefix": "df92b11aafee9dcc0e836d4caaea530d18cfd19c1ac5f3758683a36618ad9b28",
+        "size_in_bytes": 8068
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/test_algorithms.py",
+        "path_type": "hardlink",
+        "sha256": "fb58acf9c51cc14cf0c4ed3546cf29d17672e558a9fcce8162a841215c790fb5",
+        "sha256_in_prefix": "fb58acf9c51cc14cf0c4ed3546cf29d17672e558a9fcce8162a841215c790fb5",
+        "size_in_bytes": 18771
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/testing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "87e9628a09109b6471b5ce6134ab183d382b40b33600c209153692ea1336f348",
+        "sha256_in_prefix": "87e9628a09109b6471b5ce6134ab183d382b40b33600c209153692ea1336f348",
+        "size_in_bytes": 1427
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/testing/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "327208717ca0a8eb9ca6da54e82eba31404efefc57746f382e3c7c2383098a20",
+        "sha256_in_prefix": "327208717ca0a8eb9ca6da54e82eba31404efefc57746f382e3c7c2383098a20",
+        "size_in_bytes": 1962
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/testing/__pycache__/core.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c2027ffef8a36f0c7a1ebd8fa56cdf816520844705363589202083578de920b",
+        "sha256_in_prefix": "4c2027ffef8a36f0c7a1ebd8fa56cdf816520844705363589202083578de920b",
+        "size_in_bytes": 49883
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/testing/__pycache__/fixtures.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "488d458401728ef7e60b0ed00842a857d3ffd3861b6642f229a1cba4411a73f8",
+        "sha256_in_prefix": "488d458401728ef7e60b0ed00842a857d3ffd3861b6642f229a1cba4411a73f8",
+        "size_in_bytes": 63126
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/testing/__pycache__/predicates.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "9bff014452a107fd25ce3fec94c6ede1d3648a7d831b2f87b9c36895c076c4df",
+        "sha256_in_prefix": "9bff014452a107fd25ce3fec94c6ede1d3648a7d831b2f87b9c36895c076c4df",
+        "size_in_bytes": 19364
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/testing/__pycache__/slippage.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "4dd69144bafab0e28ce313d5339f26f630236b252a1fa18eb1185121f883865b",
+        "sha256_in_prefix": "4dd69144bafab0e28ce313d5339f26f630236b252a1fa18eb1185121f883865b",
+        "size_in_bytes": 1439
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/testing/core.py",
+        "path_type": "hardlink",
+        "sha256": "b162a606e13e8fa0e9c0637f177ed6435cfaea5510b8e04ea8be05ad646303b1",
+        "sha256_in_prefix": "b162a606e13e8fa0e9c0637f177ed6435cfaea5510b8e04ea8be05ad646303b1",
+        "size_in_bytes": 51141
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/testing/fixtures.py",
+        "path_type": "hardlink",
+        "sha256": "76266d0c81fad68129ffb366707c18601a3dd5d4cd985f276d8f4895b8608787",
+        "sha256_in_prefix": "76266d0c81fad68129ffb366707c18601a3dd5d4cd985f276d8f4895b8608787",
+        "size_in_bytes": 67967
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/testing/predicates.py",
+        "path_type": "hardlink",
+        "sha256": "0d7fc9cde3e0b642e7a84d2da55c3910bc69df6beae19a881f299905632dfa81",
+        "sha256_in_prefix": "0d7fc9cde3e0b642e7a84d2da55c3910bc69df6beae19a881f299905632dfa81",
+        "size_in_bytes": 20006
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/testing/slippage.py",
+        "path_type": "hardlink",
+        "sha256": "b2d9eba1d0ba5970c5d8695cb6f83522d9ede2b3a0d4856b99f2e3aec3a239d3",
+        "sha256_in_prefix": "b2d9eba1d0ba5970c5d8695cb6f83522d9ede2b3a0d4856b99f2e3aec3a239d3",
+        "size_in_bytes": 1028
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "354dd55dd3bf56dc2ab593aad3b4cb5b221da03b047a10e09ba634c36c653a70",
+        "sha256_in_prefix": "354dd55dd3bf56dc2ab593aad3b4cb5b221da03b047a10e09ba634c36c653a70",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/algo_instance.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "30511c57d32a0984d45048aa31dd323d824d632180a2a1a4a350e8b4a0b73855",
+        "sha256_in_prefix": "30511c57d32a0984d45048aa31dd323d824d632180a2a1a4a350e8b4a0b73855",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/api_support.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "86073a92f18b08535e8f4f9f9a083f44069a8b51f6489a43cbe123f05e7a6f46",
+        "sha256_in_prefix": "86073a92f18b08535e8f4f9f9a083f44069a8b51f6489a43cbe123f05e7a6f46",
+        "size_in_bytes": 4558
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/argcheck.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf87be36fa7efc2e8a469daa677664305b2b731b9d1cc3300da027fa9550231e",
+        "sha256_in_prefix": "bf87be36fa7efc2e8a469daa677664305b2b731b9d1cc3300da027fa9550231e",
+        "size_in_bytes": 11689
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/cache.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd9efb14117df6e2f5a446f6d79071235f6f3c341558177478e9f2735d583971",
+        "sha256_in_prefix": "cd9efb14117df6e2f5a446f6d79071235f6f3c341558177478e9f2735d583971",
+        "size_in_bytes": 13820
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/calendars.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "23790146874e5d4242bb860bc1dfa4d62ddeb438516c7ad0aa3507abe8821587",
+        "sha256_in_prefix": "23790146874e5d4242bb860bc1dfa4d62ddeb438516c7ad0aa3507abe8821587",
+        "size_in_bytes": 384
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/classproperty.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "b83692a6a3050a3ae56df623801fc3ab8bb5f0cf11f88bb5c7f580d0d9a575b4",
+        "sha256_in_prefix": "b83692a6a3050a3ae56df623801fc3ab8bb5f0cf11f88bb5c7f580d0d9a575b4",
+        "size_in_bytes": 640
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/cli.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c2cd2d31ddf62e26d26d6dffaad8920d6f6886cacf6c4420c8664a25acd3187",
+        "sha256_in_prefix": "2c2cd2d31ddf62e26d26d6dffaad8920d6f6886cacf6c4420c8664a25acd3187",
+        "size_in_bytes": 4678
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/compat.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "8065194b6ee74f3271bb9712cbbbe2db64b51461abf70e72f24887f90e707ca5",
+        "sha256_in_prefix": "8065194b6ee74f3271bb9712cbbbe2db64b51461abf70e72f24887f90e707ca5",
+        "size_in_bytes": 2935
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/context_tricks.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "b686c6e24a3f2c44abd4142c3a6c4d53ae6e5ff1ce1f936baefd4248c1f2ba47",
+        "sha256_in_prefix": "b686c6e24a3f2c44abd4142c3a6c4d53ae6e5ff1ce1f936baefd4248c1f2ba47",
+        "size_in_bytes": 3315
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/data.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec2ad5dd3c026b5af9b2afda91bf8494936014487628ad8fdd8af01ef9f4a813",
+        "sha256_in_prefix": "ec2ad5dd3c026b5af9b2afda91bf8494936014487628ad8fdd8af01ef9f4a813",
+        "size_in_bytes": 11396
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/date_utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0133b0f4102d94ffea09241c83f185f0aa3de0bd596cbe145c500a1b1138f30",
+        "sha256_in_prefix": "f0133b0f4102d94ffea09241c83f185f0aa3de0bd596cbe145c500a1b1138f30",
+        "size_in_bytes": 1502
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/deprecate.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c001c6204a83cd854ec18c27ca0e7b6acfdac5357e73b256dea297a2a112af3",
+        "sha256_in_prefix": "3c001c6204a83cd854ec18c27ca0e7b6acfdac5357e73b256dea297a2a112af3",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/dummy.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a18c333745f3b7c95cf65c109e2ddef40745d684e4573207e10376b5c55d764",
+        "sha256_in_prefix": "6a18c333745f3b7c95cf65c109e2ddef40745d684e4573207e10376b5c55d764",
+        "size_in_bytes": 683
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/enum.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "29f809ad91490a569690c9590b210515c2ca07a1fc7223c0c41316005ec37d5e",
+        "sha256_in_prefix": "29f809ad91490a569690c9590b210515c2ca07a1fc7223c0c41316005ec37d5e",
+        "size_in_bytes": 2950
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/events.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "042f2d7e4046014850882fffeb8730a823365fc4e22899c0e43c97877d82d359",
+        "sha256_in_prefix": "042f2d7e4046014850882fffeb8730a823365fc4e22899c0e43c97877d82d359",
+        "size_in_bytes": 20742
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/exploding_object.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c1e971a8587eea2407957b296cf22a7a1159d73a3a425514e0cf4a91e3b17be",
+        "sha256_in_prefix": "4c1e971a8587eea2407957b296cf22a7a1159d73a3a425514e0cf4a91e3b17be",
+        "size_in_bytes": 1445
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/factory.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "3cb077f533205df303a685471b4c4cbef59de410507bac3f13f52a56281be0af",
+        "sha256_in_prefix": "3cb077f533205df303a685471b4c4cbef59de410507bac3f13f52a56281be0af",
+        "size_in_bytes": 3571
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/final.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "a48e9647b5e54e6e2b27f758f04b1af603c33f941f380d7cf5d2046d14e51481",
+        "sha256_in_prefix": "a48e9647b5e54e6e2b27f758f04b1af603c33f941f380d7cf5d2046d14e51481",
+        "size_in_bytes": 4533
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/functional.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "d61f952ef73dfc57c187a5f8baec6650b2fd42f58e04cb63ed47382fe7feb6b7",
+        "sha256_in_prefix": "d61f952ef73dfc57c187a5f8baec6650b2fd42f58e04cb63ed47382fe7feb6b7",
+        "size_in_bytes": 10942
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/input_validation.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "77d73aa41c61b6477ad4e5c3cbc63303f2a192eca230db252007f98e83ddf548",
+        "sha256_in_prefix": "77d73aa41c61b6477ad4e5c3cbc63303f2a192eca230db252007f98e83ddf548",
+        "size_in_bytes": 25563
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/math_utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "69e3f00eee7e88712065bd1cdc76edf8d5c3863ec310f10a85e4ce4797192eaa",
+        "sha256_in_prefix": "69e3f00eee7e88712065bd1cdc76edf8d5c3863ec310f10a85e4ce4797192eaa",
+        "size_in_bytes": 2038
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/memoize.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "98bebf76b3f4b5ac22024ee4192825918c0893bd255eaa69146344d863155e6f",
+        "sha256_in_prefix": "98bebf76b3f4b5ac22024ee4192825918c0893bd255eaa69146344d863155e6f",
+        "size_in_bytes": 9579
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/metautils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "c2f5ab3e91ef7b4be28923955ff7efc700b38c1731d582e43abc91394d4152a6",
+        "sha256_in_prefix": "c2f5ab3e91ef7b4be28923955ff7efc700b38c1731d582e43abc91394d4152a6",
+        "size_in_bytes": 3477
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/numpy_utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "e508e02e40450b67fcbacc5018a807bc8d2c44d9b8c3cde8f4fb1b642d648ac2",
+        "sha256_in_prefix": "e508e02e40450b67fcbacc5018a807bc8d2c44d9b8c3cde8f4fb1b642d648ac2",
+        "size_in_bytes": 12680
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/pandas_utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "59267ad42f41cfcecf054f8c6cfd46680763a1244dd3e570b47eaf3f5a54ba84",
+        "sha256_in_prefix": "59267ad42f41cfcecf054f8c6cfd46680763a1244dd3e570b47eaf3f5a54ba84",
+        "size_in_bytes": 8939
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/paths.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "7816863a5b7b6b21ba9ab2d36dd4d2bc7eedb08a1f0fba58419af354a22db0be",
+        "sha256_in_prefix": "7816863a5b7b6b21ba9ab2d36dd4d2bc7eedb08a1f0fba58419af354a22db0be",
+        "size_in_bytes": 6802
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/pool.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "3281925e604a290653ec41ff112efe531b3e9aa1baab3df9aeaa1fc1f5e90202",
+        "sha256_in_prefix": "3281925e604a290653ec41ff112efe531b3e9aa1baab3df9aeaa1fc1f5e90202",
+        "size_in_bytes": 5027
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/preprocess.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "cdc1b67a7cd2708417efb35f759c02af0c6e1cd6d3e3607be080eac736797810",
+        "sha256_in_prefix": "cdc1b67a7cd2708417efb35f759c02af0c6e1cd6d3e3607be080eac736797810",
+        "size_in_bytes": 6591
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/range.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b8dc2b9bd7229f9a3938df52ad0d0ea481e59bb05c3d629723aa1f92c00cf5a",
+        "sha256_in_prefix": "1b8dc2b9bd7229f9a3938df52ad0d0ea481e59bb05c3d629723aa1f92c00cf5a",
+        "size_in_bytes": 8854
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/run_algo.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "feaa15d73c340375120f94a645cfb7aa88a60f7d3c23fb1ae0c2fe86b52480ac",
+        "sha256_in_prefix": "feaa15d73c340375120f94a645cfb7aa88a60f7d3c23fb1ae0c2fe86b52480ac",
+        "size_in_bytes": 11370
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/security_list.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "82c9070651ea531593fdd338a2caebcbfef016184ff67c85e75be4843a7d452e",
+        "sha256_in_prefix": "82c9070651ea531593fdd338a2caebcbfef016184ff67c85e75be4843a7d452e",
+        "size_in_bytes": 5496
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/sentinel.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "089ee10806e4c00f2bc8ba18b4689b0974d66cd16267e37bd9febda2410c78d1",
+        "sha256_in_prefix": "089ee10806e4c00f2bc8ba18b4689b0974d66cd16267e37bd9febda2410c78d1",
+        "size_in_bytes": 2761
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/sharedoc.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "68057866687f5cb1d92a1cd5c19460e9b3f07afbcd99369a46b86ec1cda145ee",
+        "sha256_in_prefix": "68057866687f5cb1d92a1cd5c19460e9b3f07afbcd99369a46b86ec1cda145ee",
+        "size_in_bytes": 3443
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/simfactory.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "c679a77585ac4b313a53c77dd45023d0cdf051a06201974adc4fd9a7fbe12bbc",
+        "sha256_in_prefix": "c679a77585ac4b313a53c77dd45023d0cdf051a06201974adc4fd9a7fbe12bbc",
+        "size_in_bytes": 2850
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/sqlite_utils.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "057c6af7bd64838faa7477e6a86718fff27220044393ada9556aa87a37edc0c7",
+        "sha256_in_prefix": "057c6af7bd64838faa7477e6a86718fff27220044393ada9556aa87a37edc0c7",
+        "size_in_bytes": 1721
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/__pycache__/tradingcalendar.cpython-35.pyc",
+        "path_type": "hardlink",
+        "sha256": "3516f6b8e81305ac3a3229dcef3328ec5c051a6db4c83e03e0541c69779251ab",
+        "sha256_in_prefix": "3516f6b8e81305ac3a3229dcef3328ec5c051a6db4c83e03e0541c69779251ab",
+        "size_in_bytes": 5751
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/algo_instance.py",
+        "path_type": "hardlink",
+        "sha256": "5ce85e96bd812ecc0e6afd4c846e1c837929741b3a38179de7b0aa8789e9a296",
+        "sha256_in_prefix": "5ce85e96bd812ecc0e6afd4c846e1c837929741b3a38179de7b0aa8789e9a296",
+        "size_in_bytes": 761
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/api_support.py",
+        "path_type": "hardlink",
+        "sha256": "c6140ca77bb3a8dc7a1d05ada6ee6cf1a19874b549d8ab708f108755f404707b",
+        "sha256_in_prefix": "c6140ca77bb3a8dc7a1d05ada6ee6cf1a19874b549d8ab708f108755f404707b",
+        "size_in_bytes": 4138
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/argcheck.py",
+        "path_type": "hardlink",
+        "sha256": "49acb174b5867301afeffd90eeb469372c081d1aefd181ea94eab9062bcc02cd",
+        "sha256_in_prefix": "49acb174b5867301afeffd90eeb469372c081d1aefd181ea94eab9062bcc02cd",
+        "size_in_bytes": 9808
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/cache.py",
+        "path_type": "hardlink",
+        "sha256": "58154aeea76b3fb2ec1f97bc96421cdfd91571542f5b5622ee063b90ed0b9f53",
+        "sha256_in_prefix": "58154aeea76b3fb2ec1f97bc96421cdfd91571542f5b5622ee063b90ed0b9f53",
+        "size_in_bytes": 11511
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/calendars.py",
+        "path_type": "hardlink",
+        "sha256": "aa65067d67294c2451af92f35e5446c56b2fe782f0cc3fbbb8b7bc14e3fd6ada",
+        "sha256_in_prefix": "aa65067d67294c2451af92f35e5446c56b2fe782f0cc3fbbb8b7bc14e3fd6ada",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/classproperty.py",
+        "path_type": "hardlink",
+        "sha256": "6f439632c7e25ba3db20de120d43980022405ad9e7da52a7d608e88331800113",
+        "sha256_in_prefix": "6f439632c7e25ba3db20de120d43980022405ad9e7da52a7d608e88331800113",
+        "size_in_bytes": 187
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/cli.py",
+        "path_type": "hardlink",
+        "sha256": "067ab0fbfa2c403b7be35fe8eaee273ce4a4c67659a7de15de3f252e6640da9f",
+        "sha256_in_prefix": "067ab0fbfa2c403b7be35fe8eaee273ce4a4c67659a7de15de3f252e6640da9f",
+        "size_in_bytes": 3195
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/compat.py",
+        "path_type": "hardlink",
+        "sha256": "fcede2ec19250350db5ce8dc1bbfeba822582ad6044d7609e50d8737c1708403",
+        "sha256_in_prefix": "fcede2ec19250350db5ce8dc1bbfeba822582ad6044d7609e50d8737c1708403",
+        "size_in_bytes": 3732
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/context_tricks.py",
+        "path_type": "hardlink",
+        "sha256": "82b758f85c1d2f52aef1c272f49a385c7f7e39ca500daed099dcfcb5ff888266",
+        "sha256_in_prefix": "82b758f85c1d2f52aef1c272f49a385c7f7e39ca500daed099dcfcb5ff888266",
+        "size_in_bytes": 2165
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/data.py",
+        "path_type": "hardlink",
+        "sha256": "7b5c3e0e18c2fc3d5957b2b2c30a0d0c6128b2166c3fdf316830a9fe45abc71c",
+        "sha256_in_prefix": "7b5c3e0e18c2fc3d5957b2b2c30a0d0c6128b2166c3fdf316830a9fe45abc71c",
+        "size_in_bytes": 12760
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/date_utils.py",
+        "path_type": "hardlink",
+        "sha256": "bb2b8a049f10bac19333cb15e8f14b115152a9d7de5ab7c416dfd24c4e24661f",
+        "sha256_in_prefix": "bb2b8a049f10bac19333cb15e8f14b115152a9d7de5ab7c416dfd24c4e24661f",
+        "size_in_bytes": 1448
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/deprecate.py",
+        "path_type": "hardlink",
+        "sha256": "90971e9ed5a233d5874f60bcba9db9f6c10604a0a875d6db695ab663a1c3d775",
+        "sha256_in_prefix": "90971e9ed5a233d5874f60bcba9db9f6c10604a0a875d6db695ab663a1c3d775",
+        "size_in_bytes": 1518
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/dummy.py",
+        "path_type": "hardlink",
+        "sha256": "41996b98947bda6edbc80dfa47dfeb5546d27db3bb9a5d005ff43129bf21cb1c",
+        "sha256_in_prefix": "41996b98947bda6edbc80dfa47dfeb5546d27db3bb9a5d005ff43129bf21cb1c",
+        "size_in_bytes": 238
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/enum.py",
+        "path_type": "hardlink",
+        "sha256": "96fd7ba47d6416a8bfbab3055caf3dc624c7b837cbbb92895941303b6c3a336e",
+        "sha256_in_prefix": "96fd7ba47d6416a8bfbab3055caf3dc624c7b837cbbb92895941303b6c3a336e",
+        "size_in_bytes": 2751
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/events.py",
+        "path_type": "hardlink",
+        "sha256": "bc9d467406227b1bf91a3b51398806f8da9e3886fe986ce4f652b9a136eaa153",
+        "sha256_in_prefix": "bc9d467406227b1bf91a3b51398806f8da9e3886fe986ce4f652b9a136eaa153",
+        "size_in_bytes": 20088
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/exploding_object.py",
+        "path_type": "hardlink",
+        "sha256": "92b0b426b4e27591fdcad604558f06733ce9c8b9d17f08f2cbb1d420c7578587",
+        "sha256_in_prefix": "92b0b426b4e27591fdcad604558f06733ce9c8b9d17f08f2cbb1d420c7578587",
+        "size_in_bytes": 1177
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/factory.py",
+        "path_type": "hardlink",
+        "sha256": "a7c9ca3950137425a67a12651f2b2a262d4acfaa51429cda09d047ffe8a56e7f",
+        "sha256_in_prefix": "a7c9ca3950137425a67a12651f2b2a262d4acfaa51429cda09d047ffe8a56e7f",
+        "size_in_bytes": 5199
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/final.py",
+        "path_type": "hardlink",
+        "sha256": "8008965622406c00c6742941edd96d4e58ee716970d300c76e317a2f9e4c4b49",
+        "sha256_in_prefix": "8008965622406c00c6742941edd96d4e58ee716970d300c76e317a2f9e4c4b49",
+        "size_in_bytes": 3879
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/functional.py",
+        "path_type": "hardlink",
+        "sha256": "982d02fa596987e02a787702e205187d08934b67863fed179a2c5e1fc7411b61",
+        "sha256_in_prefix": "982d02fa596987e02a787702e205187d08934b67863fed179a2c5e1fc7411b61",
+        "size_in_bytes": 9996
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/input_validation.py",
+        "path_type": "hardlink",
+        "sha256": "4b67aabaf8d60fc55a616e09c54e7d1ceb656c072a5943c30031aeb59f84f37d",
+        "sha256_in_prefix": "4b67aabaf8d60fc55a616e09c54e7d1ceb656c072a5943c30031aeb59f84f37d",
+        "size_in_bytes": 25616
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/math_utils.py",
+        "path_type": "hardlink",
+        "sha256": "c8308dbdfd730ed3f0da17dec1d2f71238e05cab4555a834e85a6713af80cddb",
+        "sha256_in_prefix": "c8308dbdfd730ed3f0da17dec1d2f71238e05cab4555a834e85a6713af80cddb",
+        "size_in_bytes": 2446
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/memoize.py",
+        "path_type": "hardlink",
+        "sha256": "83e2f7763c894cffd331c44ada3de9b004905c0bdad83f59137c5b677bcbb64a",
+        "sha256_in_prefix": "83e2f7763c894cffd331c44ada3de9b004905c0bdad83f59137c5b677bcbb64a",
+        "size_in_bytes": 7728
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/metautils.py",
+        "path_type": "hardlink",
+        "sha256": "e0f762d9465921499c560430cf75f3ad7fe7172432dc2a652f4b8ce326f4d9c7",
+        "sha256_in_prefix": "e0f762d9465921499c560430cf75f3ad7fe7172432dc2a652f4b8ce326f4d9c7",
+        "size_in_bytes": 3315
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/numpy_utils.py",
+        "path_type": "hardlink",
+        "sha256": "d077798af8c27d2b269749f15a90a8a9ce1ea4e7957d6cc956e2ccb1ff07c1e3",
+        "sha256_in_prefix": "d077798af8c27d2b269749f15a90a8a9ce1ea4e7957d6cc956e2ccb1ff07c1e3",
+        "size_in_bytes": 11846
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/pandas_utils.py",
+        "path_type": "hardlink",
+        "sha256": "0b1958de11d739ab40d70d8d2991b1e1f99428bf15641573c14cdf8408ac8230",
+        "sha256_in_prefix": "0b1958de11d739ab40d70d8d2991b1e1f99428bf15641573c14cdf8408ac8230",
+        "size_in_bytes": 8535
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/paths.py",
+        "path_type": "hardlink",
+        "sha256": "d62a820afa64d3c6a0a00248e6b3e5dff2e13f4420a3a677eb01fbf390e47c4f",
+        "sha256_in_prefix": "d62a820afa64d3c6a0a00248e6b3e5dff2e13f4420a3a677eb01fbf390e47c4f",
+        "size_in_bytes": 5730
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/pool.py",
+        "path_type": "hardlink",
+        "sha256": "27e8f074b971260db5e94bcc3d7c717df1c71c4f3f8eeeb25224a031fcfcb12c",
+        "sha256_in_prefix": "27e8f074b971260db5e94bcc3d7c717df1c71c4f3f8eeeb25224a031fcfcb12c",
+        "size_in_bytes": 4145
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/preprocess.py",
+        "path_type": "hardlink",
+        "sha256": "d2f7ca19325436533a3e4affb5f9b8a706e584b1b4543293353dc1f49fe7de5f",
+        "sha256_in_prefix": "d2f7ca19325436533a3e4affb5f9b8a706e584b1b4543293353dc1f49fe7de5f",
+        "size_in_bytes": 7217
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/range.py",
+        "path_type": "hardlink",
+        "sha256": "689c57f858f42098332fb17be217f95db6e9323a1d6f6af3f56e585f0a653273",
+        "sha256_in_prefix": "689c57f858f42098332fb17be217f95db6e9323a1d6f6af3f56e585f0a653273",
+        "size_in_bytes": 8584
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/run_algo.py",
+        "path_type": "hardlink",
+        "sha256": "0ef8d33624667dbb738e1649a471ff3c9089f5c7b769185f8af29d3593616276",
+        "sha256_in_prefix": "0ef8d33624667dbb738e1649a471ff3c9089f5c7b769185f8af29d3593616276",
+        "size_in_bytes": 14620
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/security_list.py",
+        "path_type": "hardlink",
+        "sha256": "888924452113bbd3cd2dba1cfb65e39e5b31c4815ae34abc8cc40efa33c4690e",
+        "sha256_in_prefix": "888924452113bbd3cd2dba1cfb65e39e5b31c4815ae34abc8cc40efa33c4690e",
+        "size_in_bytes": 5399
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/sentinel.py",
+        "path_type": "hardlink",
+        "sha256": "1b5189d0af1a6ee25ea8b05674411fef4684560c465e591b15aad7d75be1f117",
+        "sha256_in_prefix": "1b5189d0af1a6ee25ea8b05674411fef4684560c465e591b15aad7d75be1f117",
+        "size_in_bytes": 2251
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/sharedoc.py",
+        "path_type": "hardlink",
+        "sha256": "1fd9400c8d85d03224325b9b0b88f9b9f339b6044346b2c4b38c675558f5c6aa",
+        "sha256_in_prefix": "1fd9400c8d85d03224325b9b0b88f9b9f339b6044346b2c4b38c675558f5c6aa",
+        "size_in_bytes": 3556
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/simfactory.py",
+        "path_type": "hardlink",
+        "sha256": "a827b6774586769059df47ab013d757e4c4d136d092eaab0cdf93915ca816a68",
+        "sha256_in_prefix": "a827b6774586769059df47ab013d757e4c4d136d092eaab0cdf93915ca816a68",
+        "size_in_bytes": 3675
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/sqlite_utils.py",
+        "path_type": "hardlink",
+        "sha256": "d6f7f633a0b0d2849816f8b56cd23441291f7e7c9ae1d5d7573d8f242a8068ca",
+        "sha256_in_prefix": "d6f7f633a0b0d2849816f8b56cd23441291f7e7c9ae1d5d7573d8f242a8068ca",
+        "size_in_bytes": 1739
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/utils/tradingcalendar.py",
+        "path_type": "hardlink",
+        "sha256": "6d588b35fd68fb2daf62d3da248418e669be2e93e40daaa669ab1830aed6e7ce",
+        "sha256_in_prefix": "6d588b35fd68fb2daf62d3da248418e669be2e93e40daaa669ab1830aed6e7ce",
+        "size_in_bytes": 11900
+      },
+      {
+        "_path": "lib/python3.5/site-packages/zipline/zipline_warnings.py",
+        "path_type": "hardlink",
+        "sha256": "ec61889707bc43119744298812da29806b216438313c52e5ad4918550b7e435b",
+        "sha256_in_prefix": "ec61889707bc43119744298812da29806b216438313c52e5ad4918550b7e435b",
+        "size_in_bytes": 646
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "darwin",
+  "requested_spec": "zipline",
+  "size": 1584557,
+  "subdir": "osx-64",
+  "timestamp": 1531789427150,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/Quantopian/osx-64/zipline-1.3.0-np114py35_0.tar.bz2",
+  "version": "1.3.0"
+}
