@@ -1,1 +1,2 @@
 Zipline SettingUp on MacOS
+source /var/root/anaconda3/bin/activate
