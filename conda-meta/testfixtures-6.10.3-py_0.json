@@ -1,0 +1,833 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/var/root/anaconda3/pkgs/testfixtures-6.10.3-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.5/site-packages/testfixtures-6.10.3.dist-info/INSTALLER",
+    "lib/python3.5/site-packages/testfixtures-6.10.3.dist-info/LICENSE.txt",
+    "lib/python3.5/site-packages/testfixtures-6.10.3.dist-info/METADATA",
+    "lib/python3.5/site-packages/testfixtures-6.10.3.dist-info/RECORD",
+    "lib/python3.5/site-packages/testfixtures-6.10.3.dist-info/WHEEL",
+    "lib/python3.5/site-packages/testfixtures-6.10.3.dist-info/top_level.txt",
+    "lib/python3.5/site-packages/testfixtures/__init__.py",
+    "lib/python3.5/site-packages/testfixtures/comparison.py",
+    "lib/python3.5/site-packages/testfixtures/compat.py",
+    "lib/python3.5/site-packages/testfixtures/components.py",
+    "lib/python3.5/site-packages/testfixtures/django.py",
+    "lib/python3.5/site-packages/testfixtures/logcapture.py",
+    "lib/python3.5/site-packages/testfixtures/mock.py",
+    "lib/python3.5/site-packages/testfixtures/outputcapture.py",
+    "lib/python3.5/site-packages/testfixtures/popen.py",
+    "lib/python3.5/site-packages/testfixtures/replace.py",
+    "lib/python3.5/site-packages/testfixtures/resolve.py",
+    "lib/python3.5/site-packages/testfixtures/rmtree.py",
+    "lib/python3.5/site-packages/testfixtures/shouldraise.py",
+    "lib/python3.5/site-packages/testfixtures/shouldwarn.py",
+    "lib/python3.5/site-packages/testfixtures/sybil.py",
+    "lib/python3.5/site-packages/testfixtures/tdatetime.py",
+    "lib/python3.5/site-packages/testfixtures/tempdirectory.py",
+    "lib/python3.5/site-packages/testfixtures/tests/__init__.py",
+    "lib/python3.5/site-packages/testfixtures/tests/configparser-read.txt",
+    "lib/python3.5/site-packages/testfixtures/tests/configparser-write.txt",
+    "lib/python3.5/site-packages/testfixtures/tests/conftest.py",
+    "lib/python3.5/site-packages/testfixtures/tests/directory-contents.txt",
+    "lib/python3.5/site-packages/testfixtures/tests/sample1.py",
+    "lib/python3.5/site-packages/testfixtures/tests/sample2.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_compare.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_comparison.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_components.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_date.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_datetime.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_diff.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_django/__init__.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_django/manage.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_django/models.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_django/settings.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_django/test_compare.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_django/test_shouldraise.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_generator.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_log_capture.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_logcapture.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_mock.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_outputcapture.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_popen.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_popen_docs.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_rangecomparison.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_replace.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_replacer.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_roundcomparison.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_should_raise.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_shouldwarn.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_stringcomparison.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_sybil.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_tempdir.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_tempdirectory.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_time.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_twisted.py",
+    "lib/python3.5/site-packages/testfixtures/tests/test_wrap.py",
+    "lib/python3.5/site-packages/testfixtures/twisted.py",
+    "lib/python3.5/site-packages/testfixtures/utils.py",
+    "lib/python3.5/site-packages/testfixtures/version.txt",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/comparison.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/compat.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/components.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/django.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/logcapture.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/mock.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/outputcapture.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/popen.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/replace.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/resolve.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/rmtree.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/shouldraise.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/shouldwarn.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/sybil.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/tdatetime.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/tempdirectory.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/conftest.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/sample1.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/sample2.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_compare.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_comparison.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_components.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_date.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_datetime.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_diff.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/test_django/__pycache__/__init__.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/test_django/__pycache__/manage.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/test_django/__pycache__/models.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/test_django/__pycache__/settings.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/test_django/__pycache__/test_compare.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/test_django/__pycache__/test_shouldraise.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_generator.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_log_capture.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_logcapture.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_mock.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_outputcapture.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_popen.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_popen_docs.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_rangecomparison.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_replace.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_replacer.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_roundcomparison.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_should_raise.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_shouldwarn.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_stringcomparison.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_sybil.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_tempdir.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_tempdirectory.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_time.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_twisted.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_wrap.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/twisted.cpython-35.pyc",
+    "lib/python3.5/site-packages/testfixtures/__pycache__/utils.cpython-35.pyc"
+  ],
+  "fn": "testfixtures-6.10.3-py_0.conda",
+  "legacy_bz2_md5": "a9582dc33dffe6c51faea7b48fa77735",
+  "license": "MIT",
+  "link": {
+    "source": "/var/root/anaconda3/pkgs/testfixtures-6.10.3-py_0",
+    "type": 1
+  },
+  "md5": "9ce579ab938a28dbb61df41c7c92ca99",
+  "name": "testfixtures",
+  "noarch": "python",
+  "package_tarball_full_path": "/var/root/anaconda3/pkgs/testfixtures-6.10.3-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/testfixtures-6.10.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/testfixtures-6.10.3.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "40ae506894dbfe8a94f0cf2866023753de39baf9973cd96601cbcff055598aaa",
+        "sha256_in_prefix": "40ae506894dbfe8a94f0cf2866023753de39baf9973cd96601cbcff055598aaa",
+        "size_in_bytes": 1115
+      },
+      {
+        "_path": "site-packages/testfixtures-6.10.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "715bc687372aeae5d2149cad1f41f8b15cf373eea6b9cad82270761496345aaa",
+        "sha256_in_prefix": "715bc687372aeae5d2149cad1f41f8b15cf373eea6b9cad82270761496345aaa",
+        "size_in_bytes": 3151
+      },
+      {
+        "_path": "site-packages/testfixtures-6.10.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b2aa1bb2d94d9c39cef6289749702b7ba11a06ba5f971b45b985a42b4c7647bf",
+        "sha256_in_prefix": "b2aa1bb2d94d9c39cef6289749702b7ba11a06ba5f971b45b985a42b4c7647bf",
+        "size_in_bytes": 7881
+      },
+      {
+        "_path": "site-packages/testfixtures-6.10.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "sha256_in_prefix": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/testfixtures-6.10.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9ca80d9a49eb6d520f94aee46d39be7d58942cca3615db4ee8b46485dff7323f",
+        "sha256_in_prefix": "9ca80d9a49eb6d520f94aee46d39be7d58942cca3615db4ee8b46485dff7323f",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/testfixtures/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f4fd17bc7c1e96d3d9217d8c8d951b872f1308c8f217f44e445ca4e3b0b56bff",
+        "sha256_in_prefix": "f4fd17bc7c1e96d3d9217d8c8d951b872f1308c8f217f44e445ca4e3b0b56bff",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "site-packages/testfixtures/comparison.py",
+        "path_type": "hardlink",
+        "sha256": "2db56ac8407a2fa225f0bffce2607e0a75c009ba8b2e21bab4e4d82d0ecd040e",
+        "sha256_in_prefix": "2db56ac8407a2fa225f0bffce2607e0a75c009ba8b2e21bab4e4d82d0ecd040e",
+        "size_in_bytes": 25847
+      },
+      {
+        "_path": "site-packages/testfixtures/compat.py",
+        "path_type": "hardlink",
+        "sha256": "5cae86fcf0ef2aa7b071cece0b3eb53c51d6b3189a9036e0895319be50bc47f6",
+        "sha256_in_prefix": "5cae86fcf0ef2aa7b071cece0b3eb53c51d6b3189a9036e0895319be50bc47f6",
+        "size_in_bytes": 1303
+      },
+      {
+        "_path": "site-packages/testfixtures/components.py",
+        "path_type": "hardlink",
+        "sha256": "57f08e409629713549bdce625bafe2aa9f5ad437f18f50400a453a2d1c8a869e",
+        "sha256_in_prefix": "57f08e409629713549bdce625bafe2aa9f5ad437f18f50400a453a2d1c8a869e",
+        "size_in_bytes": 1200
+      },
+      {
+        "_path": "site-packages/testfixtures/django.py",
+        "path_type": "hardlink",
+        "sha256": "2237e652ba596f4b8cfb233c36221921e6db3bf56f09b86b0ba9a2f0537de62a",
+        "sha256_in_prefix": "2237e652ba596f4b8cfb233c36221921e6db3bf56f09b86b0ba9a2f0537de62a",
+        "size_in_bytes": 1812
+      },
+      {
+        "_path": "site-packages/testfixtures/logcapture.py",
+        "path_type": "hardlink",
+        "sha256": "b4bddfb04b5223552a664f8ca36e04eb653e6cd5dc6acb61e229797bdf8539b4",
+        "sha256_in_prefix": "b4bddfb04b5223552a664f8ca36e04eb653e6cd5dc6acb61e229797bdf8539b4",
+        "size_in_bytes": 9487
+      },
+      {
+        "_path": "site-packages/testfixtures/mock.py",
+        "path_type": "hardlink",
+        "sha256": "fba56949c3094eafbf0bc57ce9c7ff66e1ca69461e41fd48e24eec05561e3acf",
+        "sha256_in_prefix": "fba56949c3094eafbf0bc57ce9c7ff66e1ca69461e41fd48e24eec05561e3acf",
+        "size_in_bytes": 3038
+      },
+      {
+        "_path": "site-packages/testfixtures/outputcapture.py",
+        "path_type": "hardlink",
+        "sha256": "7b9c40d9564d7768270c944465ef0cb04ee04539ee0b0bb01934cd8495ddf80b",
+        "sha256_in_prefix": "7b9c40d9564d7768270c944465ef0cb04ee04539ee0b0bb01934cd8495ddf80b",
+        "size_in_bytes": 4878
+      },
+      {
+        "_path": "site-packages/testfixtures/popen.py",
+        "path_type": "hardlink",
+        "sha256": "64f4e15553c611e852b650efc892fef0491363566b6dd918bd238acf7f47e76e",
+        "sha256_in_prefix": "64f4e15553c611e852b650efc892fef0491363566b6dd918bd238acf7f47e76e",
+        "size_in_bytes": 9694
+      },
+      {
+        "_path": "site-packages/testfixtures/replace.py",
+        "path_type": "hardlink",
+        "sha256": "3932c6a951c785d7311791a3dc3529d06100de7bd3ce36e14242bf0f4883560d",
+        "sha256_in_prefix": "3932c6a951c785d7311791a3dc3529d06100de7bd3ce36e14242bf0f4883560d",
+        "size_in_bytes": 4634
+      },
+      {
+        "_path": "site-packages/testfixtures/resolve.py",
+        "path_type": "hardlink",
+        "sha256": "4a87f81b8ad9364eeede2ba1c8db00ba9228af97bc5ec1b6d4376a7a7038eda8",
+        "sha256_in_prefix": "4a87f81b8ad9364eeede2ba1c8db00ba9228af97bc5ec1b6d4376a7a7038eda8",
+        "size_in_bytes": 1344
+      },
+      {
+        "_path": "site-packages/testfixtures/rmtree.py",
+        "path_type": "hardlink",
+        "sha256": "cd70e01598281ad8e4031f6eb6ebac37fc7f2519ccef4eae1511a74c28a6b598",
+        "sha256_in_prefix": "cd70e01598281ad8e4031f6eb6ebac37fc7f2519ccef4eae1511a74c28a6b598",
+        "size_in_bytes": 2584
+      },
+      {
+        "_path": "site-packages/testfixtures/shouldraise.py",
+        "path_type": "hardlink",
+        "sha256": "06ccbfa81fe9781f40091eb8aef37852da0bf1d26c4f9c667f7baf685dc0fe26",
+        "sha256_in_prefix": "06ccbfa81fe9781f40091eb8aef37852da0bf1d26c4f9c667f7baf685dc0fe26",
+        "size_in_bytes": 3530
+      },
+      {
+        "_path": "site-packages/testfixtures/shouldwarn.py",
+        "path_type": "hardlink",
+        "sha256": "161c52b56bfbbc0ae01daf98513eeda1b5af7e1c8c5cf787287f44c313e0996f",
+        "sha256_in_prefix": "161c52b56bfbbc0ae01daf98513eeda1b5af7e1c8c5cf787287f44c313e0996f",
+        "size_in_bytes": 2176
+      },
+      {
+        "_path": "site-packages/testfixtures/sybil.py",
+        "path_type": "hardlink",
+        "sha256": "b44ac3ef7db96c49674175070e3ace0c576f1a5cc5a1fd5bc4cb1dadf3684ebf",
+        "sha256_in_prefix": "b44ac3ef7db96c49674175070e3ace0c576f1a5cc5a1fd5bc4cb1dadf3684ebf",
+        "size_in_bytes": 2290
+      },
+      {
+        "_path": "site-packages/testfixtures/tdatetime.py",
+        "path_type": "hardlink",
+        "sha256": "7629bb43958e5e16f541385bbba654d915d41799d3decffda2fc7b761cf8f29e",
+        "sha256_in_prefix": "7629bb43958e5e16f541385bbba654d915d41799d3decffda2fc7b761cf8f29e",
+        "size_in_bytes": 5176
+      },
+      {
+        "_path": "site-packages/testfixtures/tempdirectory.py",
+        "path_type": "hardlink",
+        "sha256": "f2a86ba2a5dfc558f697519413436ae3e5e37008b1358299269be027622a3a88",
+        "sha256_in_prefix": "f2a86ba2a5dfc558f697519413436ae3e5e37008b1358299269be027622a3a88",
+        "size_in_bytes": 14102
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a1fbbe4e98891f7033dd940957c0e1c753685d18df8e5287986b9bb3fabbaba9",
+        "sha256_in_prefix": "a1fbbe4e98891f7033dd940957c0e1c753685d18df8e5287986b9bb3fabbaba9",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/configparser-read.txt",
+        "path_type": "hardlink",
+        "sha256": "23c72218c6bef9d2dac50eb8102c68020620729969fc86fd046622329850b096",
+        "sha256_in_prefix": "23c72218c6bef9d2dac50eb8102c68020620729969fc86fd046622329850b096",
+        "size_in_bytes": 939
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/configparser-write.txt",
+        "path_type": "hardlink",
+        "sha256": "88dd7ef9d58721bb9757cfe40d25cab861b8f362ab804765315d467a4541b20c",
+        "sha256_in_prefix": "88dd7ef9d58721bb9757cfe40d25cab861b8f362ab804765315d467a4541b20c",
+        "size_in_bytes": 882
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "e2accc76d795cc2688e4ed7b89de541e013d40b5f5eea9a8632fd8cf897f873a",
+        "sha256_in_prefix": "e2accc76d795cc2688e4ed7b89de541e013d40b5f5eea9a8632fd8cf897f873a",
+        "size_in_bytes": 636
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/directory-contents.txt",
+        "path_type": "hardlink",
+        "sha256": "ed00a04163be1f993ce4179436d411cc882dc746743c1db97da50fb406fe0206",
+        "sha256_in_prefix": "ed00a04163be1f993ce4179436d411cc882dc746743c1db97da50fb406fe0206",
+        "size_in_bytes": 739
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/sample1.py",
+        "path_type": "hardlink",
+        "sha256": "445fb78b15e773b29d2e642ac1059880c7c3f4e108b64d08c93d2bb6bc349e40",
+        "sha256_in_prefix": "445fb78b15e773b29d2e642ac1059880c7c3f4e108b64d08c93d2bb6bc349e40",
+        "size_in_bytes": 1140
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/sample2.py",
+        "path_type": "hardlink",
+        "sha256": "14b7e614fe7808929f9b605d2e9f5b3d0405a2f62c41e3fc54499c8de4fbc8b9",
+        "sha256_in_prefix": "14b7e614fe7808929f9b605d2e9f5b3d0405a2f62c41e3fc54499c8de4fbc8b9",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_compare.py",
+        "path_type": "hardlink",
+        "sha256": "33789cfd412a75e572c5086ef65b682b94c7c569e03ea5c34ba492428efd7231",
+        "sha256_in_prefix": "33789cfd412a75e572c5086ef65b682b94c7c569e03ea5c34ba492428efd7231",
+        "size_in_bytes": 53502
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_comparison.py",
+        "path_type": "hardlink",
+        "sha256": "94fb7135ebe1de4d951451e9d7a4e8f5d767b6f5166f7cedceac4cd3f192181e",
+        "sha256_in_prefix": "94fb7135ebe1de4d951451e9d7a4e8f5d767b6f5166f7cedceac4cd3f192181e",
+        "size_in_bytes": 20153
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_components.py",
+        "path_type": "hardlink",
+        "sha256": "14f4e286c6a2003fa19765c942d49fdeab167e14273a0945b9696ed6f1bebe2b",
+        "sha256_in_prefix": "14f4e286c6a2003fa19765c942d49fdeab167e14273a0945b9696ed6f1bebe2b",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_date.py",
+        "path_type": "hardlink",
+        "sha256": "8941343f6006fb329496c9a29930fe9cbca423b900c8130722d332d3b3044f9b",
+        "sha256_in_prefix": "8941343f6006fb329496c9a29930fe9cbca423b900c8130722d332d3b3044f9b",
+        "size_in_bytes": 9424
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_datetime.py",
+        "path_type": "hardlink",
+        "sha256": "5f1a7512536c189e73fc24ae23746a39780765d01c16b79296067783203ccc4c",
+        "sha256_in_prefix": "5f1a7512536c189e73fc24ae23746a39780765d01c16b79296067783203ccc4c",
+        "size_in_bytes": 15366
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_diff.py",
+        "path_type": "hardlink",
+        "sha256": "c283061e6a790eaff70ece4c923e5aa578b8f8ba03fb9920dcb12b091c52926e",
+        "sha256_in_prefix": "c283061e6a790eaff70ece4c923e5aa578b8f8ba03fb9920dcb12b091c52926e",
+        "size_in_bytes": 1244
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_django/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_django/manage.py",
+        "path_type": "hardlink",
+        "sha256": "37d3c1d79be8f780e2604a9ac35a9bd3b45451900f800c46451e4252b8674ec7",
+        "sha256_in_prefix": "37d3c1d79be8f780e2604a9ac35a9bd3b45451900f800c46451e4252b8674ec7",
+        "size_in_bytes": 273
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_django/models.py",
+        "path_type": "hardlink",
+        "sha256": "5c1f0a77b29ecce02d3c9311326fb45925386e092640598e037d5b4098904202",
+        "sha256_in_prefix": "5c1f0a77b29ecce02d3c9311326fb45925386e092640598e037d5b4098904202",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_django/settings.py",
+        "path_type": "hardlink",
+        "sha256": "cbe3b7f26086237133c1d256ed6faf8b3347ba13e2e0e65fbe15d54220e13272",
+        "sha256_in_prefix": "cbe3b7f26086237133c1d256ed6faf8b3347ba13e2e0e65fbe15d54220e13272",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_django/test_compare.py",
+        "path_type": "hardlink",
+        "sha256": "e30104fe69217a6d93ae78e8987372b0c95918a34b15e8eedf24b841dfbcc0de",
+        "sha256_in_prefix": "e30104fe69217a6d93ae78e8987372b0c95918a34b15e8eedf24b841dfbcc0de",
+        "size_in_bytes": 3382
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_django/test_shouldraise.py",
+        "path_type": "hardlink",
+        "sha256": "bdfe88f76be68696a94b7720a06ec57d4493ddad37812308053f7b5f6565e4aa",
+        "sha256_in_prefix": "bdfe88f76be68696a94b7720a06ec57d4493ddad37812308053f7b5f6565e4aa",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_generator.py",
+        "path_type": "hardlink",
+        "sha256": "728c999979f6b9759c78d0cc19b159412e34fe675cdb57b790e7b1e9d7e95e11",
+        "sha256_in_prefix": "728c999979f6b9759c78d0cc19b159412e34fe675cdb57b790e7b1e9d7e95e11",
+        "size_in_bytes": 467
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_log_capture.py",
+        "path_type": "hardlink",
+        "sha256": "0b3d106533475bba994fcde25a9c1104f6ad330ea082587d6f6cdfb4efb57d87",
+        "sha256_in_prefix": "0b3d106533475bba994fcde25a9c1104f6ad330ea082587d6f6cdfb4efb57d87",
+        "size_in_bytes": 7256
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_logcapture.py",
+        "path_type": "hardlink",
+        "sha256": "c19e96d50db211b3058fc4d35db765afa28c66d4c0577b67632beac5e1bd6154",
+        "sha256_in_prefix": "c19e96d50db211b3058fc4d35db765afa28c66d4c0577b67632beac5e1bd6154",
+        "size_in_bytes": 16630
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_mock.py",
+        "path_type": "hardlink",
+        "sha256": "53941aeaeb3085b999a364f7f31e97e28a4ea170a37052f43944a09d4c37a68f",
+        "sha256_in_prefix": "53941aeaeb3085b999a364f7f31e97e28a4ea170a37052f43944a09d4c37a68f",
+        "size_in_bytes": 2245
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_outputcapture.py",
+        "path_type": "hardlink",
+        "sha256": "f45387f2e3184268c30e0b5463846b013351d21d6d2b15dde3117ddfc67c48bd",
+        "sha256_in_prefix": "f45387f2e3184268c30e0b5463846b013351d21d6d2b15dde3117ddfc67c48bd",
+        "size_in_bytes": 4398
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_popen.py",
+        "path_type": "hardlink",
+        "sha256": "48d6b94dd47e6ee588df917f9be2b1ece3e77c8f0fedd049b9ddffc36a4a858e",
+        "sha256_in_prefix": "48d6b94dd47e6ee588df917f9be2b1ece3e77c8f0fedd049b9ddffc36a4a858e",
+        "size_in_bytes": 21954
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_popen_docs.py",
+        "path_type": "hardlink",
+        "sha256": "a60b4417bbbfd6eb9d9289c2d591054fe67a6503ef19fdca06e12e89247b6637",
+        "sha256_in_prefix": "a60b4417bbbfd6eb9d9289c2d591054fe67a6503ef19fdca06e12e89247b6637",
+        "size_in_bytes": 6930
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_rangecomparison.py",
+        "path_type": "hardlink",
+        "sha256": "864b1a3b3d8d4d3377c0e79b7c9317503d9f41fe52e7de44bab411440645c023",
+        "sha256_in_prefix": "864b1a3b3d8d4d3377c0e79b7c9317503d9f41fe52e7de44bab411440645c023",
+        "size_in_bytes": 5841
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_replace.py",
+        "path_type": "hardlink",
+        "sha256": "72977911f53df8a5d80095ac77935d224b50c714f0e14c71fd270928d6c95e59",
+        "sha256_in_prefix": "72977911f53df8a5d80095ac77935d224b50c714f0e14c71fd270928d6c95e59",
+        "size_in_bytes": 13748
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_replacer.py",
+        "path_type": "hardlink",
+        "sha256": "2c75ab5110be735ee7a996c0eb08f94bbccb70b22182b05dc34151f0138d73ea",
+        "sha256_in_prefix": "2c75ab5110be735ee7a996c0eb08f94bbccb70b22182b05dc34151f0138d73ea",
+        "size_in_bytes": 3906
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_roundcomparison.py",
+        "path_type": "hardlink",
+        "sha256": "a4b0670ebb90ac55af19416b88852fbedc6e2e2ec7c8b568fe25ed8a39d1bdee",
+        "sha256_in_prefix": "a4b0670ebb90ac55af19416b88852fbedc6e2e2ec7c8b568fe25ed8a39d1bdee",
+        "size_in_bytes": 5092
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_should_raise.py",
+        "path_type": "hardlink",
+        "sha256": "73297d054d1c392fc69e87b0766d8b69f0f94044b0bbc0446d357413277457bc",
+        "sha256_in_prefix": "73297d054d1c392fc69e87b0766d8b69f0f94044b0bbc0446d357413277457bc",
+        "size_in_bytes": 10354
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_shouldwarn.py",
+        "path_type": "hardlink",
+        "sha256": "a6a223670cf32e0477e779ca9b47e643665659ee4825f6a96b05a463d17bab39",
+        "sha256_in_prefix": "a6a223670cf32e0477e779ca9b47e643665659ee4825f6a96b05a463d17bab39",
+        "size_in_bytes": 4868
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_stringcomparison.py",
+        "path_type": "hardlink",
+        "sha256": "c8291e043399de6b5d44fc183e3d025109ed2085e577bdbc0be3368dedefead4",
+        "sha256_in_prefix": "c8291e043399de6b5d44fc183e3d025109ed2085e577bdbc0be3368dedefead4",
+        "size_in_bytes": 1289
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_sybil.py",
+        "path_type": "hardlink",
+        "sha256": "686de14f14307cb734da6765900262c70e5269cdb6e6f119056eb4b592087a7a",
+        "sha256_in_prefix": "686de14f14307cb734da6765900262c70e5269cdb6e6f119056eb4b592087a7a",
+        "size_in_bytes": 4376
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_tempdir.py",
+        "path_type": "hardlink",
+        "sha256": "d4ef1bbab6d62a6b8e5eb461a8af2d557617205230279f6865b7fed5013d9b61",
+        "sha256_in_prefix": "d4ef1bbab6d62a6b8e5eb461a8af2d557617205230279f6865b7fed5013d9b61",
+        "size_in_bytes": 2878
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_tempdirectory.py",
+        "path_type": "hardlink",
+        "sha256": "f752bc7fd374126b1fcc8ba7200b188dcd5cbed8f676f7c394d4a04558c8c2e3",
+        "sha256_in_prefix": "f752bc7fd374126b1fcc8ba7200b188dcd5cbed8f676f7c394d4a04558c8c2e3",
+        "size_in_bytes": 10293
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_time.py",
+        "path_type": "hardlink",
+        "sha256": "a6092ed6f3edcc7343b3ec13dfe538871257ada83c195fa565ec89877c017ba8",
+        "sha256_in_prefix": "a6092ed6f3edcc7343b3ec13dfe538871257ada83c195fa565ec89877c017ba8",
+        "size_in_bytes": 7372
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_twisted.py",
+        "path_type": "hardlink",
+        "sha256": "2914c3d9525d4406ea357a77196d0919b466204192201cd48aed718dae7da4c1",
+        "sha256_in_prefix": "2914c3d9525d4406ea357a77196d0919b466204192201cd48aed718dae7da4c1",
+        "size_in_bytes": 2651
+      },
+      {
+        "_path": "site-packages/testfixtures/tests/test_wrap.py",
+        "path_type": "hardlink",
+        "sha256": "4d09f231564aad142467872d623e0b3484bbdee9845388c98b21b474eac17645",
+        "sha256_in_prefix": "4d09f231564aad142467872d623e0b3484bbdee9845388c98b21b474eac17645",
+        "size_in_bytes": 6576
+      },
+      {
+        "_path": "site-packages/testfixtures/twisted.py",
+        "path_type": "hardlink",
+        "sha256": "acafcedf3a1640cb27fe816eab3f84b37c6a73154e5cfa1b95e1abd829ff64eb",
+        "sha256_in_prefix": "acafcedf3a1640cb27fe816eab3f84b37c6a73154e5cfa1b95e1abd829ff64eb",
+        "size_in_bytes": 3789
+      },
+      {
+        "_path": "site-packages/testfixtures/utils.py",
+        "path_type": "hardlink",
+        "sha256": "087d646eadc200be6e8ab906c7d0abfc6e7af6fdb1c83b810c5d899e7ec34a34",
+        "sha256_in_prefix": "087d646eadc200be6e8ab906c7d0abfc6e7af6fdb1c83b810c5d899e7ec34a34",
+        "size_in_bytes": 2856
+      },
+      {
+        "_path": "site-packages/testfixtures/version.txt",
+        "path_type": "hardlink",
+        "sha256": "2c1228b5e91c274644a3a8142919637c3f5aba3561bb5b0d2051fbd0689f5345",
+        "sha256_in_prefix": "2c1228b5e91c274644a3a8142919637c3f5aba3561bb5b0d2051fbd0689f5345",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/comparison.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/compat.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/components.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/django.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/logcapture.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/mock.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/outputcapture.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/popen.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/replace.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/resolve.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/rmtree.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/shouldraise.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/shouldwarn.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/sybil.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/tdatetime.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/tempdirectory.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/conftest.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/sample1.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/sample2.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_compare.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_comparison.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_components.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_date.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_datetime.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_diff.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/test_django/__pycache__/__init__.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/test_django/__pycache__/manage.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/test_django/__pycache__/models.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/test_django/__pycache__/settings.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/test_django/__pycache__/test_compare.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/test_django/__pycache__/test_shouldraise.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_generator.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_log_capture.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_logcapture.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_mock.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_outputcapture.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_popen.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_popen_docs.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_rangecomparison.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_replace.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_replacer.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_roundcomparison.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_should_raise.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_shouldwarn.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_stringcomparison.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_sybil.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_tempdir.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_tempdirectory.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_time.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_twisted.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/tests/__pycache__/test_wrap.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/twisted.cpython-35.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.5/site-packages/testfixtures/__pycache__/utils.cpython-35.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "testfixtures",
+  "sha256": "a66e0110bbff7ab57c88fcdc0ca7e694ed1fb3923f31f5bf804572517d919df2",
+  "size": 71290,
+  "subdir": "noarch",
+  "timestamp": 1576689186929,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/testfixtures-6.10.3-py_0.conda",
+  "version": "6.10.3"
+}

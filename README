@@ -18,3 +18,5 @@ conda install nose
 here's the nosetest link: https://nose.readthedocs.io/en/latest/usage.html 
  
 conda install mock
+
+conda install testfixtures

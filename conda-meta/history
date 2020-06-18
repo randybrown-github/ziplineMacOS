@@ -92,3 +92,8 @@
 +defaults/noarch::pbr-5.4.4-py_0
 +defaults/osx-64::mock-2.0.0-py35hb42c812_0
 # update specs: ['mock']
+==> 2020-06-19 04:05:06 <==
+# cmd: /var/root/anaconda3/bin/conda install testfixtures
+# conda version: 4.8.3
++defaults/noarch::testfixtures-6.10.3-py_0
+# update specs: ['testfixtures']
