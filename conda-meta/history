@@ -81,3 +81,8 @@
 +defaults/osx-64::urllib3-1.23-py35_0
 +defaults/osx-64::zstd-1.3.7-h5bba6e5_0
 # update specs: ['zipline']
+==> 2020-06-19 03:50:49 <==
+# cmd: /var/root/anaconda3/bin/conda install nose
+# conda version: 4.8.3
++defaults/osx-64::nose-1.3.7-py35_2
+# update specs: ['nose']
