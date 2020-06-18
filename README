@@ -16,3 +16,5 @@ git push -u pb master -f
 
 conda install nose
 here's the nosetest link: https://nose.readthedocs.io/en/latest/usage.html 
+ 
+conda install mock
